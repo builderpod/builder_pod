@@ -59,69 +59,69 @@ end
 #   }
 # end
 
-# Dir.glob('../websites/homeadvisor/task*.html').each do |file|
-#   arr = file.split('/')[-1].split('.')
-#   oid = arr[-2].to_i.abs
-#   puts oid
-#   category = Category.find_by(oid: oid)
-#   doc = File.open(file) { |f| Nokogiri::HTML(f) }
-#   unless doc.at_css('script#jsonModel').nil?
-#     json_string = doc.at_css('script#jsonModel').inner_text
-#     task_string = JSON.parse(json_string, symbolize_names: true)
-#     question_sets = format(task_string.select{|k,v| k =~ /^__cache.*interview.*/})
-#     task = format(task_string.select{|k,v| k =~ /^__cache.*r_version.*/})
-#     task.each { |t|
-#       @t = t[1]
-#       puts @t[:taskOid]
-#       @task = TaskProfile.where(oid: @t[:taskOid]).first_or_create
-#       @category = Category.find_by(oid: @t[:emcCategoryOid].abs)
-#       @set_id = @t[:primaryQuestionSetId]
-#       @task.update(oid: @t[:taskOid], name: @t[:taskName], description: @t[:taskDescription],
-#                    xm_descriptor: @t[:xmTaskDescriptor], matchable: @t[:matchable],
-#                    profileable: @t[:profileable], es_score: @t[:esScore],
-#                    default_cost_guide_id: @t[:defaultCostGuideTaskId], keywords: @t[:taskKeywords],
-#                    text_messaging_name: @t[:textMessagingName], rollover_long_desc: @t[:rolloverLongDesc],
-#                    rollover_short_desc: @t[:rolloverShortDesc], sector_id: @t[:sectorId],
-#                    meta_description: @t[:metaDescription], html_title: @t[:htmlTitle],
-#                    content_description: @t[:contentDescription], pwc_id: @t[:pwcId],
-#                    accept_goal: @t[:acceptGoal], multi_zip: @t[:multiZip],
-#                    pre_match_type_id: @t[:preMatchTypeId], bridge_oid: @t[:bridgeTaskOid],
-#                    bridge_text: @t[:bridgeTaskText], bridge_link_text: @t[:bridgeTaskLinkText],
-#                    bridge_link_id: @t[:bridgeTaskLinkId], bridge_active: @t[:bridgeTaskActive],
-#                    xm_name: @t[:xmName], redirect_to_oid: @t[:redirectToTaskOid],
-#                    sp_display_name: @t[:spDisplayName], xm_header_descriptor: @t[:xmHeaderDescriptor],
-#                    url_name: @t[:urlName], consideration_id: @t[:taskConsiderationId],
-#                    search_keywords: @t[:searchKeywords], emc_category_oid: @t[:emcCategoryOid].abs,
-#                    primary_question_set_id: @t[:primaryQuestionSetId], location_specific: @t[:locationSpecific],
-#                    commercial: @t[:commercial], view_first_parent_task: @t[:viewFirstParentTask], category_id: @category.id)
-#     }
-#     question_sets.each { |qs|
-#       question_set = qs[1]
-#       @question_set = QuestionSet.where(set_id: @set_id).first_or_create
-#       @question_set.update(task_oid: question_set[:taskOID], original_task_oid: question_set[:originalTaskOID],
-#                            set_id: @set_id, interview_type: question_set[:interviewType])
-#       @task.update(question_set_id: @question_set.id)
-#       question_set[:questions].each { |question|
-#         @question = Question.where(question_id: question[:questionID]).first_or_create
-#         @question.update(question_id: question[:questionID], question_display_text: question[:questionDisplayText],
-#                          display_to_sp: question[:displayToSP], question_display_sequence: question[:questionDisplaySequence],
-#                          page_number: question[:pageNumber], question_text: question[:questionText], short_question_text: question[:shortQuestionText],
-#                          parent_question_id: question[:parentQuestionID], parent_answer_id: question[:parentAnswerID],
-#                          parent_question_text: question[:parentQuestionText], required: question[:required],
-#                          glossary_term: question[:glossaryTerm], default_answer: question[:defaultAnswer],
-#                          active: question[:active], attribute_match: question[:attributeMatch], question_set_id: @question_set.id)
-#         question[:answers].each { |answer|
-#           @answer = Answer.where(aid: answer[:answerID]).first_or_create
-#           @answer.update(aid: answer[:answerID], answer_display_sequence: answer[:answerDisplaySequence],
-#                          answer_text: answer[:answerText], answer_display_text: answer[:answerDisplayText],
-#                          active:  answer[:active], default_answer:  answer[:defaultAnswer],
-#                          presentation_type: answer[:presentationType], child_questions: answer[:childQuestions],
-#                          question_id: @question.id)
-#         }
-#       }
-#     }
-#   end
-# end
+Dir.glob('../websites/homeadvisor/task*.html').each do |file|
+  arr = file.split('/')[-1].split('.')
+  oid = arr[-2].to_i.abs
+  puts oid
+  category = Category.find_by(oid: oid)
+  doc = File.open(file) { |f| Nokogiri::HTML(f) }
+  unless doc.at_css('script#jsonModel').nil?
+    json_string = doc.at_css('script#jsonModel').inner_text
+    task_string = JSON.parse(json_string, symbolize_names: true)
+    question_sets = format(task_string.select{|k,v| k =~ /^__cache.*interview.*/})
+    task = format(task_string.select{|k,v| k =~ /^__cache.*r_version.*/})
+    task.each { |t|
+      @t = t[1]
+      puts @t[:taskOid]
+      @task = TaskProfile.where(oid: @t[:taskOid]).first_or_create
+      @category = Category.find_by(oid: @t[:emcCategoryOid].abs)
+      @set_id = @t[:primaryQuestionSetId]
+      @task.update(oid: @t[:taskOid], name: @t[:taskName], description: @t[:taskDescription],
+                   xm_descriptor: @t[:xmTaskDescriptor], matchable: @t[:matchable],
+                   profileable: @t[:profileable], es_score: @t[:esScore],
+                   default_cost_guide_id: @t[:defaultCostGuideTaskId], keywords: @t[:taskKeywords],
+                   text_messaging_name: @t[:textMessagingName], rollover_long_desc: @t[:rolloverLongDesc],
+                   rollover_short_desc: @t[:rolloverShortDesc], sector_id: @t[:sectorId],
+                   meta_description: @t[:metaDescription], html_title: @t[:htmlTitle],
+                   content_description: @t[:contentDescription], pwc_id: @t[:pwcId],
+                   accept_goal: @t[:acceptGoal], multi_zip: @t[:multiZip],
+                   pre_match_type_id: @t[:preMatchTypeId], bridge_oid: @t[:bridgeTaskOid],
+                   bridge_text: @t[:bridgeTaskText], bridge_link_text: @t[:bridgeTaskLinkText],
+                   bridge_link_id: @t[:bridgeTaskLinkId], bridge_active: @t[:bridgeTaskActive],
+                   xm_name: @t[:xmName], redirect_to_oid: @t[:redirectToTaskOid],
+                   sp_display_name: @t[:spDisplayName], xm_header_descriptor: @t[:xmHeaderDescriptor],
+                   url_name: @t[:urlName], consideration_id: @t[:taskConsiderationId],
+                   search_keywords: @t[:searchKeywords], emc_category_oid: @t[:emcCategoryOid].abs,
+                   primary_question_set_id: @t[:primaryQuestionSetId], location_specific: @t[:locationSpecific],
+                   commercial: @t[:commercial], view_first_parent_task: @t[:viewFirstParentTask], category_id: @category.id)
+    }
+    question_sets.each { |qs|
+      question_set = qs[1]
+      @question_set = QuestionSet.where(set_id: @set_id).first_or_create
+      @question_set.update!(task_oid: question_set[:taskOID], original_task_oid: question_set[:originalTaskOID],
+                           set_id: @set_id, interview_type: question_set[:interviewType])
+      @task.update(question_set_id: @question_set.id)
+      question_set[:questions].each { |question|
+        @question = Question.where(question_id: question[:questionID]).first_or_create
+        @question.update!(question_id: question[:questionID], question_display_text: question[:questionDisplayText],
+                         display_to_sp: question[:displayToSP], question_display_sequence: question[:questionDisplaySequence],
+                         page_number: question[:pageNumber], question_text: question[:questionText], short_question_text: question[:shortQuestionText],
+                         parent_question_id: question[:parentQuestionID], parent_answer_id: question[:parentAnswerID],
+                         parent_question_text: question[:parentQuestionText], required: question[:required],
+                         glossary_term: question[:glossaryTerm], default_answer: question[:defaultAnswer],
+                         active: question[:active], attribute_match: question[:attributeMatch], question_set_id: @question_set.id)
+        question[:answers].each { |answer|
+          @answer = Answer.where(aid: answer[:answerID]).first_or_create
+          @answer.update!(aid: answer[:answerID], answer_display_sequence: answer[:answerDisplaySequence],
+                         answer_text: answer[:answerText], answer_display_text: answer[:answerDisplayText],
+                         active:  answer[:active], default_answer:  answer[:defaultAnswer],
+                         presentation_type: answer[:presentationType], child_questions: answer[:childQuestions],
+                         question_id: @question.id)
+        }
+      }
+    }
+  end
+end
 # CSV.read('categories.csv', headers:true).each { |row|
 #   @parent_category = Category.where(oid: @t['category']).first_or_create
 #   @parent_category.name = @t['category_name']
@@ -134,29 +134,29 @@ end
 #   @child_category.save!
 # }
 
-CSV.read('contractors_t.csv').each { |row|
-  @contractor = Contractor.where(haid: row[1]).first_or_create
-  @contractor.update(haid: row[1], name: row[2], website: row[3], description: row[4], rating: row[5], review_count: row[6], telephone: row[7], street_address: row[8], locality: row[9], region: row[10], postal_code: row[11], user_id: row[12], longitude: row[13], latitude: row[14])
-}
+# CSV.read('contractors_t.csv').each { |row|
+#   @contractor = Contractor.where(haid: row[1]).first_or_create
+#   @contractor.update(haid: row[1], name: row[2], website: row[3], description: row[4], rating: row[5], review_count: row[6], telephone: row[7], street_address: row[8], locality: row[9], region: row[10], postal_code: row[11], user_id: row[12], longitude: row[13], latitude: row[14])
+# }
 
 
-CSV.read('contractor_services.csv').each { |row|
-  contractor = Contractor.find_by(haid: row[0].to_i)
-  unless contractor.nil?
-    task = TaskProfile.find_by(oid: row[1].to_i)
-    unless task.nil?
-      contractor_task = ContractorTaskProfile.where(["contractor_id = ? and task_profile_id = ?", contractor.id, task.id]).first_or_create
-      contractor_task.update(contractor_id: contractor.id, task_profile_id: task.id)
-      category = task.category
-      unless category.nil?
-        contractor_category = ContractorCategory.where(["contractor_id = ? and category_id = ?", contractor.id, category.id]).first_or_create
-        contractor_category.update(contractor_id: contractor.id, category_id: category.id)
-      end
+# CSV.read('contractor_services.csv').each { |row|
+#   contractor = Contractor.find_by(haid: row[0].to_i)
+#   unless contractor.nil?
+#     task = TaskProfile.find_by(oid: row[1].to_i)
+#     unless task.nil?
+#       contractor_task = ContractorTaskProfile.where(["contractor_id = ? and task_profile_id = ?", contractor.id, task.id]).first_or_create
+#       contractor_task.update(contractor_id: contractor.id, task_profile_id: task.id)
+#       category = task.category
+#       unless category.nil?
+#         contractor_category = ContractorCategory.where(["contractor_id = ? and category_id = ?", contractor.id, category.id]).first_or_create
+#         contractor_category.update(contractor_id: contractor.id, category_id: category.id)
+#       end
 
-    end
+#     end
 
-  end
-}
+#   end
+# }
 
 # count = 0
 
