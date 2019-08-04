@@ -1,0 +1,71 @@
+
+
+
+<div class="row">
+  <div class="col-sm-6">
+    <h1>Contractors</h1>
+  </div>
+
+  <div class="col-sm-6 text-right">
+  <%= link_to new_contractor_path, class: 'btn btn-primary' do %>
+    Add New Contractor
+  <% end %>
+  </div>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-bordered table-hover">
+    <thead>
+      <tr>
+    
+        <th>Name</th>
+    
+
+            <th>Id</th>
+            <th>Haid</th>
+            <th>Website</th>
+            <th>Description</th>
+            <th>Rating</th>
+            <th>Review count</th>
+            <th>Telephone</th>
+            <th>Street address</th>
+            <th>Locality</th>
+            <th>Region</th>
+            <th>Postal code</th>
+            <th>User</th>
+            <th>Longitude</th>
+            <th>Latitude</th>
+            <th>Email</th>
+            
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @contractors.each do |contractor| %>
+        <%= content_tag :tr, id: dom_id(contractor), class: dom_class(contractor) do %>
+          
+            <td><%= link_to contractor.name, contractor %></td>
+          
+
+                      <td><%= contractor.id %></td>
+                      <td><%= contractor.haid %></td>
+                      <td><%= contractor.website %></td>
+                      <td><%= contractor.description %></td>
+                      <td><%= contractor.rating %></td>
+                      <td><%= contractor.review_count %></td>
+                      <td><%= contractor.telephone %></td>
+                      <td><%= contractor.street_address %></td>
+                      <td><%= contractor.locality %></td>
+                      <td><%= contractor.region %></td>
+                      <td><%= contractor.postal_code %></td>
+                      <td><%= contractor.user %></td>
+                      <td><%= contractor.longitude %></td>
+                      <td><%= contractor.latitude %></td>
+                      <td><%= contractor.email %></td>
+          
+          
+        <% end %>
+      <% end %>
+    </tbody>
+  </table>
+</div>

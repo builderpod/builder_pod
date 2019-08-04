@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_03_200201) do
+ActiveRecord::Schema.define(version: 2019_08_04_034122) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -55,6 +55,45 @@ ActiveRecord::Schema.define(version: 2019_08_03_200201) do
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "contractor_categories", force: :cascade do |t|
+    t.bigint "contractor_id"
+    t.bigint "category_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["category_id"], name: "index_contractor_categories_on_category_id"
+    t.index ["contractor_id"], name: "index_contractor_categories_on_contractor_id"
+  end
+
+  create_table "contractor_task_profiles", force: :cascade do |t|
+    t.bigint "contractor_id"
+    t.bigint "task_profile_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["contractor_id"], name: "index_contractor_task_profiles_on_contractor_id"
+    t.index ["task_profile_id"], name: "index_contractor_task_profiles_on_task_profile_id"
+  end
+
+  create_table "contractors", force: :cascade do |t|
+    t.integer "haid"
+    t.string "name"
+    t.string "website"
+    t.text "description"
+    t.float "rating"
+    t.integer "review_count"
+    t.string "telephone"
+    t.string "street_address"
+    t.string "locality"
+    t.string "region"
+    t.string "postal_code"
+    t.bigint "user_id"
+    t.float "longitude"
+    t.float "latitude"
+    t.string "email"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_contractors_on_user_id"
   end
 
   create_table "friendly_id_slugs", force: :cascade do |t|
@@ -218,6 +257,11 @@ ActiveRecord::Schema.define(version: 2019_08_03_200201) do
   add_foreign_key "answer_choices", "questions"
   add_foreign_key "answer_choices", "tasks"
   add_foreign_key "answers", "questions"
+  add_foreign_key "contractor_categories", "categories"
+  add_foreign_key "contractor_categories", "contractors"
+  add_foreign_key "contractor_task_profiles", "contractors"
+  add_foreign_key "contractor_task_profiles", "task_profiles"
+  add_foreign_key "contractors", "users"
   add_foreign_key "projects", "users"
   add_foreign_key "questions", "question_sets"
   add_foreign_key "services", "users"

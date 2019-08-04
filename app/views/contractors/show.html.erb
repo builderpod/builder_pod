@@ -1,0 +1,62 @@
+<div class="page-header">
+  <%= link_to contractors_path, class: 'btn btn-default' do %>
+    <span class="glyphicon glyphicon-list-alt"></span>
+    All Contractors
+  <% end %>
+  <%= link_to edit_contractor_path(@contractor), class: 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-pencil"></span>
+    Edit
+  <% end %>
+  <h1>Show contractor</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Id:</dt>
+  <dd><%= @contractor.id %></dd>
+
+  <dt>Haid:</dt>
+  <dd><%= @contractor.haid %></dd>
+
+  <dt>Name:</dt>
+  <dd><%= @contractor.name %></dd>
+
+  <dt>Website:</dt>
+  <dd><%= @contractor.website %></dd>
+
+  <dt>Description:</dt>
+  <dd><%= @contractor.description %></dd>
+
+  <dt>Rating:</dt>
+  <dd><%= @contractor.rating %></dd>
+
+  <dt>Review count:</dt>
+  <dd><%= @contractor.review_count %></dd>
+
+  <dt>Telephone:</dt>
+  <dd><%= @contractor.telephone %></dd>
+
+  <dt>Street address:</dt>
+  <dd><%= @contractor.street_address %></dd>
+
+  <dt>Locality:</dt>
+  <dd><%= @contractor.locality %></dd>
+
+  <dt>Region:</dt>
+  <dd><%= @contractor.region %></dd>
+
+  <dt>Postal code:</dt>
+  <dd><%= @contractor.postal_code %></dd>
+
+  <dt>User:</dt>
+  <dd><%= @contractor.user %></dd>
+
+  <dt>Longitude:</dt>
+  <dd><%= @contractor.longitude %></dd>
+
+  <dt>Latitude:</dt>
+  <dd><%= @contractor.latitude %></dd>
+
+  <dt>Email:</dt>
+  <dd><%= @contractor.email %></dd>
+
+</dl>
