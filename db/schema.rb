@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_04_034122) do
+ActiveRecord::Schema.define(version: 2019_08_04_043023) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -181,6 +181,15 @@ ActiveRecord::Schema.define(version: 2019_08_04_034122) do
     t.index ["user_id"], name: "index_services_on_user_id"
   end
 
+  create_table "task_profile_question_sets", force: :cascade do |t|
+    t.bigint "task_profile_id"
+    t.bigint "question_set_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["question_set_id"], name: "index_task_profile_question_sets_on_question_set_id"
+    t.index ["task_profile_id"], name: "index_task_profile_question_sets_on_task_profile_id"
+  end
+
   create_table "task_profiles", force: :cascade do |t|
     t.bigint "oid"
     t.text "name"
@@ -265,6 +274,8 @@ ActiveRecord::Schema.define(version: 2019_08_04_034122) do
   add_foreign_key "projects", "users"
   add_foreign_key "questions", "question_sets"
   add_foreign_key "services", "users"
+  add_foreign_key "task_profile_question_sets", "question_sets"
+  add_foreign_key "task_profile_question_sets", "task_profiles"
   add_foreign_key "task_profiles", "categories"
   add_foreign_key "task_profiles", "question_sets"
   add_foreign_key "tasks", "projects"
