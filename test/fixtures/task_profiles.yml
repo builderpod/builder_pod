@@ -1,0 +1,79 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  oid: 
+  name: MyText
+  description: MyText
+  xm_descriptor: MyText
+  matchable: false
+  profileable: false
+  es_score: 
+  default_cost_guide_id: 
+  keywords: MyText
+  text_messaging_name: MyText
+  rollover_long_desc: MyText
+  rollover_short_desc: MyText
+  sector_id: MyText
+  meta_description: MyText
+  html_title: MyText
+  content_description: MyText
+  pwc_id: 
+  accept_goal: 
+  multi_zip: false
+  pre_match_type_id: 
+  bridge_oid: 
+  bridge_text: MyText
+  bridge_link_text: MyText
+  bridge_link_id: 
+  bridge_active: MyText
+  xm_name: MyText
+  redirect_to_oid: 
+  sp_display_name: MyText
+  xm_header_descriptor: MyText
+  url_name: MyText
+  consideration_id: 
+  search_keywords: MyText
+  emc_category_oid: 
+  primary_question_set_id: 
+  location_specific: false
+  commercial: false
+  view_first_parent_task: false
+
+two:
+  oid: 
+  name: MyText
+  description: MyText
+  xm_descriptor: MyText
+  matchable: false
+  profileable: false
+  es_score: 
+  default_cost_guide_id: 
+  keywords: MyText
+  text_messaging_name: MyText
+  rollover_long_desc: MyText
+  rollover_short_desc: MyText
+  sector_id: MyText
+  meta_description: MyText
+  html_title: MyText
+  content_description: MyText
+  pwc_id: 
+  accept_goal: 
+  multi_zip: false
+  pre_match_type_id: 
+  bridge_oid: 
+  bridge_text: MyText
+  bridge_link_text: MyText
+  bridge_link_id: 
+  bridge_active: MyText
+  xm_name: MyText
+  redirect_to_oid: 
+  sp_display_name: MyText
+  xm_header_descriptor: MyText
+  url_name: MyText
+  consideration_id: 
+  search_keywords: MyText
+  emc_category_oid: 
+  primary_question_set_id: 
+  location_specific: false
+  commercial: false
+  view_first_parent_task: false

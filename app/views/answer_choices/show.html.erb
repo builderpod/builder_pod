@@ -1,0 +1,23 @@
+<div class="page-header">
+  <%= link_to answer_choices_path, class: 'btn btn-default' do %>
+    <span class="glyphicon glyphicon-list-alt"></span>
+    All Answer_choices
+  <% end %>
+  <%= link_to edit_answer_choice_path(@answer_choice), class: 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-pencil"></span>
+    Edit
+  <% end %>
+  <h1>Show answer_choice</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Answer:</dt>
+  <dd><%= @answer_choice.answer %></dd>
+
+  <dt>Question:</dt>
+  <dd><%= @answer_choice.question %></dd>
+
+  <dt>Task:</dt>
+  <dd><%= @answer_choice.task %></dd>
+
+</dl>

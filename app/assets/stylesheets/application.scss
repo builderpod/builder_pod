@@ -7,6 +7,9 @@
 @import "bootstrap";
 @import "sticky-footer";
 @import "announcements";
+@import "tailwind.min.css";
+@import "gmaps-auto-complete";
+@import "select2";
 
 // Fixes bootstrap nav-brand container overlap
 @include media-breakpoint-down(xs) {

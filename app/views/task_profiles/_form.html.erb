@@ -1,0 +1,214 @@
+<%= form_with(model: task_profile, local: true) do |form| %>
+  <% if task_profile.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(task_profile.errors.count, "error") %> prohibited this task_profile from being saved:</h2>
+
+      <ul>
+      <% task_profile.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= form.label :oid %>
+    <%= form.text_field :oid, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :name %>
+    <%= form.text_area :name, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :description %>
+    <%= form.text_area :description, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :xm_descriptor %>
+    <%= form.text_area :xm_descriptor, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :matchable %>
+    <%= form.check_box :matchable, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :profileable %>
+    <%= form.check_box :profileable, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :es_score %>
+    <%= form.text_field :es_score, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :default_cost_guide_id %>
+    <%= form.text_field :default_cost_guide_id, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :keywords %>
+    <%= form.text_area :keywords, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :text_messaging_name %>
+    <%= form.text_area :text_messaging_name, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :rollover_long_desc %>
+    <%= form.text_area :rollover_long_desc, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :rollover_short_desc %>
+    <%= form.text_area :rollover_short_desc, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :sector_id %>
+    <%= form.text_area :sector_id, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :meta_description %>
+    <%= form.text_area :meta_description, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :html_title %>
+    <%= form.text_area :html_title, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :content_description %>
+    <%= form.text_area :content_description, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :pwc_id %>
+    <%= form.text_field :pwc_id, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :accept_goal %>
+    <%= form.text_field :accept_goal, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :multi_zip %>
+    <%= form.check_box :multi_zip, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :pre_match_type_id %>
+    <%= form.text_field :pre_match_type_id, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :bridge_oid %>
+    <%= form.text_field :bridge_oid, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :bridge_text %>
+    <%= form.text_area :bridge_text, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :bridge_link_text %>
+    <%= form.text_area :bridge_link_text, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :bridge_link_id %>
+    <%= form.text_field :bridge_link_id, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :bridge_active %>
+    <%= form.text_area :bridge_active, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :xm_name %>
+    <%= form.text_area :xm_name, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :redirect_to_oid %>
+    <%= form.text_field :redirect_to_oid, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :sp_display_name %>
+    <%= form.text_area :sp_display_name, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :xm_header_descriptor %>
+    <%= form.text_area :xm_header_descriptor, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :url_name %>
+    <%= form.text_area :url_name, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :consideration_id %>
+    <%= form.text_field :consideration_id, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :search_keywords %>
+    <%= form.text_area :search_keywords, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :emc_category_oid %>
+    <%= form.text_field :emc_category_oid, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :primary_question_set_id %>
+    <%= form.text_field :primary_question_set_id, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :location_specific %>
+    <%= form.check_box :location_specific, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :commercial %>
+    <%= form.check_box :commercial, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :view_first_parent_task %>
+    <%= form.check_box :view_first_parent_task, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <% if task_profile.persisted? %>
+      <div class="float-right">
+        <%= link_to 'Destroy', task_profile, method: :delete, class: "text-danger", data: { confirm: 'Are you sure?' } %>
+      </div>
+    <% end %>
+
+    <%= form.submit class: 'btn btn-primary' %>
+
+    <% if task_profile.persisted? %>
+      <%= link_to "Cancel", task_profile, class: "btn btn-link" %>
+    <% else %>
+      <%= link_to "Cancel", task_profiles_path, class: "btn btn-link" %>
+    <% end %>
+  </div>
+<% end %>

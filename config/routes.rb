@@ -1,15 +1,39 @@
 require 'sidekiq/web'
 
 Rails.application.routes.draw do
-  resources :projects
-  namespace :admin do
-      resources :users
-      resources :announcements
-      resources :notifications
-      resources :services
+  resources :answer_choices
 
-      root to: "users#index"
+
+  resources :question_sets do
+    resources :questions do
+      resources :answers do
+      end
     end
+  end
+  resources :task_profiles do
+    resources :question_sets do
+      resources :questions do
+        resources :answers do
+        end
+      end
+    end
+  end
+
+  resources :categories do 
+    resources :task_profiles
+  end
+
+  resources :projects do
+    resources :tasks
+  end
+  namespace :admin do
+    resources :users
+    resources :announcements
+    resources :notifications
+    resources :services
+
+    root to: "users#index"
+  end
   get '/privacy', to: 'home#privacy'
   get '/terms', to: 'home#terms'
   resources :notifications, only: [:index]

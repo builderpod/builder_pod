@@ -1,9 +1,222 @@
 <%= content_tag :div, class: "nested-fields", data: { new_record: form.object.new_record? } do %>
   <div class="form-group">
-    <%= form.label :description %>
-    <%= form.text_field :description, class: 'form-control' %>
+    <%= form.grouped_collection_select :task_profile_id, Category.includes(:task_profiles).all, :task_profiles, :name, :id, :name, {}, {class: "form-select2", placeholder: "Choose a Service", :prompt => "Placeholder", onchange: "addQuestionFields(this.value)"} %>
+  	<br>
+
+  	<label class="block">
+    	<%= form.text_area :description, class: 'form-textarea mt-1 block w-full', placeholder:"Description" %>
+  	</label>
+
     <small><%= link_to "Remove", "#", data: { action: "click->nested-form#remove_association" } %></small>
+    <%= form.fields_for :answer_choices, AnswerChoice.new do |answer_choice| %>
+      <%= answer_choice.hidden_field :question_id, {class: "form-select mt-1 block w-full", multiple: true} %>
+      <%= answer_choice.hidden_field :answer_id, {class: "form-select mt-1 block w-full", multiple: true} %>
+    <% end %>
+
+
   </div>
 
   <%= form.hidden_field :_destroy %>
 <% end %>
+
+<script>
+let dropdown = document.getElementById('category-dropdown');
+dropdown.length = 0;
+
+let defaultOption = document.createElement('option');
+defaultOption.text = 'All Categories';
+defaultOption.value = 0;
+dropdown.prepend(defaultOption);
+dropdown.selectedIndex = 0;
+
+const url = '/categories';
+
+const request = new XMLHttpRequest();
+request.open('GET', url, true);
+
+request.onload = function() {
+    if (request.status === 200) {
+        const data = JSON.parse(request.responseText);
+        let option;
+        for (let i = 0; i < data.length; i++) {
+            option = document.createElement('option');
+            option.text = data[i].name;
+            option.value = data[i].id;
+            dropdown.prepend(option);
+        }
+    } else {
+        // Reached the server, but it returned an error
+    }
+}
+
+request.onerror = function() {
+    console.error('An error occurred fetching the JSON from ' + url);
+};
+
+request.send();
+</script>
+<script>
+var intervalRef;
+function startChange() {
+  intervalRef = setInterval(function() { updateSelect2(); }, 1000);
+};
+function updateSelect2() {
+  $('.form-select2').each(function (i, obj) {
+    if (!$(obj).hasClass("select2-hidden-accessible"))
+      {
+        $(obj).select2();
+      };
+  });
+};
+</script>
+<script>
+  $(document).ready(function() {
+    $('.form-select2').select2();
+  });
+</script>
+<script>
+
+  function updateTasks(category){
+      let dropdown = document.getElementById('tasks-dropdown');
+      dropdown.length = 0;
+
+      let defaultOption = document.createElement('option');
+      defaultOption.text = 'Choose A Service';
+
+      dropdown.prepend(defaultOption);
+      dropdown.selectedIndex = 0;
+      
+      const url = '/categories/' + category + '/task_profiles';
+  
+      const request = new XMLHttpRequest();
+      request.open('GET', url, true);
+      request.onload = function() {
+          if (request.status === 200) {
+              const data = JSON.parse(request.responseText);
+              let option;
+              for (let i = 0; i < data.length; i++) {
+                  option = document.createElement('option');
+                  option.text = data[i].name;
+                  option.value = data[i].id;
+                  dropdown.add(option);
+              }
+          } else {
+              // Reached the server, but it returned an error
+          }
+      }
+
+      request.onerror = function() {
+          console.error('An error occurred fetching the JSON from ' + url);
+      };
+
+      request.send();
+  }
+</script>
+
+<script>
+
+function addQuestionFields(task_profile){
+    var url = "/task_profiles/" + task_profile + "?format=json";
+    console.log(url);
+    Rails.ajax({
+      url: url,
+      type: "get",
+      data: "",
+      success: function(data) { console.log(data) },
+      error: function(data) { console.log(data) }
+    })
+  }
+
+</script>
+<script>
+function addAddressField() {
+ 
+    //create Date object
+    var date = new Date();
+ 
+    //get number of milliseconds since midnight Jan 1, 1970 
+    //and use it for address key
+    var mSec = date.getTime(); 
+    
+    //Replace 0 with milliseconds
+    idAttribute =  
+          "project_tasks_attributes_" + mSec + "_task_profile_id";
+    nameAttribute =  
+          "project[tasks_attributes][" + mSec + "][task_profile_id]";
+        
+    //create <li> tag
+    var li = document.createElement("li");
+ 
+    //create label for Kind, set it's for attribute, 
+    //and append it to <li> element
+    var label = document.createElement("label");
+    label.setAttribute("for", idAttribute);
+    var labelText = document.createTextNode("Kind");
+    labelKind.appendChild(kindLabelText);
+    li.appendChild(labelKind);
+ 
+    //create input for Kind, set it's type, id and name attribute, 
+    //and append it to <li> element
+    var inputKind = document.createElement("INPUT");
+    inputKind.setAttribute("type", "text");
+    inputKind.setAttribute("id", idAttributKind);
+    inputKind.setAttribute("name", nameAttributKind);
+    li.appendChild(inputKind);
+ 
+    //create label for Street, set it's for attribute, 
+    //and append it to <li> element
+    var labelStreet = document.createElement("label");
+    labelStreet.setAttribute("for", idAttributStreet);
+    var streetLabelText = document.createTextNode("Street");
+    labelStreet.appendChild(streetLabelText);
+    li.appendChild(labelStreet);
+ 
+    //create input for Street, set it's type, id and name attribute, 
+    //and append it to <li> element
+    var inputStreet = document.createElement("INPUT");
+    inputStreet.setAttribute("type", "text");
+    inputStreet.setAttribute("id", idAttributStreet);
+    inputStreet.setAttribute("name", nameAttributStreet);
+    li.appendChild(inputStreet);
+ 
+    //add created <li> element with its child elements 
+    //(label and input) to myList (<ul>) element
+    document.getElementById("myList").appendChild(li);
+ 
+    //show address header
+    $("#addressHeader").show(); 
+}
+</script>
+
+<script>
+
+function loadQuestions(task) {
+  var url = '/task_profiles/' + task;
+
+  var request = new XMLHttpRequest();
+  request.open('GET', url, true);
+
+  request.onload = function() {
+      if (request.status === 200) {
+          const data = JSON.parse(request.responseText);
+          console.log(data);
+          let option;
+          for (let i = 0; i < data[0}.questions.length; i++) {
+          //     option = document.createElement('option');
+          //     option.text = data[i].name;
+          //     option.value = data[i].id;
+          //     dropdown.prepend(option);
+          // }
+      } else {
+          // Reached the server, but it returned an error
+      }
+  }
+  request.onerror = function() {
+    console.error('An error occurred fetching the JSON from ' + url);
+  }
+
+  request.send();
+}
+
+
+</script>

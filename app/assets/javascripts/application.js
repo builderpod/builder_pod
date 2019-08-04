@@ -18,4 +18,7 @@
 //= require local-time
 //= require activestorage
 //= require turbolinks
+//= require jquery_ujs
+//= require gmaps-auto-complete
+//= require select2-full
 //= require_tree .

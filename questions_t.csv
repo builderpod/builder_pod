@@ -1,0 +1,1236 @@
+4,90000,Request Stage,TRUE,1,2,Choose the appropriate status for this project:,Project Status:,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,728
+5,80000,Desired Completion Date,TRUE,3,2,When would you like this request to be completed?,To be completed in:,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,728
+6,501504,Property Owner,TRUE,8,2,Are you the owner or authorized to make property changes? ,Are you the owner or authorized to make property changes? ,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,946
+7,502713,Are you interested in financing?,FALSE,7,2,Are you interested in financing?,Are you interested in financing?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,945
+8,1525,Survey Purpose,TRUE,1,1,Select the description of this survey.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,587
+9,7735,What kind of location is this?,TRUE,4,2,What kind of location is this?,,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,946
+10,4898,Type of Demolition,TRUE,1,1,What type of demolition do you need? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,588
+11,4900,Location of demolition work,TRUE,2,1,What needs demolition work?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,588
+15,4992,Product Needed,TRUE,1,1,What product do you want? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,590
+16,7184,Size of area,TRUE,2,1,What is the estimated size of the area you want to fill or cover? ,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,590
+17,5538,Purpose of Grading,TRUE,1,1,What is the purpose of grading?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,591
+18,5539,Surveyed and Drawings Complete,TRUE,2,1,Has the site been surveyed and have landscape drawings been completed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,591
+19,4266,What Needs to be Hauled,TRUE,2,1,What do you have that needs to be hauled away? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,594
+20,4265,Reason for Hauling,TRUE,3,1,What is the nature of the work to be done in conjunction with the hauling?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,594
+21,4241,Reason for Clearing,TRUE,1,1,Why do you need to clear the site?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,593
+22,4242,Trees/Structures to Remove,TRUE,2,1,Which of the following currently exist on the site and will need to be removed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,593
+23,4243,Topography,TRUE,3,1,Describe the topography that needs to be cleared. (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,593
+25,10020,Request is for Commercial Location,TRUE,1,1,Is this location a commercial location?,Is this a commercial location?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,594
+26,503113,What is the purpose of the certification?,TRUE,1,1,What is the purpose of the certification?,What is the purpose of the certification?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,595
+27,7136,Other Services Selected,TRUE,2,1,Select any other services you would like.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,595
+33,30001,Historical Work,TRUE,6,2,Is this location a historical structure?,Is a historical structure?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,946
+34,5492,Type of Damage,TRUE,1,1,Which best describes the nature of the damage? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,598
+35,5493,Tile Location,TRUE,2,1,Where is the tile located? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,598
+36,5488,Spare Tiles,TRUE,3,1,Do you have spare tiles left over from installation?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,737
+37,50001,Covered by Insurance,TRUE,6,2,Is this request covered by an insurance claim?,Covered by an insurance claim?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,706
+38,500643,Project Description,TRUE,1,1,What best describes this countertop project?,Project Description,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,599
+39,500101,Part of larger remodel,TRUE,4,1,Is this project part of a larger remodel?,Part of larger remodel?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,642
+40,500644,Types of Stone,TRUE,3,1,Select the types of solid stone you are interested in:,Types of Stone,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,599
+41,500648,Countertop Features,TRUE,4,1,Select the features for your countertop:,Countertop Features,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,599
+42,5111,Damage Description,TRUE,1,1,Select the best description(s) of the countertop repair you need. (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,600
+43,5105,Countertop Style,TRUE,2,1,What kind of natural stone countertop do you have?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,600
+44,500649,Type of countertop,TRUE,3,1,What type of countertop is it?,What type of countertop is it?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,600
+45,7632,Type of shower install,TRUE,1,1,What type of shower do you want installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,601
+46,7634,Shower,TRUE,1,1,Shower,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,602
+47,7635,Plumbing fixtures,TRUE,2,1,Plumbing fixtures,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,602
+48,7636,Tile,TRUE,3,1,Tile,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,602
+56,502973,Do you already have a chimney cap?,TRUE,1,1,Do you already have a chimney cap?,Do you already have a chimney cap?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,605
+57,502974,How many chimney caps do you need installed?,TRUE,2,1,How many chimney caps do you need installed?,How many chimney caps do you need installed?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,605
+58,502975,What type of chimney cap do you want installed?,TRUE,3,1,What type of chimney cap do you want installed?,What type of chimney cap do you want installed?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,605
+59,4607,Project Description,TRUE,1,1,What best describes the project?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,618
+60,6269,Special Features,TRUE,2,1,Select any special features you would like:,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,607
+61,6909,What size deck or porch do you want?,TRUE,3,1,What size deck or porch do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,607
+62,8152,Is this an emergency?,TRUE,1,1,Is this an emergency?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1109
+68,4909,Kind of pool,TRUE,1,1,What kind of pool needs heating? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,611
+69,4912,Kind of Heater,TRUE,2,1,What kind of heater do you want to use? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,611
+70,5023,Location of pool,TRUE,3,1,Is it an indoor or outdoor pool?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,611
+71,4864,Kind of pool,TRUE,1,1,What kind of pool do you have?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,612
+72,4865,Kind of Heater,TRUE,2,1,What kind of heater do you use?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,612
+73,4868,Problems,TRUE,5,1,Why do you need service/repair? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,612
+74,7183,Tree or Shrub,TRUE,1,1,What do you need trimmed or removed?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,613
+75,502224,Tree Service Need,TRUE,2,1,What type of Tree service is needed?,What type of Tree service is needed?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,613
+76,7182,# of Trees and Shrubs,TRUE,2,1,How many trees/shrubs are involved?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,951
+81,501244,Approximate Budget,TRUE,1,2,Approximate budget for design services (excluding product costs),Approximate budget for design services (excluding product costs),0,0,,TRUE,FALSE,-9999,TRUE,FALSE,656
+88,7566,Floorplan,TRUE,1,1,Floorplan,,7232,0,,TRUE,FALSE,-9999,TRUE,FALSE,617
+89,7567,Cabinets,TRUE,2,1,Cabinets,,7232,0,,TRUE,FALSE,-9999,TRUE,TRUE,617
+90,7568,Appliances,TRUE,3,1,Appliances,,7232,0,,TRUE,FALSE,-9999,TRUE,TRUE,617
+91,7569,Countertops,TRUE,4,1,Countertops,,7232,0,,TRUE,FALSE,-9999,TRUE,TRUE,617
+92,7570,Sinks,TRUE,5,1,Sinks,,7232,0,,TRUE,FALSE,-9999,TRUE,TRUE,617
+93,7571,Flooring,TRUE,6,1,Flooring,,7232,0,,TRUE,FALSE,-9999,TRUE,TRUE,617
+94,7572,Lighting,TRUE,7,1,Lighting,,7232,0,,TRUE,FALSE,-9999,TRUE,TRUE,617
+95,503473,Do you need temporary storage for your home project?,FALSE,5,2,Do you need temporary storage for your home project?,Do you need temporary storage for your home project?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,622
+96,4490,Style of Greenhouse,TRUE,1,1,What style greenhouse do you want? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,619
+97,4492,Additional Greenhouse Options,TRUE,2,1,What other features do you want in your greenhouse? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,619
+98,40001,Materials Provided by Homeowner,TRUE,4,2,Will you provide materials for this request?,Homeowner to provide materials?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,905
+99,269,Kind of Project,TRUE,1,1,What kind of project is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,620
+100,272,Roof Options,TRUE,2,1,Choose your roofing options.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,620
+101,273,Options,TRUE,3,1,Select from the following options. (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,620
+102,500766,Project Description,TRUE,1,1,What best describes this project?,What best describes this project?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,624
+103,160802,Type of Addition,TRUE,2,1,What kind of addition do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,629
+104,500984,Rooms Included:,TRUE,3,1,Select the rooms included in this project:,Select the rooms included in this project:,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,624
+105,160804,Requires Work on Historical Structure,TRUE,4,2,Does this project require work on a historical structure?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,624
+106,160805,Request for Commercial Location,TRUE,5,2,Is this request for a commercial (non-residential) location?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,624
+107,502445,Nature of project,TRUE,1,1,What best describes this remodel / renovation project?,What best describes this remodel / renovation project?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,622
+108,5336,Rooms to be Remodeled,TRUE,2,1,Select the rooms that will be part of your remodel.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,622
+109,502978,Are you planning to remodel a master bedroom?,TRUE,1,1,Are you planning to remodel a master bedroom?,Are you planning to remodel a master bedroom?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,623
+110,502977,How many bedrooms do you want to remodel?,TRUE,2,1,How many bedrooms do you want to remodel?,How many bedrooms do you want to remodel?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,623
+111,502976,How extensively do you want to remodel your bedroom(s)?,TRUE,3,1,How extensively do you want to remodel your bedroom(s)?,How extensively do you want to remodel your bedroom(s)?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,623
+112,4411,Design Preparation,TRUE,2,1,What type of design preparation has been done?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,723
+113,503013,What type of second floor addition will this be?,TRUE,2,1,What type of second floor addition will this be?,What type of second floor addition will this be?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,624
+114,503017,On what floor is the room you want remodeled?,TRUE,2,1,On what floor is the room you want remodeled?,On what floor is the room you want remodeled?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,625
+115,503018,What type of guest house/casita addition will this be?,TRUE,2,1,What type of guest house/casita addition will this be?,What type of guest house/casita addition will this be?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,626
+116,503313,Select the room(s) that will be part of your remodel.,TRUE,1,1,Select the room(s) that will be part of your remodel.,Select the room(s) that will be part of your remodel.,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,630
+117,5649,Size of Garage,TRUE,1,1,What size garage do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,631
+118,500986,Type of Garage,TRUE,2,1,What type of garage do you want to build?,What type of garage do you want to build?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,631
+119,5650,Garage Features,TRUE,3,1,What features do you want? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,631
+120,7253,Project Type,TRUE,1,1,What best describes this architectural project?,,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,632
+121,7254,Building Type,TRUE,1,1,What type of building is involved?,,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,638
+122,7255,Needs,TRUE,3,1,What architectural services do you need? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,632
+123,7256,Approx. Budget (Fees + Construction),TRUE,4,1,What is the approximate total budget for the job (including both architect fees and construction)?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,632
+124,7257,Approx. Square footage,TRUE,5,1,What is the approximate square footage of your project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,632
+125,4834,Nature of project,TRUE,1,1,What is the nature of this landscaping project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,655
+126,1148,Landscaping to be installed,TRUE,2,1,Select what will be included in your landscaping project.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1120
+127,7582,Type of Pool,TRUE,1,1,What type of pool will be remodeled?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,634
+128,7583,Pool Material,TRUE,2,1,What primary material is the pool surface made of?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,634
+129,7584,Remodel to Include,TRUE,3,1,Select the features your are considering for your pool remodel:,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,634
+130,6841,Basement Features,TRUE,1,1,What features do you want in your basement? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,635
+132,6842,Basement Area Description,TRUE,3,1,My basement is currently:,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,635
+133,6843,Square Footage,TRUE,4,1,What is the square footage of your basement?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,635
+134,7240,Extensiveness of Remodel,TRUE,1,1,How extensively do you want to remodel your bathroom?,,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,636
+135,7234,Shower / Bath,TRUE,2,1,Shower / Bath,,7232,0,,TRUE,FALSE,-9999,TRUE,TRUE,636
+136,7235,Toilet,TRUE,3,1,Toilet,,7232,0,,TRUE,FALSE,-9999,TRUE,TRUE,636
+137,7236,Cabinets / Vanity,TRUE,4,1,Cabinets / Vanity,,7232,0,,TRUE,FALSE,-9999,TRUE,TRUE,636
+138,7237,Countertops,TRUE,5,1,Countertops,,7232,0,,TRUE,FALSE,-9999,TRUE,TRUE,636
+139,7238,Sinks,TRUE,6,1,Sinks,,7232,0,,TRUE,FALSE,-9999,TRUE,TRUE,636
+140,7239,Flooring,TRUE,7,1,Flooring,,7232,0,,TRUE,FALSE,-9999,TRUE,TRUE,636
+142,7686,Scope of Remodel,TRUE,1,1,What best describes this garage remodel?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,637
+143,7688,Storage cabinets / shelving,TRUE,2,1,Storage cabinets / shelving,,7687,0,,TRUE,FALSE,-9999,TRUE,TRUE,637
+144,7745,Garage doors,TRUE,3,1,Garage doors,,7687,0,,TRUE,FALSE,-9999,TRUE,TRUE,637
+145,7689,Insulation,TRUE,4,1,Insulation,,7687,0,,TRUE,FALSE,-9999,TRUE,TRUE,637
+146,7690,Flooring,TRUE,5,1,Flooring,,7687,0,,TRUE,FALSE,-9999,TRUE,TRUE,637
+147,7691,Electrical,TRUE,6,1,Electrical,,7687,0,,TRUE,FALSE,-9999,TRUE,TRUE,637
+148,7695,Interior walls or drywall,TRUE,7,1,Interior walls or drywall,,7687,0,,TRUE,FALSE,-9999,TRUE,TRUE,637
+149,4435,Remodeling Needs,TRUE,2,1,What needs to be worked on? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,638
+150,7627,Type of tub install,TRUE,1,1,What type of bathtub do you want installed?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,644
+151,7630,Plumbing fixtures,TRUE,2,1,"Plumbing fixtures (faucets, drains, etc)",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,642
+152,7631,Tile,TRUE,3,1,Tile,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,642
+153,502913,What type of pool will be resurfaced?,TRUE,1,1,What type of pool will be resurfaced?,What type of pool will be resurfaced?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,640
+154,502914,What pool surface finishes are you interested in?,TRUE,3,1,What pool surface finishes are you interested in?,What pool surface finishes are you interested in?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,640
+155,6268,Deck Material,TRUE,1,1,What material do you want to build the deck with?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,641
+156,7629,Bathtub,TRUE,1,1,Bathtub,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,642
+157,503256,What type of tile do you need installed or repaired?,TRUE,2,1,What type of tile do you need installed or repaired?,What type of tile do you need installed or repaired?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,643
+158,200105,Current Bathtub,TRUE,1,1,What style is your current bathtub?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,646
+159,200106,Desired Color/Finish,TRUE,2,1,What type of color and finish are you considering?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,646
+160,200107,Wall Surround or Panel Needed,TRUE,3,1,Are you also interested in a wall surround or wall panel system?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,646
+161,200108,Accessories of Interest,TRUE,4,1,Which accessories are you interested in learning more about? (Optional),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,646
+162,5666,Location of Damage,TRUE,1,1,Where is the damage located? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,647
+163,5667,Size of Affected Area,TRUE,2,1,How large is the affected area?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,647
+164,5668,Signs of Damage,TRUE,3,1,What are the signs of Damage? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,647
+165,5669,Noticed Problem,TRUE,4,1,How long have you been aware of problem?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,647
+166,1443,Cause of Damage,TRUE,4,1,Select possible causes of the water damage.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,648
+167,5670,Damaged Materials,TRUE,6,1,What materials are damaged? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,647
+168,1565,Type of Water Damage,TRUE,2,1,How extensive is the water damage? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,648
+169,1446,Time Area has been Wet,TRUE,3,1,How long has the area been wet?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,648
+170,1444,Number of Rooms Affected,TRUE,5,1,How many rooms in your home are currently being affected by the damage?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,648
+171,502405,Project Description,TRUE,1,1,What best describes this project?,What best describes this project?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,649
+172,500785,Project Type,TRUE,2,1,What type of project is this?,What type of project is this?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,649
+173,502406,Work included,TRUE,3,1,What types of work will be included in this project? (Select all that apply),What types of work will be included in this project? (Select all that apply),0,0,,FALSE,FALSE,-9999,TRUE,FALSE,649
+174,4684,Problem Assessment,TRUE,1,1,What services do you need? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,650
+175,4686,Home Description,TRUE,2,1,Which of the following describes your home? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,650
+176,1564,Type of Smoke Damage,TRUE,2,1,How bad is the smoke or fire damage? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,651
+177,1214,When the Incident Occurred,TRUE,3,1,When did the fire occur?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,651
+178,1449,Structure(s) affected,TRUE,4,1,What part of the structure is affected?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,651
+179,4764,Damage Estimate,TRUE,2,1,How bad is the storm or wind damage?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,652
+180,4762,When damage occurred,TRUE,3,1,When did the damage occur?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,652
+181,4753,Number of rooms affected,TRUE,4,1,How many rooms are being affected?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,652
+182,4763,Structure Problems,TRUE,5,1,What part of the interior structure is affected? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,652
+183,4760,Damage Assessment,TRUE,2,1,How bad is the damage? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,653
+184,4755,Is there power available?,TRUE,5,1,Is there power currently available to or near the home?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,653
+185,5614,Nature of Project,TRUE,1,1,What is the nature of this project? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,654
+186,3030,Need for Lighting Designer,TRUE,2,1,Why do you need a lighting designer?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,654
+187,3033,Areas Needing Lighting,TRUE,3,1,What areas of the house need lighting design?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,654
+188,4837,Square footage,TRUE,2,1,Which areas of your yard do you want to be designed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,664
+189,4839,Who will install?,TRUE,3,1,Who will install the landscaping?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,655
+190,7186,What is the approximate size of the area to be landscaped?,TRUE,4,1,What is the approximate size of the area to be landscaped?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,655
+191,1501,Project Type,TRUE,1,1,What type of project is this?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,656
+192,1196,Project Type,TRUE,1,1,What type of project is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,657
+193,5509,Specific Needs,TRUE,3,1,Please select your specific needs. (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,657
+194,5684,Nature of Project,TRUE,1,1,What is the nature of this project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,658
+195,5685,Specific Needs,TRUE,2,1,Specify your needs below (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,658
+196,626,Project Description,TRUE,1,1,What best describes your bathroom project? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,659
+197,501434,Type of Bathroom,TRUE,2,1,What type of bathroom will be designed?,What type of bathroom will be designed?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,659
+198,501437,Areas Included,TRUE,3,1,Select the areas included in this bathroom design project: ,Select the areas included in this bathroom design project: ,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,659
+199,4679,Areas to be Evaluated,TRUE,2,1,How many areas would you like to be evaluated? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,660
+200,4681,Other services,TRUE,3,1,What types of specific services interest you? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,664
+201,645,Project Description,TRUE,1,1,What best describes your kitchen project? (Select one),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,661
+202,501432,Floorplan,TRUE,2,1,Are you considering changing the kitchen floorplan?,Are you considering changing the kitchen floorplan?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,661
+203,501436,Areas Included,TRUE,3,1,Select the areas included in this kitchen design project:,Select the areas included in this kitchen design project:,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,661
+204,4440,Type of Disabilities,TRUE,1,1,What kind of disabilities need to be addressed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,662
+205,4433,Kind of Residence,TRUE,3,1,What kind of residence is it?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,895
+206,4672,Reason for Consultant,TRUE,1,1,Why do you need a professional organizing consultant?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,663
+207,4673,Areas to be Organized,TRUE,2,1,What areas need organizing?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,663
+208,4675,Organization Problems,TRUE,3,1,What kinds of things need organizing? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,663
+212,806,Damage Repair Type,TRUE,1,1,What kind of damage do you need repaired?  (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,802
+213,808,Presence of Water,TRUE,5,1,Is water present or leaking from the area in need of repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,802
+214,5537,Type of Project,TRUE,1,1,What type of project is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,667
+215,5738,Type of Engineer,TRUE,2,1,What type of engineer do you need?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,667
+216,1497,Need for Engineer,TRUE,3,1,Why do you need an engineer? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,667
+217,359,Architectural drawings,TRUE,4,1,Are there architectural drawings for your project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,667
+218,1498,Wall Construction Type,TRUE,5,1,What type of wall construction are you using?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,667
+219,5195,Need for Soil Engineer,TRUE,1,1,Why do you need a soil engineer? (Check all that apply)),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,668
+220,5196,Type of Project,TRUE,2,1,What type of project is it?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,668
+221,7082,Damage Repair Type,TRUE,1,1,Why do you need your foundation rasied? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,669
+222,7083,Presence of Water,TRUE,2,1,Is water present or leaking from the area in need of repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,669
+223,5573,Nature of Project,TRUE,2,1,What is the nature of the project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,933
+224,502793,Are you arranging the backhoe?,TRUE,2,1,Are you arranging the backhoe?,Are you arranging the backhoe?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,670
+225,502794,Are you going to do the presoaking?,TRUE,3,1,Are you going to do the presoaking?,Are you going to do the presoaking?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,670
+228,500603,Square footage of home:,TRUE,5,1,What is the approximate square footage of your home?,Square footage of home:,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,987
+229,4968,Home Age,TRUE,2,1,How old is the home? (In years),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1011
+230,4656,Reason for inspection,TRUE,1,1,Why do you need a waterproof inspection service?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,672
+231,4657,Inspection needs,TRUE,2,1,"For testing and evaluation, what specific item in your home needs to be inspected?",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,672
+232,5100,Kind of Roof,TRUE,1,1,What kind of roof needs certification?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,673
+233,5107,Roof leaked,TRUE,2,1,Has the roof ever leaked?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,673
+234,536,Stories of Home,TRUE,3,1,How many stories is your home?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,673
+235,6890,Primary Motivation,TRUE,1,1,What is your primary motivation for getting a home energy audit? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,674
+236,6911,How old is your home (in years)?,TRUE,3,1,How old is your home (in years)?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,674
+237,6891,Please select any primary areas of concern: (Select all that apply),TRUE,4,1,Please select any primary areas of concern: (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,674
+238,6872,Stories in House,TRUE,4,1,How many stories is your home?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1023
+239,4214,Nature of Project,TRUE,1,1,What is the nature of your project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,675
+240,4216,Plans,TRUE,2,1,What type of design work has been done for the project? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,675
+241,4218,Who to do the Work,TRUE,3,1,Who do you want to do the work?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,675
+242,4268,What's needed,TRUE,1,1,What do you want to do?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,676
+243,4269,Kind of property,TRUE,2,1,What kind of property is it?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,676
+244,4270,Property Size,TRUE,3,1,What is the size of the property?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,676
+245,4271,Zoning restrictions,TRUE,4,1,Is the property zoned for what you propose to do?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,676
+246,4272,Utilities,TRUE,5,1,What utilities are available? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,676
+247,5015,Type of Project,TRUE,1,1,What kind of project is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,677
+248,5016,Design Preparation,TRUE,2,1,What type of design preparation has been done? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,677
+249,5017,Neighborhood covenants,TRUE,3,1,"Does the development have Covenants, Codes and Restrictions (CC&R) that must be followed?",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,677
+250,5019,Other Issues,TRUE,4,1,Do any of the following issues need to be considered? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,677
+255,502245,Modular home?,TRUE,1,1,Are you looking to build a modular home?,Are you looking to build a modular home?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,679
+256,502246,# of Bedrooms,TRUE,2,1,How many Bedrooms would you like in the custom home?,How many Bedrooms would you like in the custom home?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,679
+257,502247,# of Bathrooms,TRUE,3,1,How many Bathrooms would you like in the custom home?,How many Bathrooms would you like in the custom home?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,679
+258,502248,Land Status,TRUE,4,1,What is the status of the land where the home will be built?,What is the status of the land where the home will be built?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,679
+259,502249,Styles Interested in,TRUE,5,1,Select the styles of home you are interested in:,Select the styles of home you are interested in:,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,679
+260,502250,Approximate Budget,TRUE,1,2,What is the approximate budget for this custom home? (not including Land),What is the approximate budget for this custom home? (not including Land),0,0,,FALSE,FALSE,-9999,TRUE,FALSE,679
+261,502251,Desired Timing,TRUE,2,2,When would you like the home to be completed? ,When would you like the home to be completed? ,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,679
+262,500120,Describe your cabinet project,TRUE,1,1,What best describes your cabinet project?,What best describes your cabinet project?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,680
+263,500102,Location of cabinets,TRUE,3,1,Select the location of the cabinets:,Select the location of the cabinets:,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,680
+264,323,Problem Description,TRUE,1,1,Check all problems you are having with your cabinets.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,681
+265,324,Cabinet Material,TRUE,2,1,Of what material are the cabinets made?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,681
+266,4368,Refacing Location(s),TRUE,1,1,Please select the location(s) where the cabinets will be refaced.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,682
+267,4370,Cabinet Material,TRUE,3,1,Of what material are the existing cabinets made?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,683
+268,5530,Special Features,TRUE,3,1,What special features would you like incorporated with your cabinetry? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,682
+269,4372,Select refinish location,TRUE,1,1,Please select the location where the cabinets will be refinished.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,683
+270,4374,Refinishing type,TRUE,2,1,What type of refinishing do you want done to your cabinets? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,683
+275,503255,What best describes your vanity project?,TRUE,1,1,What best describes your vanity project?,What best describes your vanity project?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,686
+285,5409,Item(s) to be Resurfaced,TRUE,1,1,Which fixtures or surfaces require resurfacing? (Check all that apply),,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,691
+286,5411,Needs to be Done,TRUE,2,1,What needs to be done? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,691
+287,5803,Location of Closet,TRUE,1,1,Where will the closet be located?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,692
+288,5802,Closet Features,TRUE,2,1,What features would you like to be included in the new closet? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,692
+289,500804,Part of a larger home remodel?,TRUE,3,1,Is this part of a larger home remodel?,Is this part of a larger home remodel?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,692
+295,699,Features that Need Finish Work,TRUE,1,1,"For the interior, which of the following features need finish work? (Check all that apply)",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,695
+296,5671,Number of Rooms,TRUE,2,1,How many rooms require finish or trim work?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,706
+297,701,Doors & Windows to be Installed,TRUE,3,1,Which of the following (doors and windows) do you need installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,695
+298,702,Need Finish Carpeter/Woodworker,TRUE,3,1,Are you looking for a finish carpenter/woodworker to complete multiple small projects?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,706
+299,7114,Wall Length,TRUE,3,1,How long will the wall be?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,805
+300,7115,Wall Height,TRUE,4,1,How high will the wall be?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,805
+303,5480,Kind of Project,TRUE,1,1,What kind of drywall project is this? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,697
+304,5216,Rooms for Drywall Installation,TRUE,2,1,Which rooms of your house need drywall? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,697
+305,5481,Type of Finish,TRUE,3,1,What type of finish(es) do you want? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,697
+306,1043,Material Type Chosen,TRUE,1,1,What type of material do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,698
+307,5468,Purpose of Wall,TRUE,2,1,What is the purpose of the wall?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,698
+308,7113,Project Needs,TRUE,3,1,Select any other services needed as part of this project.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,698
+309,1433,Type of Finish,TRUE,1,1,What type of finish do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,699
+310,500744,Rooms Included,TRUE,2,1,Which rooms of the house need plaster? (Select all that apply),Which rooms of the house need plaster? (Select all that apply),0,0,,FALSE,FALSE,-9999,TRUE,FALSE,699
+314,3052,Type of Fan Installation,TRUE,1,1,What type of ceiling fan installation is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,701
+315,500702,Already Purchased,TRUE,2,1,Have you already purchased the fan(s) for this project?,Have you already purchased the fan(s) for this project?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,701
+316,3054,Fan Control,TRUE,3,1,How will the ceiling fan be controlled? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,701
+317,3055,Fan Quality,TRUE,4,1,What quality level of ceiling fan do you want installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,701
+721,5021,Visible Symptoms,TRUE,1,1,List any visible symptoms.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,873
+318,502953,How many rooms require wainscoting?,TRUE,1,1,How many rooms require wainscoting?,How many rooms require wainscoting?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,702
+319,502954,What type of wainscoting are you looking for?,TRUE,2,1,What type of wainscoting are you looking for?,What type of wainscoting are you looking for?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,702
+320,502980,What material do you want your mantel made from?,TRUE,1,1,What material do you want your mantel made from?,What material do you want your mantel made from?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,703
+321,502981,What style of fireplace mantel are you interested in?,TRUE,2,1,What style of fireplace mantel are you interested in?,What style of fireplace mantel are you interested in?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,703
+322,502982,How many fireplaces require a mantel?,TRUE,3,1,How many fireplaces require a mantel?,How many fireplaces require a mantel?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,703
+323,502993,Are you installing new or replacing existing baseboards?,TRUE,1,1,Are you installing new or replacing existing baseboards?,Are you installing new or replacing existing baseboards?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,704
+324,502527,Type of door:,TRUE,2,1,What type of door project is this?,What type of door project is this?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1063
+325,503257,How many doors require finish or trim work?,TRUE,2,1,How many doors require finish or trim work?,How many doors require finish or trim work?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,705
+326,7217,Service type:,TRUE,1,1,What type of service do you want?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,706
+327,6830,Number of Windows,TRUE,2,1,How many Windows are involved?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,749
+328,5654,Location of Installation,TRUE,1,1,Where do you want the glass/acrylic block installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,708
+329,5655,Features,TRUE,2,1,What features do you want? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,708
+330,500241,Project description,TRUE,1,1,What best describes your electrical project?,What best describes your electrical project?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,710
+331,5578,Rooms Included,TRUE,2,1,What area(s) of the home will be included in this project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1090
+336,500240,Electrical fixtures ,TRUE,4,1,What electrical fixtures are included in this project? (Check all that apply),What electrical fixtures are included in this project? (Check all that apply),0,0,,FALSE,FALSE,-9999,TRUE,FALSE,714
+337,20001,After Business Hours,TRUE,4,2,Do you need help after business hours?,Requires help after business hours?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,900
+338,502104,Already Purchased Station,TRUE,2,1,Have you already purchased an electric vehicle charging station?,Have you already purchased an electric vehicle charging station?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,713
+339,502105,Supports 220v or 240v load,TRUE,3,1,Is the installation site prewired to support the required electrical load (typically referred to as 220v or 240v)?,Is the installation site prewired to support the required electrical load (typically referred to as 220v or 240v)?,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,713
+340,502106,Property type:,TRUE,3,2,Select the type of property for the installation site:,Select the type of property for the installation site:,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,713
+341,501944,Customer Need,TRUE,1,1,What are you looking for?,What are you looking for?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,717
+349,5496,Problems,TRUE,2,1,Does the floor have any of the following problems? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,717
+350,5296,Rooms for Refinishing,TRUE,3,1,Where are the hardwood floors located?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,717
+351,6968,Stain Color,TRUE,4,1,Select the stain color you would like for your refinished wood floors:,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,717
+352,200437,Materials Provided by Customer,TRUE,2,1,Have you already purchased the flooring materials for this project?,,0,0,,FALSE,FALSE,-9999,TRUE,TRUE,719
+355,463,Vinyl Type Selected,TRUE,1,1,What type of vinyl flooring do you want installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,719
+356,548,Type of Project,TRUE,2,1,What type of project is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,800
+357,500844,Number of Rooms,TRUE,1,1,How many rooms or areas need to be painted?,How many rooms or areas need to be painted?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,721
+358,5235,House Occupancy,TRUE,2,1,What is the occupancy of the house?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,721
+359,551,Rooms to be Painted,TRUE,3,1,Which rooms need to be painted? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,721
+360,500845,Painting Needs:,TRUE,4,1,What needs to be painted?,What needs to be painted?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,721
+361,5406,To be Painted,TRUE,1,1,What do you want painted? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,723
+362,4205,Preparedness,TRUE,2,1,Do you know what paint effect(s) you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,722
+363,5223,Texture needed,TRUE,1,1,What kind of texturing do you need? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,724
+364,5404,Surface,TRUE,2,1,What surfaces need to be textured?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,724
+369,4330,Building Use,TRUE,1,1,For what will the building be used?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,726
+370,4329,Building Material,TRUE,1,1,Of what material do you want your building made?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,734
+371,4332,Features,TRUE,2,1,What features do you want for your building?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,734
+372,4331,Level of Customization,TRUE,3,1,What level of customization do you need?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,734
+373,4471,Gazebo Style,TRUE,1,1,What style of gazebo do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,727
+374,4473,Kind of Deck/Floor,TRUE,2,1,What kind of deck/floor?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,727
+375,4474,Other Features,TRUE,3,1,What other features would you like?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,727
+376,4840,Yurt Use,TRUE,1,1,How will you be using your yurt? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,728
+377,4843,Yurt Options,TRUE,2,1,What features do you want included in your yurt? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,728
+378,4598,Size of Carport,TRUE,1,1,What size carport do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,729
+379,4484,Location of Carport,TRUE,1,1,Where do you want the carport installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,730
+380,4601,Features,TRUE,3,1,What features do you want included?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,729
+381,4485,Carport Size,TRUE,2,1,What size carport do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,730
+382,4486,Features Wanted,TRUE,3,1,What features do you want? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,730
+383,4828,Dock Size Needed,TRUE,1,1,What size dock do you need? (in square feet),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,731
+384,4829,Kind of Dock,TRUE,2,1,What kind of dock do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,731
+385,4830,Water Conditions,TRUE,3,1,What are the conditions where the dock will be installed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,731
+386,200114,Type of Structure,TRUE,1,1,What type of landscaping structure do you want to have built?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,732
+387,1056,Project Type,TRUE,1,1,What type of project is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1033
+388,200115,Material Desired,TRUE,4,1,Of what material will the structure be made?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,732
+389,5905,Features,TRUE,1,1,What features would you like for your outdoor kitchen?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,733
+390,5906,Existing Patio,TRUE,2,1,Do you currently have a patio on which to build?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,733
+391,5907,Flooring Selection,TRUE,3,1,What flooring option would you prefer?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,733
+392,265,Problem Description,TRUE,1,1,Select the best description(s) of the countertop problem you need repaired.  (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,738
+393,5115,Damage,TRUE,1,1,What best describes the damage? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,737
+394,5118,Tile Location,TRUE,1,1,Where is the tile located? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,741
+395,500020,Type of Service,TRUE,1,1,What type of service do you need?,Type of Service,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1126
+396,500021,Type of Surface,TRUE,2,1,What type of surface is involved? (Select all that apply),Type of Surface,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,739
+397,500023,Stone Location,TRUE,1,1,Where is the stone located? (Select all that apply),Stone Location,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,740
+398,500024,Type of stone,TRUE,2,1,What type of stone do you want restored or polished?,Type of stone,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,740
+399,500022,Type of Tile,TRUE,2,1,What type of tile needs to have the grout replaced or repaired?,Type of Tile,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,741
+402,5161,Repair Problems,TRUE,2,1,Check all problems needing repair.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,746
+403,5159,Window Frame Material,TRUE,3,1,Of what are the window frames made?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,746
+404,6829,Nature of Project,TRUE,1,1,What is the nature of this project?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,749
+405,6831,Type of Window,TRUE,3,1,"What type of window, if known? (Select all that apply)",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,747
+406,6832,"What type of window frame, if known?",TRUE,4,1,"What type of window frame, if known?",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,747
+407,5199,Installation Location,TRUE,1,1,Where do you want to install decorative glass? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,748
+408,5200,Kind of Glass,TRUE,2,1,What kind of glass do you want? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,748
+409,5202,Kind of Design,TRUE,3,1,Do you know what kind of design you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,748
+410,200876,Type of Repair Required,TRUE,1,1,What type of repair work is required?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,750
+411,200877,Items Requiring Repair,TRUE,3,1,List all the problems you need repaired: (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,750
+412,200878,Type of Window,TRUE,4,1,Select the style of window(s) that need to be repaired: (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,750
+413,200879,Window Frame Material,TRUE,5,1,Of what material are the window frames made?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,750
+414,501204,Part of Remodel,TRUE,3,1,Is this part of a basement remodel?,Is this part of a basement remodel?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,751
+415,501205,# of Windows,TRUE,4,1,How many egress windows do you need installed?,How many egress windows do you need installed?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,751
+416,501206,Features,TRUE,5,1,Select any features you are interested in:,Select any features you are interested in:,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,751
+417,4024,Rooms for Carpet Cleaning,TRUE,2,1,Which rooms need carpet cleaning?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,752
+418,5239,Method of Cleaning,TRUE,3,1,What type of cleaning process do you prefer?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,752
+419,4026,Level of Preparation for Cleaning,TRUE,3,1,What level of preparation is necessary?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,752
+420,4917,Services Needed,TRUE,3,1,What service(s) is/are needed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,753
+421,5081,Type of Cleaning,TRUE,1,1,What kind of cleaning do you need? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,754
+422,5083,Repairs Needed,TRUE,2,1,Do you need any repairs? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,754
+423,5082,Type of Blinds,TRUE,2,1,Which of the following kinds of blinds need cleaning? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,755
+424,4342,Furnishings to be Cleaned,TRUE,1,1,Which furnishings do you want to have cleaned? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,756
+425,502545,Type of material,TRUE,2,1,What type of material do you want cleaned?,What type of material do you want cleaned?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,756
+426,4345,When last cleaned,TRUE,3,1,When was it last cleaned?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,756
+427,4344,Furniture Age,TRUE,4,1,How old is the furniture?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,756
+428,500047,Project Description,TRUE,1,1,What best describes the project for which the dumpster is needed?,Describe Project,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,757
+722,4424,Where Ramp Needed,TRUE,1,1,Where do you need a ramp?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,874
+429,500049,Dumpster Contents:,TRUE,2,1,Please describe what you are putting in the dumpster:,Dumpster Contents:,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,757
+430,500040,Delivery date,TRUE,1,2,"Approximately, when would you like it delivered?",Delivery date,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,757
+431,500043,Pick Up Date,TRUE,2,2,"Approximately, when would you like it picked up?",Pick Up Date,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,757
+432,767,Cleaning Type Needed,TRUE,1,1,What type of cleaning is needed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,762
+433,160810,Recurring Service Requested,TRUE,1,2,"For recurring services, how often does your home need to be cleaned?",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,758
+434,6910,What is the square footage of the house that needs cleaning?,TRUE,2,2,What is the square footage of the house that needs cleaning?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,758
+438,6938,Type of system,TRUE,1,1,What type of system needs cleaning?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,760
+439,6939,Number of vents,TRUE,2,1,How many registers/vents need cleaning?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,760
+440,4695,System Location,TRUE,4,1,Where is the system located?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,760
+441,4696,Want Disinfectant Fog,TRUE,6,1,"Do you want a disinfectant fog (to eliminate mold, bacteria, and dust mites)?",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,760
+442,4773,Cleaning needs,TRUE,2,1,What do you need cleaned? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,761
+443,5214,Materials to be Cleaned,TRUE,2,1,What wall and/or ceiling materials need cleaning? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,762
+444,5215,Cleaning Needs,TRUE,3,1,Why do they need cleaning? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,762
+445,5208,What to be Cleaned,TRUE,2,1,What needs to be cleaned? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,763
+446,5209,Why Clean,TRUE,3,1,What is the nature of the problem? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,763
+447,4616,Vacuum mount location,TRUE,2,1,Where will the vacuum be mounted?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,764
+448,4621,Problem Assessment,TRUE,1,1,What is the problem?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,765
+451,5419,Material to be Sandblasted,TRUE,1,1,Select the area or item(s) that need to be sandblasted. (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,767
+452,1270,Description of Area Needing Sandblasting,TRUE,2,1,What best describes the area or item to be sandblasted?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,767
+453,1554,Why Gutters Need Cleaning,TRUE,1,1,Why do you need to have your gutters cleaned?  (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,768
+454,947,Number of stories in house,TRUE,2,1,How many stories is your house?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,768
+455,60001,Recurring Service Requested,TRUE,6,2,Will this request be a recurring service?,Is a recurring service?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1217
+456,1511,Pool type,TRUE,1,1,What kind of pool do you have?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,769
+457,1513,Pool materials,TRUE,2,1,What is the pool made of?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,769
+458,1517,Service desired,TRUE,5,1,What kind of service do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,769
+459,4691,Surface To Clean & Seal,TRUE,1,1,What type of surface(s) do you need to be cleaned and sealed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,770
+460,5397,Treatment Wanted,TRUE,2,1,What treatments would you like to have done? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,770
+461,1287,Area Description,TRUE,1,1,What best describes the area where you want the work done?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,771
+462,1288,Work Needed,TRUE,2,1,Describe the work you need to have done. (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,771
+463,5728,Slope of Area,TRUE,4,1,Describe the slope of the area needing work.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,771
+464,595,Stories in Home,TRUE,1,1,How many stories is your house?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,772
+465,593,Existing Roofing Materials,TRUE,2,1,What kind of roofing material do you have?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,772
+466,7087,Area Description,TRUE,1,1,What best describes the asphalt area that needs to be resealed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,773
+467,7088,Other Work Needed,TRUE,2,1,Select any other asphalt services needed as part of this project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,773
+468,200211,Type of Service:,TRUE,1,1,What type of service are you interested in?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,774
+469,5168,Pool Material,TRUE,2,1,What primary material is the pool surface made of?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,774
+470,200214,Cleaning Desired:,TRUE,3,1,Would you like the pool cleaned?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,774
+471,200213,Spa Included:,TRUE,4,1,Will a spa or hot tub be included?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,774
+472,200216,Purpose of Cover:,TRUE,1,1,What is the purpose of the pool cover? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,775
+473,200215,Desired Cover Type:,TRUE,2,1,Select the type of swimming pool cover you are interested in:,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,775
+474,200217,Type of Pool:,TRUE,3,1,What type of swimming pool would you like to cover?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,775
+475,6770,Will your fireplace use natural gas?,TRUE,1,1,Will your fireplace use natural gas?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,781
+476,1245,Project Type,TRUE,2,1,What type of project is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,777
+477,1246,Fireplace Type,TRUE,3,1,What type of fireplace do you want to have installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,777
+478,1249,Selected fireplace features,TRUE,4,1,Select any of the features you would like in your fireplace.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,777
+479,6771,Does your fireplace use natural gas,TRUE,1,1,Does your fireplace use natural gas,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,782
+480,5219,Material Needing Tuckpointing,TRUE,1,1,What kind of material needs tuckpointing?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,779
+481,5220,What Needs Tuckpointing,TRUE,2,1,What needs tuckpointing?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,779
+482,7121,Repair needs,TRUE,3,1,Describe what needs to be repaired. (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,779
+483,4602,Type of Gas Barbeque,TRUE,1,1,What kind of gas barbeque do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,780
+484,4604,Barbeque Pit Material,TRUE,2,1,Of what material will the barbecue pit be built?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,780
+485,4605,Base of Barbeque,TRUE,3,1,What will the barbeque be built on?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,780
+486,502285,Fireplace install,TRUE,2,1,What best describes this fireplace install?,What best describes this fireplace install?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,781
+487,4700,Type of insert,TRUE,3,1,In what type of gas fireplace insert are you interested?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,781
+488,4704,Features wanted,TRUE,4,1,What features most interest you? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,781
+489,4737,Problem Description,TRUE,2,1,What is the problem with the gas fireplace insert? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,782
+490,4738,Type of fireplace,TRUE,3,1,What type of fireplace is the unit inserted in?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,782
+491,4739,Venting system,TRUE,4,1,How is it vented?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,782
+492,4741,Under warranty,TRUE,5,1,Is the unit still under warranty?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,782
+493,5673,Type of Unit,TRUE,1,1,What kind of unit do you want to install?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,783
+494,4256,Stove Function,TRUE,2,1,What is the function of the stove?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,783
+495,5675,Style of Unit,TRUE,3,1,What style of unit do you want to install?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,783
+496,5677,Type of Unit,TRUE,1,1,What kind of unit do you want to repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,784
+497,4259,Nature of problem,TRUE,2,1,What best describes the nature of the problem?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,784
+500,7084,Problems,TRUE,1,1,What problems are you having with the foundation? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,786
+501,1140,Condition of Foundation,TRUE,2,1,What is the current condition of the foundation area that needs waterproofing?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,786
+502,5620,Kind of Foundation,TRUE,3,1,What kind of foundation do you have?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,786
+503,4589,Reason for Channel Installation,TRUE,1,1,Why do you need channels installed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,787
+504,4590,Type of Channels,TRUE,2,1,What type of channels do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,787
+505,4593,Needs sump pump,TRUE,3,1,Do you need a sump pump installed as part of the channeling project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,787
+506,4595,Type of Channels,TRUE,1,1,What kind of interior channels need repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,788
+507,4596,Problem Description,TRUE,2,1,What best describes the problem?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,788
+515,1282,Area Description,TRUE,1,1,What best describes the area needing asphalt?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,792
+516,7086,Project Type,TRUE,2,1,What type of project is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,792
+517,1283,Existing Surface,TRUE,3,1,What is the existing surface?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,792
+518,5727,Nature of Project,TRUE,1,1,What is the nature of this project? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,793
+519,1292,Type of Loose Fill,TRUE,2,1,What type of loose fill do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,793
+520,1291,Description of Area,TRUE,3,1,Select the best description of the area you need covered.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,793
+521,7045,Concrete Function,TRUE,1,1,What type of stamped concrete project is this? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,794
+522,7046,Type of Project,TRUE,2,1,What best describes your stamped concrete project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,794
+523,7047,Type of Stamping,TRUE,3,1,What kind of concrete stamping are you interested in? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,794
+527,7040,Type of Surface,TRUE,1,1,Where will the special finishes be applied? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,796
+528,7041,Special Finishes,TRUE,2,1,What kind of concrete finishes are you interested in? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,796
+529,7037,Material Requested,TRUE,1,1,What type of material are you interested in? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,797
+530,7038,Function,TRUE,2,1,What is the function?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,797
+531,7039,Pattern,TRUE,3,1,In what pattern is the masonry to be laid?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,797
+532,7029,Type of Surface,TRUE,1,1,Which concrete surfaces do you want to have installed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,798
+533,7030,Type of Project,TRUE,2,1,What type of concrete project is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,798
+534,7031,Special applications/finishes,TRUE,3,1,Select any special concrete applications or finishes you are interested in:,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,798
+535,7034,Location of Pavers,TRUE,1,1,Where are you planning to install pavers? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,799
+536,7035,Type of Project,TRUE,2,1,What type of project is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,799
+537,7036,Pattern,TRUE,3,1,In what pattern are the pavers to be laid?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,799
+538,200110,Location of Pavers,TRUE,1,1,Where are you planning to install pavers? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,800
+539,7051,Pattern,TRUE,3,1,In what pattern are the pavers to be laid?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,800
+540,1037,Type of Masonry,TRUE,1,1,What type of masonry material do you need repaired?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,801
+541,881,Repair Description,TRUE,2,1,Select the best description of the kind of repair you need.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,801
+542,7117,Wall Height,TRUE,2,1,What is the height of the wall in feet?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,802
+543,7118,Wall Length,TRUE,3,1,What is the length of the wall in feet?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,802
+544,4477,Purpose of Wall,TRUE,1,1,What is the purpose of the wall?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,803
+545,4478,Pattern/Color Choices,TRUE,4,1,What pattern do you want? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,803
+546,5448,Additional Needs,TRUE,5,1,Select any of the following you need for your project.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,803
+547,4747,Construction Material,TRUE,1,1,What type of material are you interested in? (Select all that apply),,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,805
+548,4749,Needs,TRUE,2,1,Select any other services needed as part of this project.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,805
+551,4307,Kind of Concrete Sawing,TRUE,1,1,What kind of concrete sawing do you need done?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,809
+552,7049,Concrete Size,TRUE,2,1,Approximately how much concrete needs to be cut or removed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,809
+553,4316,Concrete Disposal,TRUE,3,1,What do you want done with the cut concrete?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,809
+554,4360,Reason for Delivery,TRUE,1,1,Why do you need concrete delivered? (Check all projects that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,810
+555,4361,Square footage,TRUE,2,1,What is the square footage of the area where the concrete will be poured?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,810
+556,4364,Need pump truck?,TRUE,3,1,Does the concrete delivery company need to bring a pump truck?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,810
+557,4404,Nature of Project,TRUE,1,1,What is the nature of the project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,811
+558,500645,How far from the street (in feet) will the concrete need to be pumped?,TRUE,2,1,How far from the street (in feet) will the concrete need to be pumped?,How far from the street (in feet) will the concrete need to be pumped?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,811
+559,4408,Boom truck needed,TRUE,3,1,Will a boom truck be required to pump the concrete up and over to the location of the pour?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,811
+560,7044,Location of Project,TRUE,1,1,What is the location of the concrete leveling project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,812
+561,4053,Damage Description,TRUE,2,1,What best describes the damage to your concrete?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,812
+562,4054,Special Applications,TRUE,3,1,Does the concrete being repaired have any special applications or finishes?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,812
+563,7053,Project Type,TRUE,1,1,What type of landscape curbing project is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,813
+564,7054,Linear Feet of Curbing,TRUE,2,1,Approximately how many linear feet of landscape curbing do you plan to install?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,813
+565,7055,Desired Border,TRUE,3,1,What curbing or features are you interested in? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,813
+566,200130,Existing Sprinkler System,TRUE,4,1,Do you have an existing sprinkler system?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,813
+572,3065,Type of phone,TRUE,1,1,What type of phones would you like?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,815
+573,3066,Select phone features,TRUE,2,1,What special features would you like?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,815
+574,501555,# of Phones,TRUE,3,1,How many phones do you want?,How many phones do you want?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,815
+575,3070,Phone System Problem,TRUE,2,1,What is the problem with the  phone system?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,816
+576,5773,Number of Extensions,TRUE,3,1,How many extensions are currently in use?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,816
+577,6425,Type of project,TRUE,2,1,What type of project is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,817
+578,6426,Type of wiring,TRUE,3,1,What kind of wiring do you need?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,817
+579,6427,Wall and ceiling access,TRUE,4,1,Please describe the wall and ceiling access.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,817
+580,502507,Type of network,TRUE,1,1,What type of network do you want set up?,What type of network do you want set up?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,818
+581,4960,Items Needed,TRUE,2,1,Select which devices will be part of your home network. (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,818
+582,4962,Dedicated Server,TRUE,3,1,Will you have a dedicated server?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,818
+583,5658,Type of Computer,TRUE,2,1,What kind of computer do you have? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,819
+584,5661,Type of Service,TRUE,3,1,What kind of service do you need? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,819
+585,5662,Location of Service,TRUE,4,1,Where do you prefer the service occurs?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,819
+586,5663,Computer Usage,TRUE,5,1,How is this computer used? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,819
+587,5664,Internet Access,TRUE,5,1,How do you access the Internet?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,819
+590,3076,Type of thermostat,TRUE,1,1,What type of thermostat do you need?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,821
+591,3077,Heating System Type,TRUE,2,1,What type of heating system do you have?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,821
+592,3078,Number of zones,TRUE,3,1,How many locations (zones) do you need to control?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,821
+593,3079,Thermostat location,TRUE,4,1,Where will the thermostat be mounted?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,821
+594,3080,Thermostat type,TRUE,1,1,What type of thermostat do you need repaired or replaced?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,822
+595,3081,Heating System Type,TRUE,3,1,What type of heating system do you have?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,822
+596,6954,Thermostat Age,TRUE,4,1,Approximately how old is the thermostat needing repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,822
+597,3083,Choose electric wall heat type,TRUE,1,1,What type of electric wall heating would you like?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,823
+598,6946,Square footage needed,TRUE,2,1,What is the square footage of the area the electric wall heating system will cover?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,823
+599,6947,Number of rooms to be heated,TRUE,3,1,How many rooms will require electric wall heating?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,823
+600,3048,What are needs?,TRUE,1,1,What best describes your needs?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,824
+601,3049,Type of Fan,TRUE,2,1,What type of bath exhaust fan do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,824
+602,3051,Problem,TRUE,1,1,What describes the problem with the bath exhaust fan?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,825
+603,3050,Type of Fan,TRUE,2,1,Which type of bath exhaust fan needs repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,825
+604,3056,Problem description,TRUE,1,1,What describes the problem with the ceiling fan?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,826
+605,3057,Control of fan,TRUE,2,1,How is the ceiling fan controlled?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,826
+606,3041,Type of Attic Fan Wanted,TRUE,1,1,What type of fan(s) do you want? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,827
+607,5729,Features,TRUE,2,1,What fan features interest you? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,827
+608,3047,Problem Description,TRUE,1,1,What describes the problem with the fan?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,828
+609,3044,Type of Fan,TRUE,2,1,Which type of fan needs repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,828
+610,502465,Type of generator,TRUE,1,1,What type of Generator are you interested in?,What type of Generator are you interested in?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,829
+611,3091,Describe Generator Use,TRUE,2,1,What is the intended use?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,829
+612,3093,Devices to be Run by Generator,TRUE,3,1,What electrical devices will be run by the generator?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,829
+613,502485,Type of Generator,TRUE,2,1,What type of generator needs to be repaired?,What type of generator needs to be repaired?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,830
+614,1268,Repair Description,FALSE,3,1,What best describes the repair needed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,830
+615,6337,System Components,TRUE,2,1,What components would you like for your new system?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,831
+616,501556,Already Purchased,TRUE,3,1,Have you already purchased the components for this project?,Have you already purchased the components for this project?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,831
+617,6338,Special features,TRUE,4,1,What features are you interested in?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,831
+618,6336,Electronic Preference,TRUE,5,1,What best describes your preference in electronics?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,831
+619,6340,Problem,TRUE,2,1,Select the best description of the problem:,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,832
+620,6341,Systems to repair,TRUE,3,1,What components are not working? ,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,832
+625,4857,Service Needs,TRUE,1,1,Why do you need service? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,834
+626,4652,Location of satellite television,TRUE,1,1,Where do you want satellite television? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,835
+627,4653,Number of simultaneous stations,TRUE,2,1,How many different TV stations would you like to be able to watch independently at the same time?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,835
+628,4654,Type(s) of Programming,TRUE,3,1,What kind of programming do you want? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,835
+629,4655,Special Features,TRUE,4,1,Which of these special features would you like?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,835
+630,5382,Purchased Satellite,TRUE,5,1,Have you already purchased a satellite dish?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,835
+631,4853,Description of Problems,TRUE,2,1,Why do you need service? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,836
+632,4851,System Installer,TRUE,3,1,Who installed your system?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,836
+633,500580,How many dishes or receivers do you have?,TRUE,4,1,How many dishes or receivers do you have?,How many dishes or receivers do you have?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,836
+634,6375,Type of mount,TRUE,1,1,What type of mount would you like?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,837
+635,6376,Surface,TRUE,2,1,What is the surface the TV will be mounted on?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,837
+636,6377,Special Features,TRUE,3,1,What kind of special features are you interested in?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,837
+637,6378,Wall and ceiling access,TRUE,4,1,Please describe the wall and ceiling access.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,837
+638,6386,Type of system,TRUE,1,1,What type of surround sound system would you like?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,838
+639,6387,Surround sound format,TRUE,2,1,What surround sound format do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,838
+640,6388,Special Features,TRUE,3,1,What kind of special features are you interested in?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,838
+641,6396,Type of project,TRUE,1,1,What type of project is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,839
+642,6397,Component to install,TRUE,2,1,What would you like to have installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,839
+643,6398,Cabling or concealment,TRUE,3,1,Do you need cabling or wire concealment services?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,839
+644,6405,Component to repair,TRUE,2,1,What component needs repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,840
+645,503033,How old is the component?,TRUE,3,1,How old is the component?,How old is it?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,840
+646,6407,Type of TV,TRUE,4,1,"If you need a TV repaired, what kind of TV is it?",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,840
+647,6415,Type of remote,TRUE,1,1,What kind of remote control would you like?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,841
+648,6416,Number of devices,TRUE,2,1,How many devices do you want the remote to control?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,841
+649,6417,Special Features,TRUE,3,1,What kind of special features would you like?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,841
+653,4009,Service Needed,TRUE,1,1,What kind of service do you need?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,843
+654,4010,Security Features,TRUE,2,1,Select the security features you would like to include in your system. (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,843
+655,4011,Keypad Location,TRUE,3,1,Enter the location where you would like a keypad.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,843
+656,4012,Wall Access,TRUE,4,1,Describe the wall access.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,843
+657,503453,"If adding to an existing system, what is the brand of your current system?",TRUE,5,1,"If adding to an existing system, what is the brand of your current system?","If adding to an existing system, what is the brand of your current system?",0,0,,FALSE,FALSE,-9999,TRUE,FALSE,843
+658,503454,"If adding to an existing system, what is the age of your current system?",TRUE,6,1,"If adding to an existing system, what is the age of your current system?","If adding to an existing system, what is the age of your current system?",0,0,,FALSE,FALSE,-9999,TRUE,FALSE,843
+659,4016,Describe problem,TRUE,2,1,Select the  problem(s) with your security system.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,844
+660,5137,Who installed system,TRUE,3,1,Who installed the system?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,844
+661,4457,How System Was Acquired,TRUE,1,1,How did you acquire your existing security system?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,845
+662,4459,Features,TRUE,2,1,Select the features currently in your security system.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,845
+663,4460,Changes needed?,TRUE,3,1,Do you want to make any changes to your current system?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,845
+664,1237,Fire prevention/protection service,TRUE,1,1,What fire prevention or protection services are you interested in?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,846
+665,1239,Request a visit from fire protection officer,TRUE,2,1,Do you need a fire protection officer to check out your property and discuss prevention?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,846
+666,1530,Existing system being added to,TRUE,3,1,Do you have an existing fire or security system that needs additional fire protection devices added to it?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,846
+667,4461,Need for Camera,TRUE,2,1,Why do you want a video security system?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,847
+668,4462,Number of Cameras Needed,TRUE,3,1,How many cameras do you think you'll need?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,847
+669,4463,Type of Video Surveillance,TRUE,4,1,What kind of video surveillance do you want? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,847
+670,200132,Purpose of Gate,TRUE,2,1,What type of gate do you want to install?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,848
+671,200133,Desired Material,TRUE,3,1,What is the material of the gate you would like to install?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,848
+672,4017,Purpose of Lighting,TRUE,1,1,What is the purpose of the landscape lighting?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,850
+673,4018,Type of Lighting,TRUE,2,1,What type of landscape lighting is needed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,850
+674,7188,# of lights,TRUE,3,1,Approximately how many landscaping lights do you want installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,850
+675,5715,Type of Microwave Oven,TRUE,1,1,What kind of microwave oven do you want installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,851
+676,5352,Kind of Installation,TRUE,2,1,What kind of installation is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,857
+677,500700,Already Purchased,TRUE,2,1,Have you already purchased the appliances for this project?,Have you already purchased the appliances for this project?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,858
+678,3034,Type of Appliance,TRUE,1,1,Select which appliances you would like to be installed.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,852
+679,501744,Appliance Type:,TRUE,1,1,Which household appliance needs repair?,Which household appliance needs repair?,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,853
+680,4432,Brand Name of Appliance,TRUE,2,1,What brand of appliance needs repair?,,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,856
+681,5717,Power Source of Appliance,TRUE,3,1,What is the power source of the appliance?,,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,853
+682,5713,Type of Appliance(s),TRUE,1,1,What kind of appliance needs to be installed? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,854
+683,5710,Type of Appliance(s),TRUE,1,1,What kind of appliance needs to be installed? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,855
+684,5711,Replacing Electric Appliance?,TRUE,4,1,Are you replacing an electric appliance with a gas one?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,855
+685,3038,Nature of Problem,TRUE,3,1,What best describes the problem?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,856
+686,503198,What type of cooktop do you want installed?,TRUE,1,1,What type of cooktop do you want installed?,What type of cooktop do you want installed?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,857
+687,6897,Kind of solar panel system,TRUE,1,1,What kind of solar panel electric system do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,859
+688,502147,Sun Exposure,TRUE,2,1,"Approximately, how much sun exposure does the property get?","Approximately, how much sun exposure does the property get?",0,0,,FALSE,FALSE,-9999,TRUE,FALSE,859
+689,502164,Utility Provider,TRUE,3,1,Who is your current utility provider (if known)?,Who is your current utility provider (if known)?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,859
+690,502165,Approximate Monthly Bill,TRUE,4,1,"Approximately, what is your average monthly electric bill?","Approximately, what is your average monthly electric bill?",0,0,,FALSE,FALSE,-9999,TRUE,FALSE,859
+691,502145,Approximate square footage ,TRUE,5,1,What is the approximate square footage of the area the system will serve? ,What is the approximate square footage of the area the system will serve? ,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,859
+692,502146,# of Stories,TRUE,6,1,How many stories is the building this system will serve? ,How many stories is the building this system will serve? ,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,859
+693,6192,Service needs,TRUE,2,1,Why do you need service? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,860
+694,6190,Kind of Solar Panel System,TRUE,3,1,What kind of solar panel system do you have?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,860
+695,6973,Description of Problem,TRUE,1,1,What best describes the damaged carpet you need repaired? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,861
+696,4042,Extra Carpet,TRUE,2,1,Do you have any extra carpet saved from installation?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,861
+697,6969,Description of Damage,TRUE,1,1,Describe the wood floor damage you need repaired: (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,862
+698,6970,Type of Wood,TRUE,2,1,"If known, what kind of wood floor needs to be repaired? (Check all that apply)",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,862
+699,5618,Refinish after Repair?,TRUE,3,1,Would you like to have the wood floor refinished after repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,862
+700,6974,Damage Description,TRUE,1,1,What best describes the damage you need repaired? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,863
+701,4090,Leftover material,TRUE,2,1,Do you have extra laminate materials left from the installation of the floor?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,863
+702,6977,Describe damage,TRUE,1,1,What best describes the damage you need repaired? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,864
+703,6978,Vinyl Type Selected,TRUE,2,1,What type of vinyl flooring needs to be repaired?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,864
+704,6979,Any extra flooring?,TRUE,3,1,Do you have any extra vinyl flooring left from the original installation?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,864
+707,4119,Needed repairs,TRUE,1,1,What best describes the repair work needed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,866
+710,503014,What type of putting green would you like installed?,TRUE,1,1,What type of putting green would you like installed?,What type of putting green would you like installed?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,868
+711,503015,What is the approximate size of the area you would like to install?,TRUE,2,1,What is the approximate size of the area you would like to install?,What is the approximate size of the area you would like to install?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,868
+713,696,Current deck material,TRUE,2,1,What is your deck made of?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,882
+714,1414,Door Type,TRUE,3,1,What kind of door needs to be repaired?  (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,870
+715,1416,Damaged Parts/Problem,TRUE,4,1,Select all parts of the door or frame that are damaged.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,870
+716,4176,Kind of Repair Needed,TRUE,1,1,Select the kind(s) of repair you need.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,946
+717,840,Fence Height,TRUE,2,1,What is the height of the fence you want to have repaired?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,871
+723,4425,Why a ramp,TRUE,2,1,Why do you need a ramp?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,874
+724,4427,Ramp Material,TRUE,3,1,Of what material do you want the ramp made?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,874
+725,4442,Ramp material,TRUE,2,1,What is the ramp made of? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,875
+726,4444,Repair Needs,TRUE,3,1,What needs to be repaired? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,875
+727,4445,Ramp Location,TRUE,4,1,Where is the ramp? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,875
+728,4446,Ramp Use,TRUE,5,1,How is the ramp used?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,875
+729,943,Problems,TRUE,1,1,Select which problems need repair.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,876
+730,500647,How many stories is your house?,TRUE,2,1,How many stories is your house?,How many stories is your house?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,876
+731,500740,Project Description,TRUE,1,1,What best describes this gutter project?,What best describes this gutter project?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1015
+732,4705,Problems Description,TRUE,1,1,What problems are you experiencing?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,878
+733,4706,Accessories Needed,TRUE,2,1,Which of these gutter accessories do you need?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,878
+734,370,Repairs Needed,TRUE,1,1,Which type of drywall damage needs repairing?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,879
+735,5527,Type of Damage,TRUE,1,1,What kind of damage do you need repaired? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,880
+736,5069,Type of project,TRUE,1,1,What kind of project is this? (Check all that apply),,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,887
+737,5073,Features to be painted/stained,TRUE,2,1,Check off each feature that will need to be painted/stained. (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,881
+738,5072,New color,TRUE,3,1,Will the new color be:,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,887
+739,503016,What is the fireplace surround made of?,TRUE,3,1,What is the fireplace surround made of?,What is the fireplace surround made of?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,883
+740,5236,Items to be Painted or Stained,TRUE,3,1,What other items do you need painted or stained? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,884
+741,503194,What trim do you want painted?,TRUE,2,1,What trim do you want painted?,What trim do you want painted?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,887
+742,1062,Existing home siding type,TRUE,2,1,What type of siding is currently on the home?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1033
+744,762,Project Description,TRUE,1,1,What is the small project? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,891
+745,5259,Plumbing Repairs,TRUE,3,1,"For repairs, what best describes the problem?",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1126
+746,5260,Plumbing Fixtures,TRUE,4,1,"For installs or replacement, which items are needed?",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,891
+747,6285,Winterize or activate,TRUE,2,1,Do you want to Winterize or Activate your sprinkler system?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,892
+748,6286,How many zones does your sprinkler system have?,TRUE,3,1,How many zones does your sprinkler system have?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,892
+749,6288,Age of Current System,TRUE,4,1,How old is your sprinkler system?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,892
+750,6292,Recurring Service Requested,TRUE,3,2,Will this request be a recurring service?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,892
+752,856,Fence height,TRUE,2,1,What is the height of the fence you want to have repaired?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,946
+753,4662,Types of service,TRUE,1,1,What type of childproofing service are you interested in?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,894
+754,4661,Types of Products Needed,TRUE,2,1,Which type of products do you need? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,894
+755,4663,Range of ages in home,TRUE,3,1,What is the range of ages in your home?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,894
+756,4434,Nature of Disability,TRUE,1,1,What is the nature of the disability? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,895
+757,4651,Location of problems,TRUE,2,1,Where are you having trouble in the home? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,895
+758,4447,Kind of Home,TRUE,1,1,For what kind of home do you want to buy a home warranty contract?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,896
+759,4448,Who Buying Warranty Contract,TRUE,2,1,Who will be buying the home warranty contract?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,896
+760,4450,What Needs to be Covered,TRUE,3,1,What items/systems do you want covered?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,896
+761,4812,Service Needs,TRUE,2,1,What needs servicing? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,897
+762,4809,Dock Type,TRUE,3,1,What type of dock is it? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,897
+763,4337,Number of Doors/Windows to be Weather-Stripped,TRUE,1,1,How many doors/windows need to be weather-stripped?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,898
+764,4341,Replace built-in weather-stripping,TRUE,2,1,Does the door or window have built-in weather stripping that needs to  be replaced?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,898
+765,6904,What is the nature of this project?,TRUE,1,1,What is the nature of this project?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,899
+766,1418,Problem description,TRUE,2,1,What best describes the nature of the problem?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,900
+767,6936,Equipment Age,TRUE,3,1,How old is your current air conditioning system? (in years),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,900
+768,4766,Area to be Cooled,TRUE,1,1,What type of space will the swamp cooler cool?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,901
+769,4767,Installation Location,TRUE,2,1,Where do you want the swamp cooler installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,901
+770,6937,Number of Rooms Needing Ductwork,TRUE,3,1,How many rooms do you want the cooler connected to?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,901
+771,4770,Control Type,TRUE,4,1,How will the swamp cooler be regulated?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,901
+772,6934,Service Needs,TRUE,2,1,What's wrong with the swamp cooler? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,902
+773,4771,Installation Location,TRUE,3,1,Where is the cooler installed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,902
+774,6926,Age of unit,TRUE,4,1,How old is the swamp cooler (in years)?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,902
+778,4723,Problem Description,TRUE,1,1,Which of the following problems need repaired?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,904
+779,4722,Heat pump type,TRUE,3,1,What type of heat pump is it?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,904
+780,4724,Equipment Age,TRUE,3,1,How old is the heating equipment?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,904
+781,4966,Installation location,TRUE,1,1,Where would you like the air conditioner installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,905
+782,4967,Nearby power,TRUE,2,1,Is there electrical power nearby for the air conditioner?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,905
+783,4742,Locatioin of Misting System,TRUE,1,1,Where/why will the misting system be installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,906
+784,6923,What is the approximate square footage of area to be misted?,TRUE,2,1,What is the approximate square footage of area to be misted?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,906
+785,4744,Permanent or temporary,TRUE,3,1,Is this a permanent or temporary arrangement?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,906
+786,4756,Installation Location,TRUE,3,1,Where is the misting system installed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,907
+787,4758,Problem Analysis,TRUE,3,1,What is the problem? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,907
+788,6935,Square footage of misted area,TRUE,4,1,What is the approximate square footage of the misting area?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,907
+789,6924,Refrigeration needs,TRUE,2,1,Describe the type of refrigeration system you want: (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,908
+790,4786,Service needs,TRUE,2,1,Why does it need service or repair? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,908
+791,6925,Age of unit,TRUE,4,1,How old is the unit (in years)?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,908
+792,4781,Distance from cooler to unit,TRUE,3,1,What is the distance from the cooler to the refrigeration unit?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,909
+793,500720,Reason for test,TRUE,1,1,Why do you want to test the homes air quality?,Reason for test,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,910
+798,4255,Type of Problem,TRUE,2,1,What best describes the nature of the problem?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,912
+799,6952,Installation Location,TRUE,1,1,Where is the radiant system being installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,913
+800,6951,Square Footage,TRUE,2,1,What is the square footage of the area the system will serve?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,913
+801,4794,Kind of Panels,TRUE,3,1,What kinds of panels are you considering? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,913
+802,4823,Panels Needing Service,TRUE,2,1,What kind of panels need servicing/repairs? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,914
+803,6953,Type of Problem,TRUE,3,1,What best describes the problem?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,914
+804,6993,Type of system,TRUE,1,1,What type of boiler system needs to be installed?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,915
+805,4167,Additional thermostats,TRUE,3,1,Would you like additional thermostatic controls in certain rooms?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,915
+806,6995,Type of system,TRUE,1,1,What type of boiler system needs to be repaired?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,916
+807,993,Problem Description,TRUE,4,1,What describes the nature of the problem? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,916
+808,6996,Kind of Heating System,TRUE,1,1,What kind of central heating system do you want?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,917
+809,6991,Nature of Project,TRUE,3,1,What is the nature of this project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,917
+810,4249,Other Features,TRUE,4,1,Select the other features you would like to add.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,917
+811,6992,Age of Heating Equipment,TRUE,5,1,How old is your current heating system?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,918
+812,5550,Current Heating System,TRUE,1,1,What kind of central heating system do you have?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,918
+813,5551,Problem with Heating System,TRUE,4,1,Why does your heating system need servicing?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,918
+820,4813,Kind of Tank,TRUE,1,1,What kind of tank needs to be removed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,921
+821,4814,Material Stored in Tank,TRUE,2,1,What was stored in the tank?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,921
+822,4816,How Long Since Tank Was Used,TRUE,3,1,How long since the tank has been used?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,921
+823,4817,Leakage Details,TRUE,4,1,Is there evidence of leaking?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,921
+824,4698,Current Heating System,TRUE,1,1,Select the type of heating system you are using.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,922
+825,6941,Area size,TRUE,2,1,What is the square footage of the area the system will serve?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,922
+826,4703,Features,TRUE,3,1,Select any of these features you would like. (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,922
+827,4821,Service Needs,TRUE,1,1,Why does it need servicing? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,923
+828,4819,Kind of System,TRUE,3,1,What kind of geothermal system do you have?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,923
+829,4820,Heat Distribution System,TRUE,4,1,How is the heat distributed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,923
+830,6942,Age of Equipment,TRUE,5,1,How old is the equipment?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,923
+831,4152,Size of Heater,TRUE,1,1,Do you know what size water heater you need?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,924
+832,6896,Heat spa or pool,TRUE,2,1,Will this solar water heater be used to heat a spa or pool?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,924
+833,1580,Location of water heater,TRUE,3,1,Where is the water heater located?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,924
+834,6179,Installation location,TRUE,4,1,Is your chosen installation location:,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,924
+835,6180,Problem Description,TRUE,2,1,Why do you need service? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,925
+836,6181,Type of heater,TRUE,3,1,What type of solar water heater do you have? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,925
+837,6182,Size of water heater being replaced.,TRUE,4,1,What is the size of your current water heater?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,925
+838,4787,Furnace Type,TRUE,1,1,What kind of furnace do you have?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,926
+839,4788,Furnace Location,TRUE,2,1,Where is the furnace located?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,926
+840,4803,Service Need(s),TRUE,1,1,Why do you need service? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,927
+841,4708,Type of Air Cleaner,TRUE,1,1,What kind of air cleaner are you interested in?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,928
+842,4709,Furnace Location,TRUE,2,1,Where is the furnace located?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,928
+843,4712,Air Cleaner Type,TRUE,1,1,What kind of air cleaner are you using?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,929
+844,4713,Service Needs,TRUE,2,1,Why do you need service? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,929
+845,4715,Last Time Filter was Cleaned,TRUE,3,1,When was the last time the filter was cleaned?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,929
+847,5575,Location of Installation,TRUE,2,1,"Where do you need insulation installed, replaced, or upgraded? (Check all that apply)",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,931
+848,4884,Type of Noise,TRUE,1,1,What kind of noise are you trying to block out? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,932
+849,4885,Soundproofing Locations,TRUE,2,1,What needs to be soundproofed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,932
+850,4886,Residence Type,TRUE,3,1,What type of residence is to be soundproofed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,932
+851,501664,Area Description,TRUE,1,1,What best describes the area needing insulation?,What best describes the area needing insulation?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,933
+852,7137,Location of Installation,TRUE,3,1,Where do you need the foam insulation installed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,933
+856,4944,Equipment Needing Service,TRUE,1,1,What piece of equipment needs service?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,935
+857,4950,Service Needed,TRUE,2,1,What kind of service does it need?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,935
+861,842,Description of Repair Type,TRUE,1,1,Select the kind of repair(s) you need.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,938
+862,4172,Fence function,TRUE,2,1,What primary function does the fence serve?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,938
+863,5554,Nature of Project,TRUE,1,1,What is the nature of this project?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,944
+864,827,Fence Height,TRUE,3,1,What is the height of the fence you want to have installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,939
+865,500140,Length of Fence,TRUE,3,1,"Approximately, how many linear feet of fencing do you need? ","Approximately, how many linear feet of fencing do you need? ",0,0,,FALSE,FALSE,-9999,TRUE,FALSE,944
+866,5355,Type of Gate,TRUE,5,1,Which type of gate would you like? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,939
+867,861,Pet receivers,TRUE,1,1,How many pets do you have that will need collar receivers?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,940
+868,5359,Obstacles of Fence,TRUE,2,1,Which of the following obstacles will the fence have to cross? (Check all that apply.),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,940
+869,865,Problem,TRUE,1,1,What best describes the problem you need repaired? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,941
+870,5369,Function of Fence,TRUE,1,1,What primary function will the fence serve?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,942
+871,932,Kind of Repair,TRUE,1,1,Select the best description of the kind of repair you need.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,943
+872,930,Average height of repair,TRUE,2,1,What is the average height of the fence you need repaired?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,943
+873,886,Fence Height,TRUE,2,1,What is the height of the fence you want to have installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,944
+874,5511,Purpose of Fence,TRUE,4,1,What primary function will the fence serve? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,944
+875,5373,Style of Fencing,TRUE,1,1,What style of wrought iron fencing do you want to have installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,945
+876,5374,Height of Fence,TRUE,2,1,What is the height of the fence you want to have installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,945
+877,5375,Type of Gate,TRUE,3,1,Which types of gates would you like? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,945
+878,5371,Height of Fence,TRUE,2,1,What is the height of the fence you want to have installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,947
+879,4956,Snow Removal Location,TRUE,2,1,From where do you need the snow removed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,949
+880,4959,Snow removal schedule,TRUE,3,1,How often do  you want snow removed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,949
+885,6220,"Tree, Shrub Services Needed",TRUE,1,1,What tree and shrub services do you want? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,951
+886,7181,# of stumps to be removed,TRUE,1,1,How many tree stumps need to be removed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,952
+887,529,Location of tree stump,TRUE,3,1,Where is the tree stump located?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,952
+888,5591,Wood Chips,TRUE,5,1,What shall the service professionals do with the wood chips?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,952
+889,5213,Other Services,FALSE,3,1,What other services are you interested in? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1118
+895,5583,Type of Hot Tub or Spa,TRUE,1,1,What type of hot tub or spa needs to be repaired?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,955
+896,1324,Problem description,TRUE,2,1,What describes the problem with your hot tub or spa? (Choose all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,955
+897,7579,Type of Pool,TRUE,1,1,What kind of pool is in need of repair?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,956
+898,7580,Pool Material,TRUE,3,1,What primary material is the pool surface made of?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,956
+899,7581,Repair Description,TRUE,4,1,What best describes the repair needed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,956
+903,4230,Waterfall Feature,TRUE,1,1,What kind of waterfall feature do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,958
+904,4231,Location,TRUE,2,1,Where do you want to add a waterfall or fountain?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,958
+905,4232,Reason for Waterfall/Fountain,TRUE,3,1,Why do you want a waterfall or fountain?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,958
+906,500200,Already Purchased:,TRUE,1,1,Have you already purchased the hot tub or spa for this project?,Have you already purchased the hot tub or spa for this project?,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,959
+907,1317,Hot tub or Spa Selected,TRUE,2,1,What type of hot tub or spa would you like?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,959
+908,1319,Hot Tub or Spa Size,TRUE,3,1,What size hot tub or spa?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,959
+909,1320,Location of Hot Tub or Spa,TRUE,4,1,Will this hot tub or spa be indoors or outdoors?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,959
+910,1322,Features Selected,TRUE,5,1,Select the features you want in your hot tub.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,959
+911,7576,Type of pool install,TRUE,1,1,What type of in ground pool do you want installed?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,960
+912,8355,ZIP Moving To,TRUE,1,1,Where are you moving to?,,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,963
+913,200192,Date of Move,TRUE,3,2,When will you be moving?,,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,964
+914,200193,Type of Move,TRUE,3,1,Type of Move,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,963
+915,200194,Packing Required ,TRUE,4,1,Packing required ,,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,963
+916,8156,Will you need any vehicles transported?,TRUE,5,1,Will you need any vehicles transported?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,963
+917,200051,Move Weight (lbs) & Size,TRUE,3,2,Move size and weight,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,963
+918,4111,Origination/destination,TRUE,1,1,Describe your origination and destination.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,964
+919,4115,Type of piano,TRUE,2,1,What type of piano are you moving?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,964
+920,4114,Logistical factors,TRUE,3,1,Select any logistical factors that apply at the pick-up and/or delivery location.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,964
+921,8356,ZIP Moving Piano To,TRUE,2,2,Where are you moving your piano to?,,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,964
+922,6918,Area(s) to Organize,TRUE,1,1,Describe the closet or room where this organizer system will be installed: (Select all that apply) ,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,965
+923,6919,Storage Materials Desired,TRUE,2,1,What type of organization are you hoping to install? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,965
+924,200122,Type of Garage,TRUE,1,1,Describe your existing garage? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,966
+925,200123,Current Organization,TRUE,2,1,What type of organization exists currently?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,966
+926,200124,Items Requiring Organization,TRUE,3,1,What items are you hoping to organize?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,966
+927,200125,Organization Needs,TRUE,4,1,What type of organization are you hoping to install? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,966
+930,4983,Nature of Repair,TRUE,2,1,What is the nature of the repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,968
+931,4513,Kind of Elevator Lift,TRUE,1,1,What kind of elevator lift are you interested in?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,969
+932,4509,Location of Lift,TRUE,3,1,What is the location of the lift?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,970
+933,4514,Height Lift Must Rise,TRUE,3,1,Approximately how far must the lift rise? (Enter all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,969
+934,4517,Kind of Lift,TRUE,1,1,What kind of elevator or chair lift needs repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,970
+935,4516,Describe Problem,TRUE,2,1,What best describes the problem?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,970
+939,5795,Reason For Test,TRUE,1,1,Why do you want to test for mold? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,972
+940,501548,Suspected Area,TRUE,2,1,Where do you suspect you may have mold?,Where do you suspect you may have mold?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,972
+941,4279,Home Built Before 1978?,TRUE,1,1,Was your home (or the material in question) built before 1978?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,973
+942,4280,What Needs Asbestos Testing,TRUE,2,1,What do you suspect may need testing for asbestos?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,973
+943,4281,Why Need Testing,TRUE,3,1,Why does that surface need testing for asbestos?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,973
+944,5704,Asbestos Test Done?,TRUE,2,1,Have the surfaces been tested for asbestos?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,974
+945,4275,Asbestos Materials Needing Removal,TRUE,3,1,What materials containing asbestos need removal?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,974
+946,4294,Home Built before 1978,TRUE,1,1,Was your home constructed before 1978?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,975
+947,4295,Why the Test,TRUE,2,1,What do you suspect may need testing for lead?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,975
+948,5408,Been Tested Before,TRUE,2,1,Have painted surfaces been tested for lead?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,976
+949,4291,Materials to be Removed,TRUE,3,1,What materials containing lead need removal? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,976
+950,4296,Reason for Test,TRUE,1,1,Why do you want to test for radon gas?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,977
+951,4300,Why Reduce Radon,TRUE,2,1,Why do you need to reduce the levels of radon?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,978
+952,5810,Type of Furniture,TRUE,1,1,What type of furniture are you looking for? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,979
+953,5812,Design Preparation,TRUE,2,1,What sort of design preparation has been done?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,979
+954,5645,Expected Level of Quality,TRUE,3,1,What level of craftsmanship and materials do you expect?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,979
+958,7177,Item to be refinished,TRUE,1,1,What items need to be refinished?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,981
+959,7178,Material type,TRUE,2,1,What type of furniture materials need to be refinished?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,981
+960,7179,Upholstery Needed?,TRUE,3,1,Will the furniture need new upholstery in addition to refinishing?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,981
+961,4320,Item in Need of Work,TRUE,1,1,What do you need reupholstered?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,982
+962,7180,Fabric Choice,TRUE,2,1,What type of material will it be reupholstered with?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,982
+963,503093,Where will this custom desk be located?,TRUE,1,1,Where will this custom desk be located?,Where will this custom desk be located?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,983
+966,4682,Safe Type,TRUE,1,1,What type of safe are you installing?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,985
+967,4683,Safe Features Wanted,TRUE,2,1,What features do you want? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,985
+970,1224,Type of Insects,TRUE,2,1,What type of insects do you need to be controlled? (Select all that apply),,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,987
+971,5536,Type of Control Service,TRUE,4,1,What type of control service do you need? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,987
+972,501447,Bird or Bat,TRUE,1,1,Is this a bird or bat problem?,Is this a bird or bat problem?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,988
+973,4392,Specific Problem,TRUE,2,1,What is the specific bird or bat control problem? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,988
+974,5695,Location of Problem,TRUE,3,1,Where is the problem? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,988
+975,5698,Service Need,TRUE,1,1,What type of termite service do you need? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,989
+976,5699,Location of Problem,TRUE,2,1,Where do you see evidence of pest infestation or damage? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,989
+977,6580,Small Animal Types,TRUE,3,1,What type of small animals do you need controlled?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,990
+978,502873,Type of Mosquito Control Service,TRUE,3,1,What type of mosquito control service do you need?,Type of Mosquito Control Service,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,991
+979,502773,Approximately how many square feet is the yard?,TRUE,4,1,Approximately how many square feet is the yard?,Approximately how many square feet is the yard?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,991
+980,1241,Sauna type,TRUE,1,1,Select which type of sauna you would like.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,997
+981,1242,Capacity,TRUE,2,1,How many persons would you like to accommodate in your sauna?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,997
+982,4926,Sauna location,TRUE,3,1,Where will the sauna be located?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,997
+983,1244,Problem description,TRUE,1,1,Select any problems with your sauna.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,998
+984,5164,Type of Repairs,TRUE,1,1,Select the type(s) of repair needed on your pool enclosure or sunroom. (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,999
+985,5165,Framing material,TRUE,2,1,What type of material was used to frame the pool enclosure or sunroom?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,999
+990,4498,Type of Sign,TRUE,1,1,What kind of sign do you want? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1001
+991,4500,Shape of Sign,TRUE,2,1,What shape do you want the sign?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1001
+992,4501,Number of Sign Colors,TRUE,3,1,How many colors do you want on the sign? (Enter number),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1001
+993,4502,Logo Included,TRUE,4,1,Do you have a logo to be included on the sign?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1001
+994,4520,What Beam Supports,TRUE,2,1,What will the beam be supporting?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1003
+995,4521,Where Beam Used,TRUE,3,1,Where is the beam being used?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1003
+997,4523,Type of project,TRUE,1,1,What project is the beam for?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1003
+998,4333,Type of Welding Project,TRUE,1,1,What kind of welding project is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1004
+999,4334,What item,TRUE,2,1,What is the item to be welded/fabricated?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1004
+1000,4336,Location of Welding,TRUE,3,1,Where shall the welding be done?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1004
+1001,500971,Project Descripiton,TRUE,1,1,What do you need fabricated?,What do you need fabricated?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1005
+1002,5125,Type of Metal Desired,TRUE,2,1,What type of metal do you want to use?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1005
+1003,4305,Condition of Roof,TRUE,1,1,What best describes the condition of the existing roof?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1006
+1004,604,Number of Stories,TRUE,3,1,How many stories is your house?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1030
+1005,200142,Existing Surface,TRUE,1,1,What type of surface do you want to cover with liquid siding?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1007
+1006,200143,Reason for Interest,TRUE,2,1,Why are you interested in liquid siding? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1007
+1007,200145,Size of Home,TRUE,3,1,How many stories is your home?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1007
+1010,4141,More Than One Layer,TRUE,1,1,Is there more than one layer of wallpaper that needs to be removed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1009
+1011,5428,Tried to Remove Yourself,TRUE,2,1,Have you tried to remove the wallpaper yourself?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1009
+1012,5429,Finish after Paper Removed,TRUE,3,1,How will you finish the wall after the paper is removed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1009
+1015,500765,Nature of Project,TRUE,1,1,What is the nature of this project?,What is the nature of this project?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1011
+1016,4188,Select items for powder coating,TRUE,1,1,What items do you want powder coated? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1012
+1018,1247,Stories in Home,TRUE,2,1,How many stories is your home?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1016
+1019,5313,Gutter Style,TRUE,1,1,What style of gutter do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1016
+1022,6869,What is the nature of this project?,TRUE,1,1,What is the nature of this project?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1023
+1024,6871,Are you aware of any leaks or damage to the roof?,TRUE,5,1,Are you aware of any leaks or damage to the roof?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1023
+1025,5257,Roofing Material,TRUE,2,1,What kind of roofing material would you prefer?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1019
+1026,5568,Special Features,TRUE,3,1,Which special features would you like for your roof?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1023
+1027,5306,Kind of Roof,TRUE,2,1,What kind of metal roofing do you want? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1020
+1028,5143,Type of Roofing Tile,TRUE,2,1,What kind of roofing tile do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1022
+1029,5254,Wood Roofing Type,TRUE,2,1,What kind of wood roofing do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1023
+1031,606,Repair Needed,TRUE,2,1,What kind of problem do you need repaired or replaced? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1028
+1033,5176,Roof Problems,TRUE,2,1,Indicate the problem(s) with your roof. (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1026
+1034,5174,Type of Roof,TRUE,3,1,What kind of flat roof needs to be repaired?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1026
+1035,5194,Roof Problem,TRUE,2,1,What kind of problem do you have with your roof? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1027
+1036,5193,Type of Roof,TRUE,3,1,What kind of metal roof do you have? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1027
+1037,5146,Roof Problem,TRUE,2,1,What kind of problem do you need repaired? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1029
+1038,5144,Type of RoofingTile,TRUE,3,1,What kind of roofing tile needs repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1029
+1039,5147,Roof Problem,TRUE,2,1,What kind of problem do you have with your roof? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1030
+1042,583,Stories in House,TRUE,1,1,How many stories is your home?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1032
+1043,580,Pitch of Roof,TRUE,2,1,What is the approximate pitch of your roof?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1032
+1044,7122,Repair needs,TRUE,1,1,What needs to be repaired? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1034
+1045,5312,Masonry Type,TRUE,2,1,What type of masonry do you want installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1035
+1046,200160,Home's current siding,TRUE,2,1,What type of siding is currently on the home?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1044
+1047,7119,Repair needs,TRUE,1,1,What needs to be repaired? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1036
+1048,1065,Current siding type,TRUE,2,1,What kind of siding do you have?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1036
+1049,5498,Type of Siding,TRUE,2,1,What kind of siding is on your home now?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1039
+1050,1071,Visible Symptoms,TRUE,1,1,List any visible symptoms.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1038
+1051,1079,Visible Symptoms,TRUE,1,1,List any visible symptoms.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1040
+1052,5054,Type of Trim,TRUE,2,1,What kind of material will be used for trim? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1042
+1053,5725,Water Damage or Rot on Existing Trim,TRUE,3,1,Is there evidence of water damage or rot on existing wood trim?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1042
+1054,5057,Number of Stories,TRUE,4,1,How many stories is your home?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1042
+1055,5058,Current siding,TRUE,5,1,What type of sidiing do you currently have?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1042
+1056,5061,Damage,TRUE,1,1,Check all visible damage.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1043
+1057,5059,Kind of trim,TRUE,2,1,What kind of trim do you have?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1043
+1058,5060,Siding type,TRUE,3,1,What type of siding do you have?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1043
+1059,1105,Description,TRUE,1,1,Select the best description of what you need.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1046
+1060,5626,Kind of Roof,TRUE,2,1,What kind of roof do you have?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1046
+1061,1116,Problem description,TRUE,2,1,List any description of the problem.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1047
+1062,1115,Repair issue,TRUE,3,1,Select the type of skylight that needs to be repaired.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1047
+1063,5009,Framing to be Repaired,TRUE,1,1,What type(s) of framing needs repair? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1048
+1064,5010,Dry Rot or Water Damage,TRUE,2,1,Is the repair needed due to dry rot or water damage?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1048
+1065,4571,Repairs Needed,TRUE,1,1,What needs to be done? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1049
+1066,1553,Reasons for Damage,TRUE,2,1,How was your finish trim damaged?  (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1049
+1067,5178,Type of Project,TRUE,1,1,What kind of project is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1050
+1068,5179,Style of Metal Ceiling,TRUE,2,1,What style of metal ceiling do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1050
+1069,5181,Type of Metal Desired,TRUE,3,1,What kind of metal do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1050
+1070,1603,Reason for Repair,TRUE,1,1,Why do you need to repair your acoustic ceiling?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1051
+1071,1192,Repair description,TRUE,2,1,What is damaged?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1051
+1072,1194,Number of damaged tiles,TRUE,3,1,Enter the number of tiles needing to be repaired or replaced.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1051
+1073,500741,Project Description,TRUE,1,1,What best describes this door project?,What best describes this door project?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1059
+1074,500742,Type of Door,TRUE,2,1,What type of door would you like installed?,What type of door would you like installed?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1059
+1076,500641,How many doors do you want installed or replaced?,TRUE,4,1,How many doors do you want installed or replaced?,How many doors do you want installed or replaced?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1059
+1080,5048,Repair Needs,TRUE,2,1,What problem do you need repaired? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1055
+1081,5079,Type of Garage Door,TRUE,3,1,What type of door needs to be repaired?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1055
+1082,5047,Type of Garage Door,TRUE,4,1,Of what material  is your damaged garage door made?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1055
+1087,1508,Repair needed,TRUE,1,1,Select any of the following shower door repairs needed. (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1057
+1088,1509,Purpose of enclosure,TRUE,2,1,What is the door or enclosure used for?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1057
+1089,5185,Storm Door Style,TRUE,1,1,What style storm door do you want? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1058
+1090,5188,Options,TRUE,2,1,Select any options you would like. (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1058
+1091,5028,Sliding Door Supplier,TRUE,3,1,Who will supply the sliding door?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1059
+1092,5029,Areas of Damage,TRUE,1,1,What part(s) of the door or frame are damaged?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1060
+1093,5753,Install or Replace,TRUE,1,1,Do you want to install a new garage door opener or replace an existing garage door opener?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1061
+1094,5038,Type of Garage Door,TRUE,2,1,For which kind of garage door do you need an opener?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1061
+1095,5039,Kind of Doors,TRUE,3,1,What kind of doors are they?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1061
+1096,5040,Door Materials,TRUE,4,1,Of what are the doors made?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1061
+1097,6908,Options Sought,TRUE,5,1,What additional options would you like with your system?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1061
+1098,5046,Repair Needs,TRUE,1,1,What needs to be repaired? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1062
+1099,500000,Type of Garage Door,TRUE,3,1,What type of garage door is this? (Select all that apply),Type of Garage Door,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1064
+1100,502528,# of doors,TRUE,5,1,How many doors are included in this project?,How many doors are included in this project?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1063
+1101,502933,What type of spring system do you have?,TRUE,2,1,What type of spring system do you have?,What type of spring system do you have?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1064
+1104,5153,Lockset Problem,TRUE,1,1,What is the lockset problem?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1066
+1105,5150,Type of Locks,TRUE,2,1,Which types of lock(s) do you need repaired? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1066
+1106,5034,Floor of screen installation,TRUE,1,1,On what floor(s) will the screens be installed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1067
+1107,5030,Kind of Screen,TRUE,2,1,What kind of screening do you need? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1067
+1108,500680,Quantity Needed,TRUE,3,1,How many doors or windows will need screens?,Quantity Needed,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1067
+1109,502225,Project Description,TRUE,1,1,What best describes this mirror project?,What best describes this mirror project?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1069
+1110,1372,Features selected,TRUE,2,1,Tell us the type(s) of mirror you would like installed. (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1068
+1111,1375,Removal of Old Mirrors,TRUE,3,1,Would you like any old mirrors removed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1068
+1112,1378,Description of Mirror,TRUE,2,1,Which of these describes the mirror needing repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1069
+1115,4575,Kind of Repair,TRUE,1,1,What is the nature of the repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1071
+1116,5723,Location of Awning/Patio Cover,TRUE,2,1,Where is the awning or patio cover installed? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1071
+1117,4565,Style,TRUE,2,1,What style of awning do you want? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1072
+1118,500701,Already Purchased:,TRUE,1,1,Have you already purchased the blinds or shades for this project?,Have you already purchased the blinds or shades for this project?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1085
+1119,1084,Rooms in Need of Blinds/Shades,TRUE,1,1,In which rooms would you like to install blinds or shades? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1082
+1121,1090,Special features requested,TRUE,3,1,Select any special features you want to have installed.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1085
+1122,5231,Repairs Needed,TRUE,1,1,Check any repairs/service needed,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1084
+1123,5230,Style of Blind,TRUE,2,1,What style of blind/shade needs repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1075
+1124,200811,Materials Provided by Customer,TRUE,1,1,Do you plan to provide the drapes or curtains for this project?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1076
+1125,1350,Rooms for Drapery Installation,TRUE,2,1,In which rooms do you wish to install draperies? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1076
+1126,1352,Selected features,TRUE,3,1,Select any drapery features you want.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1076
+1127,1357,Repair needed,TRUE,1,1,List any repair you need for your drapes.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1077
+1128,200812,Materials Provided by Customer,TRUE,1,1,Do you plan to provide the indoor shutters for this project?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1078
+1129,501645,# of Shutter Sets,TRUE,2,1,How many sets of shutters are needed?,How many sets of shutters are needed?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1078
+1130,4731,Louver size,TRUE,3,1,What louver size do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1078
+1131,4736,Type of Repair,TRUE,1,1,What kind of repair is needed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1079
+1132,4889,Number of Windows,TRUE,1,1,How many windows do you want to apply window tinting to?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1080
+1133,4890,Reason for Tinting,TRUE,2,1,Why do you want your windows tinted? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1080
+1134,4729,Problem,TRUE,1,1,Which of the following repairs are needed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1081
+1135,1098,ShuttersOperable or Fixed,TRUE,2,1,Are the shutters operable or fixed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1081
+1136,1086,Window mount type,TRUE,2,1,What type of mount will these windows be?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1082
+1137,5229,What Needs Repairing/Servicing,TRUE,1,1,Check all repairs/servicing details you need,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1083
+1138,503195,What style of vertical blind needs repair?,TRUE,2,1,What style of vertical blind needs repair?,What style of vertical blind needs repair?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1084
+1139,503197,What type of vertical blinds do you want installed?,TRUE,2,1,What type of vertical blinds do you want installed?,What type of vertical blinds do you want installed?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1085
+1140,4726,Window Size,TRUE,1,1,Select the window sizes for which you need shutters.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1086
+1141,4727,Material and Finish,TRUE,2,1,What type of material and finish do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1086
+1142,4728,Match Existing Shutters,TRUE,3,1,Do the shutters need to match existing shutters?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1086
+1146,500160,Kind of Heater,TRUE,2,1,What kind of tankless water heater do you want installed?,What kind of tankless water heater?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1088
+1147,1137,Heat Source for Hot Water,TRUE,3,1,What is the heat source for the water heater?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1089
+1148,6200,Type of Project,TRUE,1,1,What type of plumbing project do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1090
+1149,6201,Plumbing Fixtures Needed,TRUE,3,1,What plumbing fixtures do you want installed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1090
+1150,6202,Appliances Needed,TRUE,4,1,What appliances do you need installed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1090
+1151,4228,Wall Access,TRUE,5,1,Describe the wall access.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1090
+1152,5506,Existing Gas Piping,TRUE,6,1,"If installing gas appliances, is there existing gas piping into the home?",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1090
+1153,4161,Scope of Work,TRUE,2,1,What describes the scope of the work? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1091
+1154,4162,Appliances in Need of Gas,TRUE,3,1,Which appliance(s) need gas?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1091
+1157,4878,Service Needs,TRUE,2,1,Why do you need service? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1093
+1158,4578,Need for Sump Pump,TRUE,1,1,Why do you need a sump pump?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1094
+1159,4579,Electric power nearby?,TRUE,2,1,Is there electric power near the proposed pump location?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1094
+1160,4585,Problem Description,TRUE,2,1,What best describes the problem?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1095
+1163,5747,Nature of Project,TRUE,2,1,Describe the nature of the project.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1097
+1164,5750,Reason for Service,TRUE,3,1,"Why do you need a sewer pipe to be installed, replaced or repaired? (Select all that apply)",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1097
+1165,5751,Distance to Street (ft.),TRUE,4,1,How many feet is the home from the street,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1097
+1166,4169,Other drains clogged,TRUE,2,1,"If you turn on faucets at other locations in the house, are any of those drains clogged as well?",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1098
+1167,5805,Reason for Camera,TRUE,3,1,Why do you need a camera to diagnose your plumbing problems? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1098
+1168,4171,Problems,TRUE,2,1,Select the problem(s) you are having with your sewer system.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1099
+1169,336,Items in Home,TRUE,2,1,Which of the following items do you have in your home? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1100
+1170,342,Septic System Problems,TRUE,2,1,Select all of the problems you are experiencing with your septic system.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1102
+1171,4149,Time of Last Septic Cleaning,TRUE,3,1,When was the last time the septic tank was cleaned out?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1102
+1172,4168,Problem(s),TRUE,3,1,Select the problems you are having with your drain?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1103
+1175,4224,Repair Needed,TRUE,1,1,What type of water treatment service or repair is needed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1105
+1177,4482,Repairs Needed,TRUE,1,1,What needs to be repaired?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1107
+1178,5686,Building Use,TRUE,2,1,What is the building used for?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1107
+1179,4480,Type of Outbuilding,TRUE,3,1,"What kind of barn, shed, or playhouse do you have?",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1107
+1182,4644,Kind of stairs,TRUE,2,1,What kind of stairs need repair? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1109
+1183,4645,Problem(s),TRUE,2,1,What is the problem? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1109
+1184,4608,Type of Stairs,TRUE,1,1,Please enter the type of stairs (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1111
+1185,4610,Type of Material,TRUE,3,1,Please enter the type of material (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1111
+1186,4612,Width of Stairs,TRUE,4,1,How wide are the stairs you want built?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1110
+1187,4617,Description of Problem,TRUE,2,1,What is the problem? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1111
+1190,7165,Maintenance Frequency,TRUE,2,1,How often would you like the lawn maintained?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1113
+1191,7167,Estimated Size of Lawn,TRUE,3,1,What is the estimated size of your lawn?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1113
+1192,6209,Lawn Care Services Needed,TRUE,2,1,What lawn care services are needed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1114
+1193,6210,Lawn area in square feet,TRUE,3,1,What is the approximate size of your lawn area?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1117
+1194,6295,type of service,TRUE,2,1,What type of Aeration Service do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1115
+1195,6296,Lawn area in square feet,TRUE,3,1,What is the approximate size of your lawn area?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1115
+1196,6360,Recurring Service Requested,TRUE,3,2,Will this request be a recurring service?,,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,1118
+1197,501584,Type of project:,TRUE,2,1,What type of lawn seeding project is this?,What type of lawn seeding project is this?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1117
+1198,6356,Lawn area in square feet,TRUE,1,1,What is the square footage of your lawn?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1118
+1199,7185,Size of area needing sod,TRUE,2,1,What is the estimated size of the area needing sod?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1119
+1200,1169,Grading required,TRUE,3,1,Does the area need to be graded before top soil and sod is placed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1119
+1201,1170,Old surface removal,TRUE,4,1,What existing surfaces have to be removed before the sod is installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1119
+1202,5433,Areas to be Landscaped,TRUE,3,1,Which areas do you want to be landscaped? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1120
+1205,6907,Select the type of heating system(s) you are currently using. (Check all that apply),TRUE,3,1,Select the type of heating system(s) you are currently using. (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1122
+1206,7736,Timing,TRUE,1,2,What is the timing for this request?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1125
+1207,7835,On-going,TRUE,2,2,Is this a service you need on a regular basis?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1125
+1208,7738,Type of Business,TRUE,3,2,What type of business is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1125
+1209,7739,For how many locations/units is this request?,TRUE,4,2,For how many locations/units is this request?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1125
+1210,5532,Recharged with Refrigerant,TRUE,4,1,Has your air conditioner ever needed to be recharged with refrigerant (freon)?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1125
+1211,502605,"For installs, what type is it?",TRUE,2,1,"For installs, what type is it?","For installs, what type is it?",0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1126
+1212,502606,"For installs, have you already purchased the dishwasher?",TRUE,2,1,"For installs, have you already purchased the dishwasher?","For installs, have you already purchased the dishwasher?",0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1127
+1213,502625,"For installs, have you already purchased the freezer?",TRUE,2,1,"For installs, have you already purchased the freezer?","For installs, have you already purchased the freezer?",0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1129
+1214,502626,What kind of installation is this?,TRUE,1,1,What kind of installation is this?,What kind of installation is this?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1130
+1215,502627,Is the new hood vented?,TRUE,2,1,Is the new hood vented?,Is the new hood vented?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1130
+1216,502628,Have you already purchased the range hood?,TRUE,3,1,Have you already purchased the range hood?,Have you already purchased the range hood?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1130
+1217,502645,What kind of dryer is it?,TRUE,1,1, What kind of dryer is it?,What kind of dryer is it?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1131
+1218,502646,"For installs, have you already purchased the dryer?",TRUE,3,1," For installs, have you already purchased the dryer?","For installs, have you already purchased the dryer?",0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1131
+1219,502734,Have you already purchased the gargabe disposal for this project?,TRUE,2,1,Have you already purchased the gargabe disposal for this project?,Have you already purchased the gargabe disposal for this project?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1132
+1220,502735,Where will the garbage disposal be located?,TRUE,3,1,Where will the garbage disposal be located?,Where will the garbage disposal be located?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1132
+1221,501527,Location of Lights,TRUE,3,1,Where are the lights that need to be repaired?,Where are the lights that need to be repaired?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1133
+1222,501528,Number of Lights,TRUE,4,1,How many lights need to be repaired?,How many lights need to be repaired?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1133
+1223,501525,Location of Lights,TRUE,2,1,Where do you want the lighting installed / replaced?,Where do you want the lighting installed / replaced?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1134
+1224,501526,Number of Lights,TRUE,3,1,How many lights do you need installed / replaced?,How many lights do you need installed / replaced?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1134
+1225,502567,What material is your sink made of?,TRUE,2,1,What material is your sink made of?,What material is your sink made of?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1136
+1226,502568,Where is the sink located?,TRUE,3,1,Where is the sink located?,Where is the sink located?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1136
+1227,502569,How is the sink mounted?,TRUE,4,1,How is the sink mounted?,How is the sink mounted?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1136
+1228,502585,Why do you need a new shower pan?,TRUE,1,1,Why do you need a new shower pan?,Why do you need a new shower pan?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1137
+1229,502586,What type of shower is it?,TRUE,3,1,What type of shower is it?,What type of shower is it?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1137
+1230,502587, What material is the shower surround made of?,TRUE,4,1, What material is the shower surround made of?, What material is the shower surround made of?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1137
+1233,503273,What type of work do you need done?,TRUE,1,1,What type of work do you need done?,What type of work do you need done?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1139
+1234,503295,What do you need help with?,TRUE,1,1,What do you need help with?,What do you need help with?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1140
+1235,503333,How many boxes do you need flattened and recycled?,TRUE,1,1,How many boxes do you need flattened and recycled?,How many boxes do you need flattened and recycled?,0,0,,FALSE,FALSE,-9999,TRUE,TRUE,1141
+1236,5431,Design Preparation,TRUE,3,1,What type of design preparation has been done?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,638
+1237,160807,Covered by Insurance,TRUE,3,2,Is this request covered by an insurance claim?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1220
+1238,500560,Why do you need to install a new ceiling?,TRUE,1,1,Why do you need to install a new ceiling?,Why do you need to install a new ceiling?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1172
+1239,1186,Specific characteristics selected,TRUE,2,1,Select all of the specific characteristics you are looking for.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1172
+1240,4860,Reason for Antenna,TRUE,1,1,Why do you need an antenna installed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1173
+1241,4861,Frequencies,TRUE,2,1,What kind of frequencies do you want to receive? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1173
+1242,4862,Surrounding Terrain,TRUE,3,1,What is your surrounding terrain? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1173
+1243,4863,Weather Conditions,TRUE,4,1,"Check the extreme weather conditions you frequently experience, if any.",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1173
+1244,4144,Appliance(s) Needing Paint/Refinish,TRUE,1,1,Which appliance(s) do you need painted/refinished? (Check all that apply.),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1174
+1245,4143,New Paint or Touch Up,TRUE,2,1,How do you want the appliance painted?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1174
+1246,4180,Purpose of Appraisal,TRUE,1,1,What is the purpose of this appraisal? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1175
+1247,501624,Size of property,TRUE,2,1,Estimated size of the home or property to be appraised:,Estimated size of the home or property to be appraised:,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1175
+1248,502185,Requester,TRUE,3,1,I'm requesting this appraisal as the:,I'm requesting this appraisal as the:,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1175
+1249,4182,Desired Timing of Appraisal,TRUE,1,2,How soon do you need the results of the appraisal?,,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,1175
+1250,160806,Special Features for Roof,TRUE,2,1,Which special features would you like for your roof?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1176
+1251,5500,Roof Elements,TRUE,4,1,Which of these elements are included on your roof? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1177
+1252,5367,Function of Fence,TRUE,1,1,What primary function will the fence serve?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1178
+1253,836,Electrify barbed wire,TRUE,2,1,Do you want to electrify your barbed wire fence?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1178
+1254,5574,Type of Insulation,TRUE,1,1,What kind(s) of insulation do you want installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1180
+1255,1089,Type of Blind/Shade,TRUE,3,1,Which type of blinds would you like to have installed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1181
+1256,6325,Location,TRUE,2,1,Where do you want to install the Built-In?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1184
+1257,6326,Desired Material,TRUE,3,1,What type of material do you prefer?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1184
+1258,6327,Features Desired,TRUE,4,1,What features would you like?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1184
+1259,7050,Material Requested,TRUE,1,1,What type of material are you interested in? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1182
+1260,4093,Pattern,TRUE,2,1,In what pattern is the masonry to be laid?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1182
+1261,5476,Function,TRUE,3,1,What is the function?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1182
+1262,4097,Type of Stone,TRUE,1,1,What type of stone needs repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1183
+1263,6990,Type of Area,TRUE,2,1,What type of area needs repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1183
+1264,4098,Description of Problem,TRUE,3,1,Describe the problem(s) you need repaired.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1183
+1265,1059,Stories of Home,TRUE,3,1,How many stories is your home?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1245
+1266,70000,Financing Requested,TRUE,5,2,Do you need financing?,Do you need financing?,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,1235
+1267,6324,Type of Built-In,TRUE,1,1,What kind of Built-In furniture would you like?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1184
+1268,705,Project drawings,TRUE,1,1,Are there architectural or structural drawings for your project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1185
+1269,706,Framing Material,TRUE,2,1,What type of framing material is specified?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1185
+1270,5376,Framing Needs,TRUE,3,1,Which projects best describe your framing needs? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1185
+1271,6232,Materials Provided by Customer,TRUE,3,1,Have you already purchased the carpet for this project?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1186
+1272,6971,Kind of Project,TRUE,4,1,What kind of carpet installation is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1186
+1273,6972,Rooms of Project,TRUE,5,1,Where will the carpet be installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1186
+1274,858,Select Repair Type,TRUE,2,1,Select the best description of the kind of repair you need (Select all that apply):,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1187
+1275,5507,Desired Services,TRUE,1,1,What services do you want? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1188
+1276,500642,How many chimney flues need cleaning?,TRUE,2,1,How many chimney flues need cleaning?,How many chimney flues need cleaning?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1188
+1277,1209,Burning Device/Fireplace,TRUE,3,1,What type of fireplace or burning device do you use?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1188
+1278,4055,Type of Surface,TRUE,1,1,Which concrete surfaces do you want to have installed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1189
+1279,502853,Type of Project,TRUE,2,1,What type of concrete driveway or floor project is this? (Check all that apply),Type of Project,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1189
+1280,7042,Location of Repair/Resurface,TRUE,1,1,What is the location of the concrete repair/resurface project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1190
+1281,4061,Damage Description,TRUE,2,1,What best describes the damage to your concrete?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1190
+1282,7048,Surface Location,TRUE,1,1,What type of concrete surface will the coating be applied to? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1191
+1283,5901,Area of Coverage,TRUE,2,1,How much surface area do you wish to have covered?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1191
+1284,5902,Existing Coatings,TRUE,3,1,Are there any existing coatings on the surface?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1191
+1285,5900,Surface Condition,TRUE,4,1,What is the current condition of the surface?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1191
+1286,5576,Purpose of Foundation,TRUE,1,1,What is the purpose of the foundation?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1192
+1287,797,Structural drawings exist for project,TRUE,2,1,Are there completed structural drawings for this project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1192
+1288,5446,Type of Foundation,TRUE,3,1,What kind of concrete foundation do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1192
+1289,695,Nature of the repair,TRUE,2,1,What kind of repair or maintenance do you need for your deck?  (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1194
+1290,500743,Already Purchased,TRUE,5,1,Have you already purchased the door(s) for this project?,Have you already purchased the door(s) for this project?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1195
+1291,5702,Nature of Project,TRUE,1,1,Is this a new installation or repair of an existing waterproof drywell?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1196
+1292,4550,What is the Dry Well to Drain,TRUE,2,1,What do you want the dry well to drain?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1196
+1293,511,Purpose of Excavation,TRUE,1,1,What is the excavating or grading for? (Select any that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1197
+1294,200452,Request for Commercial Location,TRUE,2,1,Is this a commercial location?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1197
+1295,512,Site surveyed for underground utility lines,TRUE,3,1,Has the site been surveyed for any existing underground utility line locations?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1197
+1296,5700,Nature of Project,TRUE,1,1,Is this a new installation or repair of an existing foundation drainage system?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1199
+1297,7085,Reason for Drains,TRUE,2,1,Why do you need foundation drains installed or replaced? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1199
+1298,7174,Type of Repair,TRUE,1,1,What type of repair is needed?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1200
+1299,7175,Material type,TRUE,2,1,What material type is in need of repair?,,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,1200
+1300,7176,Furniture Type,TRUE,3,1,What kind of furniture needs to be repaired?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1200
+1301,5588,Kind of Garage Door,TRUE,1,1,Which kind of garage door do you need?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1201
+1302,5077,Type of garage door,TRUE,2,1,What type of garage door would you like? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1201
+1303,5078,Need garage door opener?,TRUE,3,1,Do you want a garage door opener installed with your new garage door?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1201
+1304,4504,Repairs to be Done,TRUE,1,1,What work needs to be done? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1202
+1305,1483,Type of enclosure,TRUE,1,1,Choose the kind of glass shower doors you need installed.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1203
+1306,1485,Glass Type,TRUE,2,1,What type of glass?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1203
+1307,1486,Configuration,TRUE,3,1,What best describes the configuration of the unit?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1203
+1308,1484,Door and Panel Types,TRUE,4,1,What type of door and panel(s)?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1203
+1309,4497,Service Needed,TRUE,1,1,What kind of service do you need? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1204
+1310,354,Number of Stories,TRUE,3,1,How many stories is your home?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1241
+1311,501924,Will you provide lights?,TRUE,2,1,Will you be providing the holiday lights?,Will you be providing the holiday lights?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1205
+1312,200201,Decorative Elements Desired,TRUE,3,1,What decorative elements will be included?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1205
+1313,6342,Type of project,TRUE,1,1,What type of project is this?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1206
+1314,6343,Items to be integrated,TRUE,2,1,What components would you like to have integrated?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1206
+1315,6775,Project Description,TRUE,1,1,What is the nature of this project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1207
+1316,6776,Listing date,TRUE,2,1,When will your house go on the market?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1207
+1317,6777,Problem areas,TRUE,3,1,Which aspects of your home need attention?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1207
+1318,6778,Years of residence,TRUE,4,1,How long have you lived in your home?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1207
+1319,502676,Inspection type,FALSE,2,1,What type of inspection do you need?,What type of inspection?,0,0,,FALSE,FALSE,-9999,TRUE,TRUE,1208
+1320,4303,Part of real estate sale,TRUE,3,1,Is this home inspection a part of a real estate sale or closing process?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1208
+1321,200137,Type of Synthetic Grass,TRUE,1,1,What type of synthetic grass would you like to install?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1209
+1322,7187,Approx. Size,TRUE,2,1,What is the approximate size of the area you would like to install the synthetic grass?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1209
+1323,5101,Features,TRUE,3,1,Select all the features for your laminate countertop.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1210
+1324,5519,Nature of Project,TRUE,1,1,What is the nature of this project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1211
+1325,1175,Items needing to be watered,TRUE,2,1,Indicate which items will need to be watered with this system.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1211
+1326,4157,Any Trenching,TRUE,3,1,Will the sprinkler lines need to be trenched under any driveways or pathways?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1211
+1327,4156,Time Clock,TRUE,4,1,Will the system need to be controlled by a time clock?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1211
+1328,1178,Problem description,TRUE,3,1,Select all problems you are having with your sprinkler system.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1212
+1329,6889,What type of project is this?,TRUE,1,1,What type of project is this?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1245
+1330,4609,Stair Construction,TRUE,2,1,How will the stairs be constructed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1246
+1331,7017,Kind of Project,TRUE,1,1,What kind of project is this?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1213
+1332,200438,Materials Provided by Customer,TRUE,2,1,Have you already purchased the tile for this project?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1213
+1333,5331,Type of Stone,TRUE,3,1,What kind of stone would you like installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1213
+1334,5490,Location of Tile Installation,TRUE,4,1,Where would you like to install stone tiles? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1213
+1335,5332,Stone Size,TRUE,5,1,What size stone would you like installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1213
+1336,4023,Describe Problem,TRUE,1,1,What best describes the  problem?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1214
+1337,4022,Type of Repair Needed,TRUE,2,1,What type of landscape lighting needs repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1214
+1338,4930,Children's ages,TRUE,1,1,What are the ages of the children who will be using this equipment?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1215
+1339,4931,Number using equipment,TRUE,2,1,How many children will be using the equipment at the same time?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1215
+1340,4934,Special features,TRUE,3,1,What features/activities would you like included? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1215
+1341,4999,Kind of Project,TRUE,1,1,What kind of project is this? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1216
+1342,5002,Stage of Project,TRUE,2,1,Where are you in the process? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1216
+1343,5003,Extraordinary Issues,TRUE,3,1,Are there any extraordinary issues to consider? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1216
+1344,4391,Rodent Types,TRUE,1,1,What type of rodents do you need controlled?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1217
+1345,1229,Specific Problem,TRUE,2,1,What is the specific rodent control problem?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1217
+1346,1556,Types of Construction Work,TRUE,1,1,What type of construction work are you having done?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1218
+1347,783,Items to be Cleaned,TRUE,2,1,Select the items in your home that need dusting and cleaning. (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1218
+1348,782,Windows Cleaned Inside and Out,TRUE,3,1,"Do you want the windows cleaned, inside and out?",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1218
+1349,4304,Use of Wall,TRUE,3,1,What is the purpose of the concrete wall?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1219
+1350,7116,Applications and Finishes,TRUE,4,1,Select any special applications or finishes you would like for this project.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1219
+1351,6886,Select the type of roofing material you want:,TRUE,2,1,Select the type of roofing material you want:,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1220
+1415,5315,Gutter Style,TRUE,1,1,What style of gutter do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1244
+1352,5064,Purpose of Sealant,TRUE,1,1,What is the purpose for the roof sealant treatment? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1221
+1353,5067,Stories of Home,TRUE,2,1,How many stories is your home?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1221
+1354,500764,Project Description,TRUE,1,1,What best describes this gutter project?,What best describes this gutter project?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1222
+1355,4659,Type of security bars,TRUE,2,1,What type of security bars  do you need?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1223
+1356,4660,Location of Bars,TRUE,2,1,Where do you want security bars installed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1223
+1357,4972,Reason for Installation,TRUE,1,1,What are your reasons for installing security/storm shutters? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1224
+1358,4976,Floor in house of installation,TRUE,2,1,On what floors will the security shutter be installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1224
+1359,4400,Fabricate what?,TRUE,1,1,What do you want fabricated?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1225
+1360,4401,Kind of Metal,TRUE,2,1,What kind of metal do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1225
+1361,4402,How sealed?,TRUE,3,1,How do you want it sealed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1225
+1362,4403,Copper coated?,TRUE,4,1,"If copper, do you want a coating added to retain or change color?",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1225
+1363,4636,Number of People to use Shelter,TRUE,1,1,How many people will the shelter protect?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1226
+1364,4637,Shelter Material,TRUE,2,1,Of what material would you like the shelter made?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1226
+1365,4638,Installation Location,TRUE,3,1,Where will the shelter be installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1226
+1366,4639,Features,TRUE,4,1,What features do you want in your shelter?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1226
+1367,5545,Style of Flooring,TRUE,2,1,What style of laminate flooring would you like?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1227
+1368,5303,Rooms of Project,TRUE,3,1,In which rooms would you like to install new flooring? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1227
+1369,5102,Type of Countertop,TRUE,3,1,What kind of solid countertop material do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1228
+1370,5103,Features,TRUE,4,1,Select the features for your solid countertop. (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1228
+1371,4522,Deliver beam?,TRUE,3,1,Would you like the beam delivered to the job site?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1229
+1372,7585,Pool Provided by Customer,TRUE,1,1,Have you already purchased the pool for this project?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1230
+1373,7586,Type of pool install,TRUE,2,1,What type of above ground pool do you want installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1230
+1374,7587,Shape of pool,TRUE,3,1,What shape of above ground pool do you want installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1230
+1375,7588,Remove Old Pool,TRUE,4,1,Will you need an old pool removed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1230
+1376,7589,Pool features,TRUE,5,1,Select any pool features you are interested in:,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1230
+1377,7590,Type of Pool,TRUE,1,1,What type of pool needs the vinyl liner replaced?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1231
+1378,7591,Shape of pool,TRUE,2,1,What shape of pool is involved?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1231
+1379,500080,Type of heat source ,TRUE,2,1,What type of heat source do you want?,Type of heat source,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1236
+1380,4122,Type of Surface Wanted,TRUE,1,1,What type of sport surface do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1232
+1381,4123,Type of Court Surface,TRUE,2,1,What type of court surfacing are you interested in?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1232
+1382,6236,Kind of Project,TRUE,1,1,What kind of project is this?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1233
+1383,6237,Materials Provided by Customer,TRUE,2,1,Have you already purchased the tile for this project?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1233
+1384,6238,Location of Tile Installation,TRUE,3,1,Where will the tile be installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1233
+1385,6239,Type of Tile,TRUE,4,1,What type of tile do you want to have installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1233
+1386,6241,Approx. Square Footage,TRUE,5,1,What is the approximate square footage of the area to be tiled?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1233
+1387,6242,Borders,TRUE,6,1,Do you want any special borders or patterns?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1233
+1388,501549,Tested for Mold,TRUE,2,1,Has the property been tested for mold?,Has the property been tested for mold?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1234
+1389,501551,Reason for Removal,TRUE,3,1,Select the reason(s) for removing the mold:,Select the reason(s) for removing the mold:,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1234
+1390,501550,Location of Mold,TRUE,4,1,Where is the mold located?,Where is the mold located?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1234
+1391,4235,Pond location,TRUE,1,1,Where do you want to add a pond?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1235
+1392,4236,Pond size,TRUE,2,1,How big do you want your pond? (In sq. ft.),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1235
+1393,4238,Pond Features,TRUE,3,1,What other features would you like to have incorporated in your pond?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1235
+1394,5599,Type of Water Heater,TRUE,1,1,What kind of water heater do you want installed?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1236
+1395,5601,Location of Installation,TRUE,4,1,Where will the water heater be installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1236
+1396,5741,Nature of Project,TRUE,2,1,Describe the nature of the project.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1237
+1397,5743,Reason for Service,TRUE,3,1,"Why do you need a sewer pipe installed, replaced or repaired? (Select all that apply)",,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1237
+1398,4797,Purpose of tank,TRUE,1,1,What is the purpose of the tank?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1238
+1399,4798,Location of tank,TRUE,2,1,What will be the location of the tank?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1238
+1400,4800,Tank Type,TRUE,3,1,What kind of tank will it be?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1238
+1401,4223,Equipment Needed,TRUE,1,1,What best describes the type of water treatment equipment needed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1239
+1402,4220,Water odor or strange taste?,TRUE,2,1,Does your water have strange odor or taste?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1239
+1403,4871,What kind of power,TRUE,1,1,Do you need single or three phase power?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1240
+1404,4872,Power Supply Voltage,TRUE,2,1,What voltage is your power supply?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1240
+1405,5580,How Cleaned,TRUE,1,1,How do you want them cleaned?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1241
+1406,5581,Screens to be Cleaned,TRUE,2,1,Do you have screens to be removed and cleaned also?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1241
+1407,5582,Schedule Routine Cleaning,TRUE,4,1,Would you like to schedule routine window washing?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1241
+1408,4643,Features,TRUE,1,1,Which of these features are important to you?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1242
+1409,4640,Material of Cover,TRUE,2,1,Of what material do you want your window well cover constructed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1242
+1410,500767,# of window wells,TRUE,3,1,How many window well covers do you need?,How many window wells covers do you need?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1242
+1411,500869,Project Description:,TRUE,2,1,What best describes this flooring project?,What best describes this flooring project?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1243
+1412,500828,Type of Wood Flooring,TRUE,3,1,Select the type of wood flooring you would like to install:,Select the type of wood flooring you would like to install:,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1243
+1413,7643,Have you already purchased the materials for this project?,TRUE,4,1,Have you already purchased the materials for this project?,,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1243
+1414,500925,Rooms Included:,TRUE,5,1,Select the rooms involved in this flooring project:,Select the rooms involved in this flooring project:,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1243
+1416,5316,Gutter Size,TRUE,2,1,What size gutter would you like?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1244
+1417,5726,Type of Siding,TRUE,2,1,What kind of siding do you want to have installed?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1245
+1418,4631,Type of Stairs,TRUE,1,1,What kind of stairs do you want installed? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1246
+1419,5399,Why Power Washing is Needed,TRUE,3,1,Why do you need power/pressure washing?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1250
+1420,6943,Type of Ductwork Project,TRUE,1,1,What is the nature of the ductwork project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1247
+1421,6944,Type of System,TRUE,2,1,What type of system is the ductwork for? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1247
+1422,6945,Number of rooms/areas needing registers,TRUE,3,1,How many rooms/areas need registers?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1247
+1423,3090,Problem Description,TRUE,1,1,What best describes the problem?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1248
+1424,3089,Electric wall heater type of repair,TRUE,3,1,What type of electric wall heating needs repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1248
+1425,4352,Electrical Devices,TRUE,4,1,Which types of electrical devices will you need wired?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1249
+1426,1217,Description of area,TRUE,2,1,Select the area or item(s) needing power washing.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1250
+1427,500682,Location of Awning,TRUE,1,1,Where will the awning(s) or patio cover be installed?,Where will the awning(s) or patio cover be installed?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1255
+1428,200155,Nature of Work,TRUE,3,1,What is the nature of the work to be done? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,TRUE,1251
+1429,501644,Amount of work,TRUE,4,1,Describe the amount of work you need to have done:,Describe the amount of work you need to have done:,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1251
+1430,4717,Install or Replace,TRUE,1,1,Are you installing a new heat pump or replacing an old one?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1252
+1431,4719,Heat pump type wanted,TRUE,2,1,What type of heat pump do you want?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1252
+1432,4718,Heating System Type,TRUE,3,1,Select the type of heating system you are using.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1252
+1433,6195,Services Needed,TRUE,3,1,What services do you need? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,714
+1434,4006,Describe area around home,TRUE,1,1,What best describes the immediate area of your home?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1253
+1435,4005,Square footage of house,TRUE,2,1,What is the square footage of your home?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1253
+1436,4007,Number of Stories,TRUE,3,1,How many stories is your home?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1253
+1437,501096,Type of Lock,TRUE,1,1,Where do you need service?,Where do you need service?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1254
+1438,501095,Type of Service,TRUE,3,1,What type of lock service do you need?,What type of lock service do you need?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1254
+1439,5721,Features,TRUE,2,1,What features do you want included in your awning or patio cover? (Select all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1255
+1440,503293,How many hours would you like to hire someone for?,TRUE,1,1,How many hours would you like to hire someone for?,How many hours?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1256
+1441,503294,Would you like help with loading/unloading?,TRUE,1,2,Would you like help with loading/unloading?,Would you like help with loading/unloading?,0,0,,TRUE,FALSE,-9999,TRUE,TRUE,1256
+1442,1701,Consumer Owns Home,TRUE,5,2,Do you own the home for this request?,Do you own the home for this request?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1260
+1443,4251,New or replacement?,TRUE,1,1,Are you installing a new radiant heat system or replacing an old one?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1258
+1444,4246,Current System,TRUE,2,1,Select the type of heating system you are currently using.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1258
+1445,6948,Square Footage,TRUE,3,1,What is the square footage of the area the system will serve?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1258
+1446,6949,Number of rooms to be heated,TRUE,4,1,How many rooms need radiant floor heating?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1258
+1447,5205,Why repair,TRUE,2,1,Why does it need repairing? (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1259
+1448,5203,Kind of Glass,TRUE,3,1,What kind of glass piece needs repair?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1259
+1449,3059,Telephone Wiring Needs,TRUE,1,1,What describes your needs?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1260
+1450,500681,Telephone outlets needed:,TRUE,2,1,How many telephone outlets are needed?,Telephone outlets needed:,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1260
+1451,500602,How many outside lines do you need?,TRUE,3,1,How many outside lines do you need?,How many outside lines do you need?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1260
+1452,3063,Wall Access,TRUE,4,1,Describe the wall access.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1260
+1453,500640,In how many rooms do you want wallpaper installed?,TRUE,1,1,In how many rooms do you want wallpaper installed?,In how many rooms do you want wallpaper installed?,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1261
+1454,7817,Have you already purchased the materials for this project?,TRUE,2,1,Have you already purchased the materials for this project?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1261
+1455,1329,Preparation Needed,TRUE,3,1,Select all of the preparation you will need done. (Check all that apply),,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1261
+1456,1334,Problem Description,TRUE,1,1,Select any of the problems you need repaired.,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1262
+1457,1335,Extra Matching Wallcovering,TRUE,2,1,Do you have any extra matching wallcovering in storage?,,0,0,,FALSE,FALSE,-9999,TRUE,FALSE,1262
+1458,8373,Desired Project Start Date,TRUE,1,2,When do you want service?,,0,0,,TRUE,FALSE,-9999,TRUE,FALSE,899

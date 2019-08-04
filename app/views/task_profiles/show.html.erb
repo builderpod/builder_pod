@@ -1,0 +1,125 @@
+<div class="page-header">
+  <%= link_to task_profiles_path, class: 'btn btn-default' do %>
+    <span class="glyphicon glyphicon-list-alt"></span>
+    All Task_profiles
+  <% end %>
+  <%= link_to edit_task_profile_path(@task_profile), class: 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-pencil"></span>
+    Edit
+  <% end %>
+  <h1>Show task_profile</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Oid:</dt>
+  <dd><%= @task_profile.oid %></dd>
+
+  <dt>Name:</dt>
+  <dd><%= @task_profile.name %></dd>
+
+  <dt>Description:</dt>
+  <dd><%= @task_profile.description %></dd>
+
+  <dt>Xm descriptor:</dt>
+  <dd><%= @task_profile.xm_descriptor %></dd>
+
+  <dt>Matchable:</dt>
+  <dd><%= @task_profile.matchable %></dd>
+
+  <dt>Profileable:</dt>
+  <dd><%= @task_profile.profileable %></dd>
+
+  <dt>Es score:</dt>
+  <dd><%= @task_profile.es_score %></dd>
+
+  <dt>Default cost guide:</dt>
+  <dd><%= @task_profile.default_cost_guide_id %></dd>
+
+  <dt>Keywords:</dt>
+  <dd><%= @task_profile.keywords %></dd>
+
+  <dt>Text messaging name:</dt>
+  <dd><%= @task_profile.text_messaging_name %></dd>
+
+  <dt>Rollover long desc:</dt>
+  <dd><%= @task_profile.rollover_long_desc %></dd>
+
+  <dt>Rollover short desc:</dt>
+  <dd><%= @task_profile.rollover_short_desc %></dd>
+
+  <dt>Sector:</dt>
+  <dd><%= @task_profile.sector_id %></dd>
+
+  <dt>Meta description:</dt>
+  <dd><%= @task_profile.meta_description %></dd>
+
+  <dt>Html title:</dt>
+  <dd><%= @task_profile.html_title %></dd>
+
+  <dt>Content description:</dt>
+  <dd><%= @task_profile.content_description %></dd>
+
+  <dt>Pwc:</dt>
+  <dd><%= @task_profile.pwc_id %></dd>
+
+  <dt>Accept goal:</dt>
+  <dd><%= @task_profile.accept_goal %></dd>
+
+  <dt>Multi zip:</dt>
+  <dd><%= @task_profile.multi_zip %></dd>
+
+  <dt>Pre match type:</dt>
+  <dd><%= @task_profile.pre_match_type_id %></dd>
+
+  <dt>Bridge oid:</dt>
+  <dd><%= @task_profile.bridge_oid %></dd>
+
+  <dt>Bridge text:</dt>
+  <dd><%= @task_profile.bridge_text %></dd>
+
+  <dt>Bridge link text:</dt>
+  <dd><%= @task_profile.bridge_link_text %></dd>
+
+  <dt>Bridge link:</dt>
+  <dd><%= @task_profile.bridge_link_id %></dd>
+
+  <dt>Bridge active:</dt>
+  <dd><%= @task_profile.bridge_active %></dd>
+
+  <dt>Xm name:</dt>
+  <dd><%= @task_profile.xm_name %></dd>
+
+  <dt>Redirect to oid:</dt>
+  <dd><%= @task_profile.redirect_to_oid %></dd>
+
+  <dt>Sp display name:</dt>
+  <dd><%= @task_profile.sp_display_name %></dd>
+
+  <dt>Xm header descriptor:</dt>
+  <dd><%= @task_profile.xm_header_descriptor %></dd>
+
+  <dt>Url name:</dt>
+  <dd><%= @task_profile.url_name %></dd>
+
+  <dt>Consideration:</dt>
+  <dd><%= @task_profile.consideration_id %></dd>
+
+  <dt>Search keywords:</dt>
+  <dd><%= @task_profile.search_keywords %></dd>
+
+  <dt>Emc category oid:</dt>
+  <dd><%= @task_profile.emc_category_oid %></dd>
+
+  <dt>Primary question set:</dt>
+  <dd><%= @task_profile.primary_question_set_id %></dd>
+
+  <dt>Location specific:</dt>
+  <dd><%= @task_profile.location_specific %></dd>
+
+  <dt>Commercial:</dt>
+  <dd><%= @task_profile.commercial %></dd>
+
+  <dt>View first parent task:</dt>
+  <dd><%= @task_profile.view_first_parent_task %></dd>
+
+</dl>

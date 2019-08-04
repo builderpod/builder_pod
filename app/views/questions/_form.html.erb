@@ -1,0 +1,114 @@
+<%= form_with(model: question, local: true) do |form| %>
+  <% if question.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(question.errors.count, "error") %> prohibited this question from being saved:</h2>
+
+      <ul>
+      <% question.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= form.label :oid %>
+    <%= form.number_field :oid, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :question_id %>
+    <%= form.number_field :question_id, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :question_display_text %>
+    <%= form.text_area :question_display_text, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :display_to_sp %>
+    <%= form.check_box :display_to_sp, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :question_display_sequence %>
+    <%= form.number_field :question_display_sequence, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :page_number %>
+    <%= form.number_field :page_number, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :question_text %>
+    <%= form.text_area :question_text, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :short_question_text %>
+    <%= form.text_area :short_question_text, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :parent_question_id %>
+    <%= form.number_field :parent_question_id, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :parent_answer_id %>
+    <%= form.number_field :parent_answer_id, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :parent_question_text %>
+    <%= form.text_area :parent_question_text, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :required %>
+    <%= form.check_box :required, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :glossary_term %>
+    <%= form.check_box :glossary_term, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :default_answer %>
+    <%= form.number_field :default_answer, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :active %>
+    <%= form.check_box :active, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :attribute_match %>
+    <%= form.check_box :attribute_match, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :question_set_id %>
+    <%= form.text_field :question_set_id, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <% if question.persisted? %>
+      <div class="float-right">
+        <%= link_to 'Destroy', question, method: :delete, class: "text-danger", data: { confirm: 'Are you sure?' } %>
+      </div>
+    <% end %>
+
+    <%= form.submit class: 'btn btn-primary' %>
+
+    <% if question.persisted? %>
+      <%= link_to "Cancel", question, class: "btn btn-link" %>
+    <% else %>
+      <%= link_to "Cancel", questions_path, class: "btn btn-link" %>
+    <% end %>
+  </div>
+<% end %>

@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.1'
+# ruby '2.6.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
@@ -48,6 +48,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 end
 
 group :test do
@@ -82,3 +83,11 @@ gem 'sidekiq', '~> 5.1', '>= 5.1.3'
 gem 'sitemap_generator', '~> 6.0', '>= 6.0.1'
 gem 'webpacker', '~> 3.5', '>= 3.5.3'
 gem 'whenever', require: false
+gem 'geokit-rails'
+gem 'geocoder'
+gem 'ancestry'
+gem 'rubillow'
+gem 'gmaps-autocomplete-rails'
+gem 'active_model_serializers'
+gem 'searchkick'
+gem "select2-rails"

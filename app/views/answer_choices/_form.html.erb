@@ -1,0 +1,44 @@
+<%= form_with(model: answer_choice, local: true) do |form| %>
+  <% if answer_choice.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(answer_choice.errors.count, "error") %> prohibited this answer_choice from being saved:</h2>
+
+      <ul>
+      <% answer_choice.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= form.label :answer_id %>
+    <%= form.text_field :answer_id, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :question_id %>
+    <%= form.text_field :question_id, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :task_id %>
+    <%= form.text_field :task_id, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <% if answer_choice.persisted? %>
+      <div class="float-right">
+        <%= link_to 'Destroy', answer_choice, method: :delete, class: "text-danger", data: { confirm: 'Are you sure?' } %>
+      </div>
+    <% end %>
+
+    <%= form.submit class: 'btn btn-primary' %>
+
+    <% if answer_choice.persisted? %>
+      <%= link_to "Cancel", answer_choice, class: "btn btn-link" %>
+    <% else %>
+      <%= link_to "Cancel", answer_choices_path, class: "btn btn-link" %>
+    <% end %>
+  </div>
+<% end %>

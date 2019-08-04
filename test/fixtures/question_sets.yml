@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  oid: 1
+  task_id: 1
+  task_oid: 1
+  original_task_oid: 1
+  set_id: 1
+  interview_type: MyString
+
+two:
+  oid: 1
+  task_id: 1
+  task_oid: 1
+  original_task_oid: 1
+  set_id: 1
+  interview_type: MyString
