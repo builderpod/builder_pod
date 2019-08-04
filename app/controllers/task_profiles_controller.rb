@@ -16,7 +16,7 @@ class TaskProfilesController < ApplicationController
   # GET /task_profiles/1
   # GET /task_profiles/1.json
   def show
-    render json: @task_profile.question_set
+    render json: @task_profile.question_sets
   end
 
   # GET /task_profiles/new

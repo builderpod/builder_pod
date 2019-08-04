@@ -101,6 +101,8 @@ Dir.glob('../websites/homeadvisor/task*.html').each do |file|
       @question_set.update!(task_oid: question_set[:taskOID], original_task_oid: question_set[:originalTaskOID],
                            set_id: @set_id, interview_type: question_set[:interviewType])
       @task.update(question_set_id: @question_set.id)
+      @task_profile_question_set = TaskProfileQuestionSet.where(["question_set_id = ? and task_profile_id = ?", @question_set.id, @task.id]).first_or_create
+      @task_profile_question_set.update!(task_profile_id: @task.id, question_set_id: @question_set.id)
       question_set[:questions].each { |question|
         @question = Question.where(question_id: question[:questionID]).first_or_create
         @question.update!(question_id: question[:questionID], question_display_text: question[:questionDisplayText],
