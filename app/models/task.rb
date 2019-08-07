@@ -1,21 +1,30 @@
 class Task < ApplicationRecord
   belongs_to :project
   belongs_to :task_profile
-  has_many :answer_choices
-  has_many :answers, through: :answer_choices
-  has_many :questions, through: :answer_choices
-  has_one :question_set, through: :task_profile
-  accepts_nested_attributes_for :answer_choices, reject_if: :all_blank, allow_destroy: true
- 
-  def task_profile_name
-    task_profile.try(:name)
+  has_one :category, through: :task_profile
+  searchkick locations: [:location]
+  before_save :inherit_location
+  geocoded_by :address
+
+  def user
+    project.user
   end
 
-  def task_profile_name=(name)
-    self.task_profile = TaskProfile.find_by_name(name) if name.present?
+  def address
+    project.address
+  end
+  
+  def name
+    task_profile.name
   end
 
-  def name 
-  	task_profile.name 
+  def inherit_location
+    self.longitude = project.longitude
+    self.latitude = project.latitude
   end
+
+  def search_data
+    attributes.merge location: {lat: latitude, lon: longitude}
+  end
+
 end

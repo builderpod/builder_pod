@@ -4,7 +4,9 @@ class TasksController < ApplicationController
   # GET /tasks
   # GET /tasks.json
   def index
-    @tasks = Task.all
+     @tasks = Task.all if params[:project_id].nil? && params[:contractor_id].nil? 
+     @tasks = Project.find(params[:project_id]).tasks unless params[:project_id].nil?
+     @tasks = Contractor.find(params[:contractor_id]).tasks unless params[:contractor_id].nil?
   end
 
   # GET /tasks/1
@@ -15,7 +17,6 @@ class TasksController < ApplicationController
   # GET /tasks/new
   def new
     @task = Task.new
-    @task.tasks.new
   end
 
   # GET /tasks/1/edit

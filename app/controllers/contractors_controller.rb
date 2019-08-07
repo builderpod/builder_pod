@@ -4,7 +4,7 @@ class ContractorsController < ApplicationController
   # GET /contractors
   # GET /contractors.json
   def index
-    @contractors = Contractor.all
+    @contractors = Contractor.includes(:user).all
   end
 
   # GET /contractors/1
@@ -62,13 +62,14 @@ class ContractorsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_contractor
-      @contractor = Contractor.find(params[:id])
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_contractor
+    @contractor = Contractor.find(params[:id])
+  end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def contractor_params
-      params.require(:contractor).permit(:id, :haid, :name, :website, :description, :rating, :review_count, :telephone, :street_address, :locality, :region, :postal_code, :user_id, :longitude, :latitude, :email)
-    end
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def contractor_params
+    params.require(:contractor).permit(:id, :haid, :name, :website, :description, :rating, :review_count, :telephone, :street_address, :locality, :region, :postal_code, :user_id, :longitude, :latitude, :email,
+                                       bids_attributes: [:task_id, :contractor_id, :amount, :start, :end])
+  end
 end

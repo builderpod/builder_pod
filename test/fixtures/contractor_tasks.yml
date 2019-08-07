@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  contractor: one
+  task: one
+  start: 2019-08-06
+  end: 2019-08-06
+  amount: 9.99
+  status: MyString
+
+two:
+  contractor: two
+  task: two
+  start: 2019-08-06
+  end: 2019-08-06
+  amount: 9.99
+  status: MyString

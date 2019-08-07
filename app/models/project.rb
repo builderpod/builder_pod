@@ -1,9 +1,16 @@
 class Project < ApplicationRecord
   has_many :tasks, inverse_of: :project
-  accepts_nested_attributes_for :tasks, reject_if: :all_blank, allow_destroy: true
+  has_many :bids, through: :tasks
+
+
   belongs_to :user
+  validates :street_address, presence: true
+  validates :postal_code, presence: true
   geocoded_by :address
-  after_validation :geocode, unless: ->(obj){ obj.longitude.present? }
+  has_one_attached :avatar
+  after_validation :geocode, unless: ->(obj) { obj.longitude.present? }
+
+  searchkick locations: [:location]
 
   def address
     [street_address, locality, region, postal_code].compact.join(', ')
@@ -15,19 +22,22 @@ class Project < ApplicationRecord
   end
 
 
-
   def zillow_data
-    Rubillow::PropertyDetails.deep_search_results({ :address => street_address, :citystatezip => [locality, region, postal_code].compact.join(', ') })
+    Rubillow::PropertyDetails.deep_search_results({:address => street_address, :citystatezip => [locality, region, postal_code].compact.join(', ')})
   end
 
   def property_details
     set_zillow_data
-    Rubillow::PropertyDetails.updated_property_details({ :zpid => @zillow_data.zpid })
+    Rubillow::PropertyDetails.updated_property_details({:zpid => @zillow_data.zpid})
   end
 
   def set_zillow_data
     @zillow_data = zillow_data
   end
 
+
+  def search_data
+    attributes.merge location: {lat: latitude, lon: longitude}
+  end
 
 end

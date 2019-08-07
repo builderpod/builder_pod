@@ -1,24 +1,14 @@
 require 'sidekiq/web'
 
 Rails.application.routes.draw do
-  resources :contractors
-  resources :answer_choices
-
-
-  resources :question_sets do
-    resources :questions do
-      resources :answers do
-      end
-    end
+  resources :tasks
+  resources :bids
+  resources :contractors do 
+    resources :tasks
   end
-  resources :task_profiles do
-    resources :question_sets do
-      resources :questions do
-        resources :answers do
-        end
-      end
-    end
-  end
+  
+
+  resources :task_profiles 
 
   resources :categories do 
     resources :task_profiles
@@ -27,6 +17,7 @@ Rails.application.routes.draw do
   resources :projects do
     resources :tasks
   end
+
   namespace :admin do
     resources :users
     resources :announcements
@@ -44,6 +35,7 @@ Rails.application.routes.draw do
   end
 
   devise_for :users, controllers: { omniauth_callbacks: "users/omniauth_callbacks" }
+  resources :users
   root to: 'home#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

@@ -12,69 +12,105 @@
   <% end %>
 
   <br>
-  
-  <label class="block">
-    <%= form.text_field :name, class:"form-input mt-1 block w-full", placeholder:"Project Title" %>
-  </label>
 
-  <div id="locationField">
-      <input id="autocomplete"
-             placeholder="Enter the address of the project"
-             onFocus="initAutocomplete()"
-             class="form-input mt-1 block w-full"
-             type="text"/>
-    </div>
-  <%= form.hidden_field :street_address %>
-  <%= form.hidden_field :locality %>
-  <%= form.hidden_field :region %>
-  <%= form.hidden_field :postal_code %>
-  <input class="field" id="locality" disabled="true" hidden="true" />
-  <input class="field" id="sublocality" disabled="true" hidden="true" />
-  <input class="field" id="route" disabled="true" hidden="true" />
-  <input class="field" id="street_number" disabled="true" hidden="true" />
- 
-
-  <br>
-  <h4>Tasks</h4>
-
-  <br>
-  <div data-controller="nested-form">
-    <template data-target="nested-form.template">
-      <%= form.fields_for :tasks, Task.new, child_index: 'NEW_RECORD' do |task| %>
-        <%= render "task_fields", form: task %>
-      <% end %>
-    </template>
-
-    <%= form.fields_for :tasks do |task| %>
-      <%= render "task_fields", form: task %>
-    <% end %>
-
-    <div class="mb-3" data-target="nested-form.links">
-      <%= link_to "Add Task", "#", class: "btn btn-outline-primary", data: { action: "click->nested-form#add_association" }, onclick: "startChange()" %>
-    </div>
-  </div>
-
-  <div class="form-group">
-    <% if project.persisted? %>
-      <div class="float-right">
-        <%= link_to 'Destroy', project, method: :delete, class: "text-danger", data: { confirm: 'Are you sure?' } %>
+<div class="leading-loose">
+  <form class="max-w-xl m-4 p-10 bg-white rounded shadow-xl">
+    <p class="text-gray-800 font-medium">Project information</p>
+      <div class="mt-2">
+        <label class=" block text-sm text-gray-600" for="cus_email">Project Address</label>
+    
+        <% if project.address.length > 1 %>
+            <div id="locationField">
+              <input id="autocomplete"
+                     placeholder="<%= project.address %>"
+                     onFocus="initAutocomplete()"
+                     class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded"
+                     type="text"/>
+            </div>
+        <% else %>
+            <div id="locationField">
+              <input id="autocomplete"
+                     placeholder="Enter address"
+                     onFocus="initAutocomplete()"
+                     class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded"
+                     type="text"/>
+            </div>
+        <% end %>
       </div>
-    <% end %>
+      <br>
+      <div class="mt-2">
+      <label class="block text-sm text-gray-600" for="cus_name">Upload a picture of the property </label>
+          <% if project.avatar.attached? %>
+           <div>
+              <%= image_tag project_avatar(project, 100), id: "project-image" %>
+          </div>
+          <% end %>
+          <div>
+              <%= form.file_field :avatar %>
+          </div>
+      </div>
+          <%= form.hidden_field :street_address %>
+          <%= form.hidden_field :locality %>
+          <%= form.hidden_field :region %>
+          <%= form.hidden_field :postal_code %>
+          <input class="field" id="locality" disabled="true" hidden="true" />
+          <input class="field" id="sublocality" disabled="true" hidden="true" />
+          <input class="field" id="route" disabled="true" hidden="true" />
+          <input class="field" id="street_number" disabled="true" hidden="true" />
+         
 
-    <%= form.submit class: 'btn btn-primary' %>
+          <br>
+          <p class="text-gray-800 font-medium">Project Service(s)</p>
 
-    <% if project.persisted? %>
-      <%= link_to "Cancel", project, class: "btn btn-link" %>
-    <% else %>
-      <%= link_to "Cancel", projects_path, class: "btn btn-link" %>
-    <% end %>
-  </div>
-       <br>
+          <br>
+          <div data-controller="nested-form">
+            <template data-target="nested-form.template">
+              <%= form.fields_for :tasks, Task.new, child_index: 'NEW_RECORD' do |task| %>
+                <%= render "task_fields", form: task %>
+              <% end %>
+            </template>
 
-<% end %>
+            <%= form.fields_for :tasks do |task| %>
+              <%= render "task_fields", form: task %>
+            <% end %>
+
+            <div class="mb-3" data-target="nested-form.links">
+              <%= link_to "Add Service", "#", class: "btn btn-outline-primary", data: { action: "click->nested-form#add_association" }, onclick: "startChange()" %>
+            </div>
+          </div>
+          <br>
+          <div class="form-group">
+            <% if project.persisted? %>
+              <div class="float-right">
+                <%= link_to 'Destroy', project, method: :delete, class: "text-danger", data: { confirm: 'Are you sure?' } %>
+              </div>
+            <% end %>
+
+            <%= form.submit class: 'btn btn-primary', onclick: "" %>
+
+            <% if project.persisted? %>
+              <%= link_to "Cancel", project, class: "btn btn-link" %>
+            <% else %>
+              <%= link_to "Cancel", projects_path, class: "btn btn-link" %>
+            <% end %>
+          </div>
 
 
+        <% end %>
+
+        <br>
+  </form>
+</div>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASTMrEaEKlg3PVBdmijz50qmeS8stieWw&libraries=places&callback=initMap" async defer></script>
+<script>
+  function validateForm() {
+  var x = document.getElementById("project_street_address").value;
+  if (x == "") {
+    alert("Address must be filled out");
+    return false;
+  }
+}
+</script>
 
 <script>
 // This sample uses the Autocomplete widget to help the user select a

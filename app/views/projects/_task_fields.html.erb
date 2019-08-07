@@ -1,64 +1,48 @@
+
 <%= content_tag :div, class: "nested-fields", data: { new_record: form.object.new_record? } do %>
-  <div class="form-group">
-    <%= form.grouped_collection_select :task_profile_id, Category.includes(:task_profiles).all, :task_profiles, :name, :id, :name, {}, {class: "form-select2", placeholder: "Choose a Service", :prompt => "Placeholder", onchange: "addQuestionFields(this.value)"} %>
+  <div class="form-group" id="form-group">
+    <%= form.grouped_collection_select :task_profile_id, Category.includes(:task_profiles).all, :task_profiles, :name, :id, :name, {}, {class: "form-select2", placeholder: "Choose a Service", :prompt => "Placeholder", onchange: "addQuestionFields(this.value, this.id)", onmousedown: "addQuestionFields(this.value, this.id)", onload:"addQuestionFields(this.value, this.id)", :include_blank => true} %>
   	<br>
-
-  	<label class="block">
-    	<%= form.text_area :description, class: 'form-textarea mt-1 block w-full', placeholder:"Description" %>
-  	</label>
-
-    <small><%= link_to "Remove", "#", data: { action: "click->nested-form#remove_association" } %></small>
-    <%= form.fields_for :answer_choices, AnswerChoice.new do |answer_choice| %>
-      <%= answer_choice.hidden_field :question_id, {class: "form-select mt-1 block w-full", multiple: true} %>
-      <%= answer_choice.hidden_field :answer_id, {class: "form-select mt-1 block w-full", multiple: true} %>
-    <% end %>
-
-
+    <br>
+    <div>
+      <%= form.hidden_field :responses %>
+    </div>
+    <div class="mt-2">
+      <label class=" block text-sm text-gray-600" for="cus_email">Additional Information</label>
+    	<%= form.text_area :description, class: 'w-full px-2 py-2 text-gray-700 bg-gray-200 rounded', placeholder:"Additional Information" %>
+    </div>
   </div>
 
+
+  <small><%= link_to "Remove Service", "#", data: { action: "click->nested-form#remove_association" } %></small>
   <%= form.hidden_field :_destroy %>
+
 <% end %>
+<br>
 
-<script>
-let dropdown = document.getElementById('category-dropdown');
-dropdown.length = 0;
+<script type="text/javascript">
+function getSelectValues(select) {
+  var result = [];
+  var options = select && select.options;
+  var opt;
 
-let defaultOption = document.createElement('option');
-defaultOption.text = 'All Categories';
-defaultOption.value = 0;
-dropdown.prepend(defaultOption);
-dropdown.selectedIndex = 0;
+  for (var i=0, iLen=options.length; i<iLen; i++) {
+    opt = options[i];
 
-const url = '/categories';
-
-const request = new XMLHttpRequest();
-request.open('GET', url, true);
-
-request.onload = function() {
-    if (request.status === 200) {
-        const data = JSON.parse(request.responseText);
-        let option;
-        for (let i = 0; i < data.length; i++) {
-            option = document.createElement('option');
-            option.text = data[i].name;
-            option.value = data[i].id;
-            dropdown.prepend(option);
-        }
-    } else {
-        // Reached the server, but it returned an error
+    if (opt.selected) {
+      result.push(opt.value || opt.text);
     }
+  }
+  return result;
 }
-
-request.onerror = function() {
-    console.error('An error occurred fetching the JSON from ' + url);
-};
-
-request.send();
 </script>
 <script>
 var intervalRef;
 function startChange() {
-  intervalRef = setInterval(function() { updateSelect2(); }, 1000);
+  intervalRef = setInterval(function() { 
+    updateSelect2(); 
+    saveAnwers();
+  }, 1000);
 };
 function updateSelect2() {
   $('.form-select2').each(function (i, obj) {
@@ -114,109 +98,197 @@ function updateSelect2() {
 </script>
 
 <script>
+ function saveAnwers(){
+  var forms = document.forms;
+  for (let i = 0; i < forms.length; i++) {
+    if (forms[i].name.length > 1) {
+      var rs = [];
+      var els = forms[i].elements;
+      for (let x = 0; x < els.length; x++) {
+        if (els[x].hasAttribute("multiple")){
+          var multi_answers = getSelectValues(els[x]);
+          var r = {
+            "question": els[x].name,
+            "answer": multi_answers
+          }
+        } else {
+          var r = {
+            "question": els[x].name,
+            "answer": els[x].value
+          }
+        }
+        rs.push(r)
+      }
+      var responses_field = document.getElementById(forms[i].name);
+      responses_field.value = JSON.stringify(rs);
+    }
+  }
+}
 
-function addQuestionFields(task_profile){
+</script>
+
+<script type="text/javascript">
+  function updateQuestionResponses(responses){
+    var rs = document.querySelector("#" + responses.id ).value;
+    var json_responses = JSON.parse(rs);
+    var form_id = "#" + responses.id + '_form';
+    var responses_form = document.querySelector(form_id);
+    for (let i = 0; i < responses_form.elements.length; i++) {
+      var question_text = responses_form.elements[i].name;
+      for (let x = 0; x < json_responses.length; x++) {
+        if (json_responses[x].question === question_text) {
+            console.log(json_responses[x].answer);
+            responses_form.elements[i].value = json_responses[x].answer;
+        }
+      }
+    }
+  }
+</script>
+<script>
+
+function getQuestionFields(task_profile, responses_form){
     var url = "/task_profiles/" + task_profile + "?format=json";
-    console.log(url);
+    var responses = JSON.parse(responses_form.value);
     Rails.ajax({
       url: url,
       type: "get",
       data: "",
-      success: function(data) { console.log(data) },
+      success: function(data) { 
+        var element = responses_form.parentElement;
+        var f = document.getElementsByName(responses_form.id);
+        if (f.length > 0){ f[0].remove() };
+        var form = document.createElement("form");
+        form.setAttribute('name', responses_form.id);
+        form.setAttribute('id', responses_form.id + "_form");
+        for (let i = 0; i < data.length; i++) {
+            var para = document.createElement("p");
+            var question_text = data[i]["questionText"]
+            para.setAttribute('id', question_text);
+            para.setAttribute('class', "text-gray-800 font-medium");
+            let current_answer;
+            for (let a = 0; a < responses.length; a++) {
+                if (responses[a].question === question_text){ 
+                  current_answer = responses[a].answer 
+                  var node = document.createTextNode(question_text);
+                  para.appendChild(node);
+                  form.appendChild(para);
+                  var answers = data[i]["answers"];
+                  var answer_type = answers[0]["presentationType"];
+                  if (answer_type === "select" || answer_type === "radio" || answer_type === "checkbox") {
+                    var x = document.createElement("SELECT");
+                    x.setAttribute('name', question_text);
+                    x.setAttribute('class', "w-full px-2 py-2 text-gray-700 bg-gray-200 rounded");
+                    if (answer_type === "checkbox"){ 
+                      x.setAttribute('multiple', true);
+                      default_text = "--Select all that apply--";
+                      } else {default_text = "--Select Option--"}
+                    let option;
+                    option = document.createElement('option');
+                    option.text = default_text;
+                    option.value = "-1";
+                    x.add(option);
+                    for (let a = 0; a < answers.length; a++) {
+                      let option;
+                      option = document.createElement('option');
+                      option.text = answers[a]["answerText"];
+                      option.value = answers[a]["answerText"];
+                      x.add(option);
+                      if (answer_type === "checkbox"){
+                        if (current_answer.includes(option.value)){option.setAttribute("selected", true)}
+                        } else {
+                          if (option.value === current_answer){x.value = option.value}
+                      }
+                    };
+                    form.appendChild(x);
+                    var linebreak = document.createElement("br");
+                    form.appendChild(linebreak);
+                    var linebreak = document.createElement("br");
+                    form.appendChild(linebreak);
+                  } 
+              };
+              element.appendChild(form);
+            }
+          }
+      },
+      error: function(data) { console.log(data) }
+      })
+  }  
+</script>
+<script>
+
+function addQuestionFields(task_profile, form_id){
+    var url = "/task_profiles/" + task_profile + "?format=json";
+    var responses_form = form_id.replace('task_profile_id','responses');
+    Rails.ajax({
+      url: url,
+      type: "get",
+      data: "",
+      success: function(data) { 
+        var element = document.getElementById(responses_form).parentElement;
+        var f = document.getElementsByName(responses_form);
+        if (f.length > 0){ f[0].remove() };
+        var form = document.createElement("form");
+        form.setAttribute('name', responses_form);
+        form.setAttribute('id', responses_form + "_form");
+        for (let i = 0; i < data.length; i++) {
+            var para = document.createElement("p");
+            var question_text = data[i]["questionText"]
+            para.setAttribute('id', question_text);
+            para.setAttribute('class', "text-gray-800 font-medium");
+            var node = document.createTextNode(question_text);
+            para.appendChild(node);
+            form.appendChild(para);
+            var answers = data[i]["answers"];
+            var answer_type = answers[0]["presentationType"];
+            if (answer_type === "select" || answer_type === "radio" || answer_type === "checkbox") {
+              var x = document.createElement("SELECT");
+              x.setAttribute('name', question_text);
+              x.setAttribute('class', "w-full px-2 py-2 text-gray-700 bg-gray-200 rounded");
+              if (answer_type === "checkbox"){ 
+                x.setAttribute('multiple', true);
+                default_text = "--Select all that apply--";
+                } else {default_text = "--Select Option--"}
+              let option;
+              option = document.createElement('option');
+              option.text = default_text;
+              option.value = "-1";
+              x.add(option);
+              for (let a = 0; a < answers.length; a++) {
+                let option;
+                option = document.createElement('option');
+                option.text = answers[a]["answerText"];
+                option.value = answers[a]["answerText"];
+                x.add(option);
+              };
+              form.appendChild(x);
+              var linebreak = document.createElement("br");
+              form.appendChild(linebreak);
+              var linebreak = document.createElement("br");
+              form.appendChild(linebreak);
+            } 
+        };
+        element.appendChild(form);
+      },
       error: function(data) { console.log(data) }
     })
   }
 
-</script>
-<script>
-function addAddressField() {
- 
-    //create Date object
-    var date = new Date();
- 
-    //get number of milliseconds since midnight Jan 1, 1970 
-    //and use it for address key
-    var mSec = date.getTime(); 
-    
-    //Replace 0 with milliseconds
-    idAttribute =  
-          "project_tasks_attributes_" + mSec + "_task_profile_id";
-    nameAttribute =  
-          "project[tasks_attributes][" + mSec + "][task_profile_id]";
-        
-    //create <li> tag
-    var li = document.createElement("li");
- 
-    //create label for Kind, set it's for attribute, 
-    //and append it to <li> element
-    var label = document.createElement("label");
-    label.setAttribute("for", idAttribute);
-    var labelText = document.createTextNode("Kind");
-    labelKind.appendChild(kindLabelText);
-    li.appendChild(labelKind);
- 
-    //create input for Kind, set it's type, id and name attribute, 
-    //and append it to <li> element
-    var inputKind = document.createElement("INPUT");
-    inputKind.setAttribute("type", "text");
-    inputKind.setAttribute("id", idAttributKind);
-    inputKind.setAttribute("name", nameAttributKind);
-    li.appendChild(inputKind);
- 
-    //create label for Street, set it's for attribute, 
-    //and append it to <li> element
-    var labelStreet = document.createElement("label");
-    labelStreet.setAttribute("for", idAttributStreet);
-    var streetLabelText = document.createTextNode("Street");
-    labelStreet.appendChild(streetLabelText);
-    li.appendChild(labelStreet);
- 
-    //create input for Street, set it's type, id and name attribute, 
-    //and append it to <li> element
-    var inputStreet = document.createElement("INPUT");
-    inputStreet.setAttribute("type", "text");
-    inputStreet.setAttribute("id", idAttributStreet);
-    inputStreet.setAttribute("name", nameAttributStreet);
-    li.appendChild(inputStreet);
- 
-    //add created <li> element with its child elements 
-    //(label and input) to myList (<ul>) element
-    document.getElementById("myList").appendChild(li);
- 
-    //show address header
-    $("#addressHeader").show(); 
-}
+
 </script>
 
 <script>
-
-function loadQuestions(task) {
-  var url = '/task_profiles/' + task;
-
-  var request = new XMLHttpRequest();
-  request.open('GET', url, true);
-
-  request.onload = function() {
-      if (request.status === 200) {
-          const data = JSON.parse(request.responseText);
-          console.log(data);
-          let option;
-          for (let i = 0; i < data[0}.questions.length; i++) {
-          //     option = document.createElement('option');
-          //     option.text = data[i].name;
-          //     option.value = data[i].id;
-          //     dropdown.prepend(option);
-          // }
+  $(document).ready(function() {
+    var tasks = document.querySelectorAll("#form-group");
+    for (let i = 0; i < tasks.length; i++) {
+      var task_profile_field =  tasks[i].children[0];
+      var task_profile_responses = tasks[i].children[4].children[0];
+      if (task_profile_field.value == 37){
+        addQuestionFields(37, task_profile_field.id);
       } else {
-          // Reached the server, but it returned an error
+        console.log(task_profile_field.value);
+        getQuestionFields(task_profile_field.value, task_profile_responses);
       }
-  }
-  request.onerror = function() {
-    console.error('An error occurred fetching the JSON from ' + url);
-  }
-
-  request.send();
-}
-
-
+    }
+})
 </script>
+

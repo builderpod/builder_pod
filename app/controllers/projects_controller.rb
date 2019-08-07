@@ -16,10 +16,12 @@ class ProjectsController < ApplicationController
   def new
     @project = Project.new
     @project.tasks.new
+    @task_profiles = Category.includes(:task_profiles).all
   end
 
   # GET /projects/1/edit
   def edit
+    @task_profiles = Category.includes(:task_profiles).all
   end
 
   # POST /projects
@@ -63,17 +65,16 @@ class ProjectsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_project
-      @project = Project.find(params[:id])
-    end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def project_params
-      params.require(:project).permit(:name, :description, :locality, :region, :postal_code, :street_address,
-        tasks_attributes: [:id, :description, :task_profile_id, :_destroy, 
-          answer_choices_attributes: [:id, :answer_id, :question_id, :task_id, :_destroy]
-        ])
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_project
+    @project = Project.find(params[:id])
+  end
+
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def project_params
+    params.require(:project).permit(:name, :description, :locality, :region, :postal_code, :street_address, :avatar,
+                                    tasks_attributes: [:id, :description, :task_profile_id, :responses, :_destroy])
+  end
 end
 

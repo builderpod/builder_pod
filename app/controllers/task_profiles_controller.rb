@@ -16,11 +16,11 @@ class TaskProfilesController < ApplicationController
   # GET /task_profiles/1
   # GET /task_profiles/1.json
   def show
-    render json: @task_profile.question_sets
+    render json: @task_profile.question_set
   end
 
   # GET /task_profiles/new
-  def new
+  def newhuy
     @task_profile = TaskProfile.new
   end
 
