@@ -2,7 +2,7 @@ class Api::V1::Users::RegistrationsController < Devise::RegistrationsController
 #   before_action :configure_sign_up_params, only: [:create]
 # before_action :configure_account_update_params, only: [:update]
 # Somehow respond_to is not working so I manually render as json
-  skip_before_action :doorkeeper_authorize!
+#   skip_before_action :doorkeeper_authorize!
   # respond_to :json
 
   # GET /resource/sign_up
