@@ -1,12 +1,14 @@
 require 'sidekiq/web'
 
 Rails.application.routes.draw do
+  use_doorkeeper
   resources :tasks
   resources :bids
   resources :contractors do 
     resources :tasks
   end
-  
+
+
 
   resources :task_profiles 
 

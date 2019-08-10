@@ -6,10 +6,21 @@ class User < ApplicationRecord
 
   has_person_name
 
-  def name 
-  	first_name + " " + last_name 
-  end
+
+  has_many :access_grants, class_name: "Doorkeeper::AccessGrant",
+                           foreign_key: :resource_owner_id,
+                           dependent: :delete_all # or :destroy if you need callbacks
+  has_many :access_tokens, class_name: "Doorkeeper::AccessToken",
+                           foreign_key: :resource_owner_id,
+                           dependent: :delete_all # or :destroy if you need callbacks
 
   has_many :notifications, foreign_key: :recipient_id
   has_many :services
+
+  class << self
+    def authenticate(email, password)
+      user = User.find_for_authentication(email: email)
+      user.try(:valid_password?, password) ? user : nil
+    end
+  end
 end

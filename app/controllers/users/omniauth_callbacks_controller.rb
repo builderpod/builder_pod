@@ -9,6 +9,10 @@ module Users
       handle_auth "Facebook"
     end
 
+    def google
+      handle_auth "google_oauth2"
+    end
+
     def twitter
       handle_auth "Twitter"
     end
@@ -70,9 +74,9 @@ module Users
 
     def create_user
       User.create(
-        email: auth.info.email,
-        #name: auth.info.name,
-        password: Devise.friendly_token[0,20]
+          email: auth.info.email,
+          #name: auth.info.name,
+          password: Devise.friendly_token[0,20]
       )
     end
 
