@@ -52,9 +52,6 @@ document.addEventListener('turbolinks:load', () => {
   })
 })
 
-const anime = require("animejs");
-const tippy = require("tippy.js");
-const imagesloaded = require("imagesloaded");
 
 // utilities
 const get = (selector, scope) => {
