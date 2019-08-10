@@ -3,9 +3,14 @@
   "private": true,
   "dependencies": {
     "@rails/webpacker": "3.5",
+    "@tailwindcss/custom-forms": "^0.2.0",
     "stimulus": "^1.1.1",
     "tailwindcss": "^1.0.6",
-    "@tailwindcss/custom-forms": "^0.2.0"
+    "tippy.js": "^4.3.5",
+    "vue": "^2.6.10",
+    "vue-loader": "14.2.2",
+    "vue-template-compiler": "^2.6.10",
+    "vue-turbolinks": "^2.0.4"
   },
   "devDependencies": {
     "autoprefixer": "^9.6.1",
