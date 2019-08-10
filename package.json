@@ -1,17 +1,10 @@
 {
-  "name": "nested_forms",
+  "name": "builder_pod",
   "private": true,
   "dependencies": {
     "@rails/webpacker": "3.5",
-    "animejs": "^3.1.0",
-    "imagesloaded": "^4.1.4",
     "stimulus": "^1.1.1",
-    "tailwindcss": "^1.0.6",
-    "tippy.js": "^4.3.5",
-    "vue": "^2.6.10",
-    "vue-loader": "14.2.2",
-    "vue-template-compiler": "^2.6.10",
-    "vue-turbolinks": "^2.0.4"
+    "tailwindcss": "^1.0.6"
   },
   "devDependencies": {
     "@tailwindcss/custom-forms": "^0.2.0",
