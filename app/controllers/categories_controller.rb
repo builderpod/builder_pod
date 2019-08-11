@@ -4,7 +4,7 @@ class CategoriesController < ApplicationController
   # GET /categories
   # GET /categories.json
   def index
-    @categories = Category.order(:name).includes(:task_profiles).to_json({:include => :task_profiles})
+    # @categories = Category.order(:name).includes(:task_profiles).to_json({:include => :task_profiles})
     render json: @categories
   end
 
