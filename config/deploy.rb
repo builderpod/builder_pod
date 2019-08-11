@@ -38,3 +38,9 @@ append :linked_files, "config/database.yml", 'config/credentials.yml.enc', 'conf
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
+set :pty, true
+set :ssh_options, {
+    forward_agent: true,
+    auth_methods: %w[publickey],
+    keys: %w[/home/ubuntu/aws.pem]
+}
