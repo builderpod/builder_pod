@@ -52,10 +52,7 @@ group :development do
 end
 
 group :production do
-  gem 'capistrano', '~> 3.11'
-  gem 'capistrano-rails', '~> 1.4'
-  gem 'capistrano-passenger', '~> 0.2.0'
-  gem 'capistrano-rvm'
+
 end
 
 group :test do
@@ -71,6 +68,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'administrate', '~> 0.10.0'
 gem 'bootstrap', '~> 4.2', '>= 4.2.1'
+gem 'capistrano', '~> 3.11'
+gem 'capistrano-rails', '~> 1.4'
+gem 'capistrano-passenger', '~> 0.2.0'
+gem 'capistrano-rvm'
 gem 'data-confirm-modal', '~> 1.6', '>= 1.6.2'
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'devise-bootstrapped', github: 'excid3/devise-bootstrapped', branch: 'bootstrap4'
