@@ -1,7 +1,7 @@
 class Project < ApplicationRecord
   has_many :tasks, inverse_of: :project
   has_many :bids, through: :tasks
-
+  has_many :documents, as: :documentable, dependent: :destroy
 
   belongs_to :user
   validates :street_address, presence: true

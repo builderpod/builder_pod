@@ -5,6 +5,7 @@ class Task < ApplicationRecord
   searchkick locations: [:location]
   before_save :inherit_location
   geocoded_by :address
+  has_many :documents, as: :documentable, dependent: :destroy
 
   def user
     project.user

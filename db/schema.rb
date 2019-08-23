@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_10_161020) do
+ActiveRecord::Schema.define(version: 2019_08_23_203633) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -116,6 +116,14 @@ ActiveRecord::Schema.define(version: 2019_08_10_161020) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_contractors_on_user_id"
+  end
+
+  create_table "documents", force: :cascade do |t|
+    t.string "documentable_type"
+    t.bigint "documentable_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["documentable_type", "documentable_id"], name: "index_documents_on_documentable_type_and_documentable_id"
   end
 
   create_table "friendly_id_slugs", force: :cascade do |t|

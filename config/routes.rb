@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   end
 
   resources :projects do
+    get :avatar, on: :member
     resources :tasks
   end
 

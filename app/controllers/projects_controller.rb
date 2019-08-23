@@ -5,6 +5,17 @@ class ProjectsController < ApplicationController
   # GET /projects.json
   def index
     @projects = Project.all
+    render json: @projects
+  end
+
+  def avatar
+    project = Project.find_by(id: params[:id])
+
+    if project&.avatar&.attached?
+      redirect_to rails_blob_url(project.avatar)
+    else
+      head :not_found
+    end
   end
 
   # GET /projects/1
