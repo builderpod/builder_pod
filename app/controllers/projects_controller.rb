@@ -4,8 +4,9 @@ class ProjectsController < ApplicationController
   # GET /projects
   # GET /projects.json
   def index
-    @projects = Project.all
-    render json: @projects
+    @projects = Project.preload(:tasks, :user, :documents)
+    render json: @projects,
+           include: ['tasks', 'user', 'documents']
   end
 
   def avatar
