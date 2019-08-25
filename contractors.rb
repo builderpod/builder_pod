@@ -17,6 +17,7 @@ require 'json'
 # }
 matched = []
 CSV.read('matched.csv').each { |row| matched << row[10] }
+CSV.read('checked.csv').each { |row| matched << row[9] }
 
 
 CSV.read('contractors.csv').each { |row|
@@ -39,9 +40,8 @@ CSV.read('contractors.csv').each { |row|
       contractor.update(email: row[8]) unless row[8].nil?
     end
 
+    CSV.open("checked.csv", "a+") { |csv| csv << row }
+
   end
 }
-
-
-
 
