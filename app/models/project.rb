@@ -8,9 +8,9 @@ class Project < ApplicationRecord
   validates :postal_code, presence: true
   geocoded_by :address
   has_one_attached :avatar
-  after_validation :geocode, unless: ->(obj) { obj.longitude.present? }
+  # after_validation :geocode, unless: ->(obj) { obj.longitude.present? }
 
-  searchkick locations: [:location]
+  # searchkick locations: [:location]
 
   def address
     [street_address, locality, region, postal_code].compact.join(', ')

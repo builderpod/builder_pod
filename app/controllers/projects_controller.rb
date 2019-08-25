@@ -4,7 +4,7 @@ class ProjectsController < ApplicationController
   # GET /projects
   # GET /projects.json
   def index
-    @projects = Project.preload(:tasks, :user, :documents)
+    @projects = Project.with_attached_avatar.preload(:tasks, :user, :documents)
     render json: @projects,
            include: ['tasks', 'user', 'documents']
   end
@@ -22,6 +22,8 @@ class ProjectsController < ApplicationController
   # GET /projects/1
   # GET /projects/1.json
   def show
+    render json: @project,
+           include: ['tasks', 'user', 'documents']
   end
 
   # GET /projects/new
@@ -80,7 +82,7 @@ class ProjectsController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_project
-    @project = Project.find(params[:id])
+    @project = Project.with_attached_avatar.preload(:tasks, :user, :documents).find(params[:id])
   end
 
   # Never trust parameters from the scary internet, only allow the white list through.

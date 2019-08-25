@@ -15,7 +15,7 @@ class Contractor < ApplicationRecord
   has_one_attached :avatar
   after_validation :geocode, unless: ->(obj) { obj.longitude.present? }
 
-  searchkick locations: [:location]
+  # searchkick locations: [:location]
 
   def address
     [street_address, locality, region, postal_code].compact.join(', ')
